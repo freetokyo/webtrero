@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trero プライバシーポリシー</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: #1c1c1e;
+      background: #f5f5f7;
+    }
+
+    nav {
+      background: #0a0a1a;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav .logo { font-size: 20px; font-weight: 800; color: #ff6b2b; letter-spacing: -0.5px; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; }
+    nav .nav-links a { color: #ffffffcc; text-decoration: none; font-size: 14px; margin-left: 24px; }
+    nav .nav-links a:hover { color: #fff; }
+
+    .lang-toggle { display: flex; align-items: center; gap: 4px; margin-left: 20px; }
+    .lang-btn {
+      background: transparent;
+      border: 1px solid #ffffff33;
+      color: #ffffff88;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: all .15s;
+    }
+    .lang-btn.active { background: #ff6b2b; border-color: #ff6b2b; color: #fff; }
+    .lang-btn:hover:not(.active) { border-color: #ffffff66; color: #fff; }
+
+    .hero {
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 100%);
+      color: white;
+      text-align: center;
+      padding: 64px 24px 56px;
+    }
+    .hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; }
+    .hero p { font-size: 15px; color: #ffffffbb; }
+
+    .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    section { background: #ffffff; border-radius: 16px; padding: 28px 32px; margin-bottom: 14px; }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #1c1c1e;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #ff6b2b22;
+    }
+
+    p { margin-bottom: 12px; color: #3a3a3c; font-size: 15px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul { padding-left: 20px; margin-bottom: 12px; color: #3a3a3c; font-size: 15px; }
+    ul li { margin-bottom: 6px; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+    th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid #e5e5ea; }
+    th { background: #f5f5f7; font-weight: 600; color: #1c1c1e; }
+    td { color: #3a3a3c; }
+
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 20px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    footer { background: #13132b; color: #6e6e73; text-align: center; padding: 40px 24px; font-size: 13px; }
+    footer .footer-links { margin-bottom: 16px; }
+    footer .footer-links a { color: #8e8e93; text-decoration: none; margin: 0 12px; }
+    footer .footer-links a:hover { color: #fff; }
+
+    @media (max-width: 600px) {
+      section { padding: 20px 18px; }
+      nav .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">TRERO</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a>
+      <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+      <a href="terms.html" data-ja="利用規約" data-en="Terms">利用規約</a>
+      <a href="privacy_policy.html" data-ja="プライバシー" data-en="Privacy">プライバシー</a>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="ja" onclick="applyLang('ja')">JP</button>
+      <button class="lang-btn" data-lang="en" onclick="applyLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1 data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</h1>
+  <p data-ja="最終更新日：2026年3月18日" data-en="Last Updated: March 18, 2026">最終更新日：2026年3月18日</p>
+</div>
+
+<div class="container">
+
+  <section>
+    <h2 data-ja="1. はじめに" data-en="1. Introduction">1. はじめに</h2>
+    <p data-ja="Trero（以下「本アプリ」）は、Yangli Chen（以下「開発者」）が提供するiOS向けトレーニング記録アプリです。本プライバシーポリシーは、本アプリが収集・利用・保管する情報の取り扱いについて説明します。" data-en="Trero (the &quot;App&quot;) is an iOS workout tracking app provided by Yangli Chen (the &quot;Developer&quot;). This Privacy Policy explains how the App collects, uses, and stores information.">Trero（以下「本アプリ」）は、Yangli Chen（以下「開発者」）が提供するiOS向けトレーニング記録アプリです。本プライバシーポリシーは、本アプリが収集・利用・保管する情報の取り扱いについて説明します。</p>
+    <p data-ja="本アプリをご利用いただくことで、本ポリシーに同意したものとみなします。同意いただけない場合は、本アプリのご利用をお控えください。" data-en="By using the App, you agree to this Policy. If you do not agree, please refrain from using the App.">本アプリをご利用いただくことで、本ポリシーに同意したものとみなします。同意いただけない場合は、本アプリのご利用をお控えください。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="2. 収集する情報" data-en="2. Information We Collect">2. 収集する情報</h2>
+    <table class="lang-ja">
+      <thead><tr><th>情報の種類</th><th>具体的な内容</th><th>取得方法</th></tr></thead>
+      <tbody>
+        <tr><td>アカウント情報</td><td>メールアドレス、Apple ID（Sign in with Apple 利用時）</td><td>ユーザーが入力・認証</td></tr>
+        <tr><td>トレーニングデータ</td><td>種目名、重量、セット数、レップ数、記録日時</td><td>ユーザーが入力</td></tr>
+        <tr><td>体組成データ</td><td>体重、体脂肪率、筋肉率、BMI、ウエストサイズ</td><td>ユーザーが入力</td></tr>
+        <tr><td>ヘルスケアデータ</td><td>体重、体脂肪率（Apple ヘルスケアアプリと同期）</td><td>ユーザーが許可した場合のみ</td></tr>
+        <tr><td>デバイス情報</td><td>Firebase が自動収集するクラッシュログ・匿名使用統計</td><td>自動収集</td></tr>
+      </tbody>
+    </table>
+    <table class="lang-en" style="display:none;">
+      <thead><tr><th>Type</th><th>Details</th><th>How Collected</th></tr></thead>
+      <tbody>
+        <tr><td>Account Information</td><td>Email address, Apple ID (when using Sign in with Apple)</td><td>User input / authentication</td></tr>
+        <tr><td>Training Data</td><td>Exercise name, weight, sets, reps, date &amp; time</td><td>User input</td></tr>
+        <tr><td>Body Composition Data</td><td>Weight, body fat %, muscle %, BMI, waist size</td><td>User input</td></tr>
+        <tr><td>Health Data</td><td>Weight, body fat % (synced with Apple Health)</td><td>Only when user grants permission</td></tr>
+        <tr><td>Device Information</td><td>Crash logs and anonymous usage statistics collected by Firebase</td><td>Automatically collected</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top: 14px;" data-ja="本アプリは、位置情報・連絡先・カメラ・マイクなどの情報は収集しません。" data-en="The App does not collect location data, contacts, camera images, or microphone audio.">本アプリは、位置情報・連絡先・カメラ・マイクなどの情報は収集しません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="3. 情報の利用目的" data-en="3. How We Use Information">3. 情報の利用目的</h2>
+    <ul class="lang-ja">
+      <li>トレーニング記録・分析機能の提供</li>
+      <li>体組成データのグラフ表示・推移管理</li>
+      <li>複数デバイス間でのデータ同期</li>
+      <li>ストリーク（連続記録日数）の算出</li>
+      <li>プッシュ通知（リマインダー・週次サマリー）の配信</li>
+      <li>アプリの安定性向上・バグ修正</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>Providing workout logging and analytics features</li>
+      <li>Displaying body composition charts and trend tracking</li>
+      <li>Syncing data across multiple devices</li>
+      <li>Calculating streaks (consecutive training days)</li>
+      <li>Delivering push notifications (reminders and weekly summaries)</li>
+      <li>Improving app stability and fixing bugs</li>
+    </ul>
+    <p data-ja="上記の目的以外に個人情報を利用することはありません。" data-en="Personal information will not be used for any purpose other than those listed above.">上記の目的以外に個人情報を利用することはありません。</p>
+  </section>
+
+  <section>
+    <h2>
+      <span data-ja="4. Apple ヘルスケア（HealthKit）データの取り扱い" data-en="4. Apple Health (HealthKit) Data">4. Apple ヘルスケア（HealthKit）データの取り扱い</span>
+      <span class="badge" data-ja="重要" data-en="Important">重要</span>
+    </h2>
+    <p data-ja="本アプリは、ユーザーが許可した場合に限り Apple ヘルスケアアプリから体重・体脂肪率を読み込み、また本アプリで記録した体重・体脂肪率をヘルスケアアプリへ書き込みます。" data-en="The App reads weight and body fat % from Apple Health and writes weight and body fat % recorded in the App back to Apple Health, only when the user has granted permission.">本アプリは、ユーザーが許可した場合に限り Apple ヘルスケアアプリから体重・体脂肪率を読み込み、また本アプリで記録した体重・体脂肪率をヘルスケアアプリへ書き込みます。</p>
+    <ul class="lang-ja">
+      <li>ヘルスケアデータは、ユーザーへのサービス提供のみに利用します</li>
+      <li>ヘルスケアデータを広告目的・第三者への販売目的には一切利用しません</li>
+      <li>ヘルスケアデータは、機能上必要な範囲を超えて保管しません</li>
+      <li>許可はいつでも「設定 → ヘルスケア → データアクセスとデバイス → Trero」から取り消せます</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>Health data is used solely to provide services to the user</li>
+      <li>Health data will never be used for advertising or sold to third parties</li>
+      <li>Health data is not stored beyond what is functionally necessary</li>
+      <li>Permission can be revoked at any time via Settings → Health → Data Access &amp; Devices → Trero</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 data-ja="5. 利用している第三者サービス" data-en="5. Third-Party Services">5. 利用している第三者サービス</h2>
+    <table class="lang-ja">
+      <thead><tr><th>サービス</th><th>提供元</th><th>利用目的</th></tr></thead>
+      <tbody>
+        <tr><td>Firebase Authentication</td><td>Google LLC</td><td>ユーザー認証（メール・Apple ID）</td></tr>
+        <tr><td>Cloud Firestore</td><td>Google LLC</td><td>トレーニング・体組成データの保存・同期</td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>クラッシュレポート・安定性向上</td></tr>
+        <tr><td>Firebase Cloud Messaging</td><td>Google LLC</td><td>プッシュ通知の配信</td></tr>
+      </tbody>
+    </table>
+    <table class="lang-en" style="display:none;">
+      <thead><tr><th>Service</th><th>Provider</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Firebase Authentication</td><td>Google LLC</td><td>User authentication (email / Apple ID)</td></tr>
+        <tr><td>Cloud Firestore</td><td>Google LLC</td><td>Storing and syncing training and body composition data</td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>Crash reporting and stability improvements</td></tr>
+        <tr><td>Firebase Cloud Messaging</td><td>Google LLC</td><td>Delivering push notifications</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top: 14px;">
+      <span data-ja="Google のプライバシーポリシーについては" data-en="For Google's Privacy Policy, please see">Google のプライバシーポリシーについては</span>
+      <a href="https://policies.google.com/privacy" target="_blank" data-ja="こちら" data-en="here">こちら</a><span data-ja="をご覧ください。" data-en=".">をご覧ください。</span>
+    </p>
+  </section>
+
+  <section>
+    <h2 data-ja="6. データの保管とセキュリティ" data-en="6. Data Storage &amp; Security">6. データの保管とセキュリティ</h2>
+    <p data-ja="ユーザーデータは Google Cloud（Firebase）のサーバーに保存されます。データの通信はすべて TLS 暗号化により保護されています。" data-en="User data is stored on Google Cloud (Firebase) servers. All data transmission is protected by TLS encryption.">ユーザーデータは Google Cloud（Firebase）のサーバーに保存されます。データの通信はすべて TLS 暗号化により保護されています。</p>
+    <p data-ja="開発者はデータへの不正アクセス・漏洩を防ぐために適切な技術的措置を講じますが、インターネット上の完全な安全性を保証することはできません。" data-en="The Developer takes appropriate technical measures to prevent unauthorized access and data breaches, but cannot guarantee complete security on the internet.">開発者はデータへの不正アクセス・漏洩を防ぐために適切な技術的措置を講じますが、インターネット上の完全な安全性を保証することはできません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="7. データの削除" data-en="7. Data Deletion">7. データの削除</h2>
+    <p data-ja="ユーザーはいつでもアプリ内の「設定 → アカウントを削除」からアカウントおよびすべての関連データを削除できます。削除したデータは復元できません。" data-en="Users may delete their account and all associated data at any time via Settings → Delete Account within the App. Deleted data cannot be recovered.">ユーザーはいつでもアプリ内の「設定 → アカウントを削除」からアカウントおよびすべての関連データを削除できます。削除したデータは復元できません。</p>
+    <p data-ja="削除のご要望やご不明点がある場合は、下記のお問い合わせ先までご連絡ください。" data-en="For deletion requests or questions, please contact us at the address below.">削除のご要望やご不明点がある場合は、下記のお問い合わせ先までご連絡ください。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="8. 子どものプライバシー" data-en="8. Children's Privacy">8. 子どものプライバシー</h2>
+    <p data-ja="本アプリは13歳未満のお子様を対象としておらず、意図的に13歳未満の個人情報を収集することはありません。13歳未満の方のデータが誤って収集されたことが判明した場合は、速やかに削除します。" data-en="The App is not intended for children under the age of 13, and we do not intentionally collect personal information from children under 13. If we discover that data from a child under 13 has been collected in error, we will promptly delete it.">本アプリは13歳未満のお子様を対象としておらず、意図的に13歳未満の個人情報を収集することはありません。13歳未満の方のデータが誤って収集されたことが判明した場合は、速やかに削除します。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="9. プライバシーポリシーの変更" data-en="9. Changes to This Policy">9. プライバシーポリシーの変更</h2>
+    <p data-ja="本ポリシーは必要に応じて更新することがあります。重要な変更がある場合は、アプリのアップデートやこのページでお知らせします。最新のポリシーは常に本ページに掲載します。" data-en="This Policy may be updated as necessary. For significant changes, notice will be provided through app updates or on this page. The latest Policy is always available on this page.">本ポリシーは必要に応じて更新することがあります。重要な変更がある場合は、アプリのアップデートやこのページでお知らせします。最新のポリシーは常に本ページに掲載します。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="10. お問い合わせ" data-en="10. Contact">10. お問い合わせ</h2>
+    <p data-ja="プライバシーに関するご質問・ご要望は以下までご連絡ください。" data-en="For questions or requests regarding privacy, please contact us at:">プライバシーに関するご質問・ご要望は以下までご連絡ください。</p>
+    <p>
+      <strong data-ja="開発者：" data-en="Developer:">開発者：</strong> Yangli Chen<br />
+      <strong data-ja="メール：" data-en="Email:">メール：</strong>
+      <a href="mailto:chenyangli123@gmail.com">chenyangli123@gmail.com</a>
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a>
+    <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+    <a href="terms.html" data-ja="利用規約" data-en="Terms of Service">利用規約</a>
+    <a href="privacy_policy.html" data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</a>
+  </div>
+  <p>© 2026 Yangli Chen. All rights reserved.</p>
+</footer>
+
+<script>
+  function applyLang(lang) {
+    localStorage.setItem('trero_lang', lang);
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-ja]').forEach(function(el) {
+      el.innerHTML = lang === 'ja' ? el.dataset.ja : el.dataset.en;
+    });
+    document.querySelectorAll('.lang-ja, .lang-en').forEach(function(el) {
+      el.style.display = el.classList.contains('lang-' + lang) ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+  }
+  window.addEventListener('DOMContentLoaded', function() {
+    applyLang(localStorage.getItem('trero_lang') || 'ja');
+  });
+</script>
+
+</body>
+</html>

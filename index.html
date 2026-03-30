@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trero — スマートなトレーニング管理アプリ</title>
+  <meta name="description" content="Treroは、筋トレ・ウェイトトレーニングの記録・分析・管理をスマートに行えるiOSアプリです。" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #ff6b2b;
+      --dark: #0a0a1a;
+      --dark2: #13132b;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1c1c1e;
+      background: #fff;
+    }
+
+    nav {
+      background: var(--dark);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+
+    .nav-right { display: flex; align-items: center; }
+
+    .nav-links a {
+      color: #ffffffcc;
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 28px;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover { color: #fff; }
+
+    .nav-cta {
+      background: var(--accent) !important;
+      color: white !important;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .lang-toggle { display: flex; align-items: center; gap: 4px; margin-left: 20px; }
+
+    .lang-btn {
+      background: transparent;
+      border: 1px solid #ffffff33;
+      color: #ffffff88;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: all .15s;
+    }
+
+    .lang-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .lang-btn:hover:not(.active) { border-color: #ffffff66; color: #fff; }
+
+    .hero {
+      background: linear-gradient(160deg, var(--dark) 0%, #1a1250 55%, #2a0a3e 100%);
+      color: white;
+      padding: 100px 24px 90px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, #ff6b2b22 0%, transparent 70%);
+      top: -100px; left: 50%;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: #ff6b2b22;
+      border: 1px solid #ff6b2b66;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 62px);
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span { color: var(--accent); }
+
+    .hero p {
+      font-size: 18px;
+      color: #ffffffbb;
+      max-width: 500px;
+      margin: 0 auto 36px;
+    }
+
+    .hero-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+      padding: 14px 32px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-secondary {
+      background: #ffffff15;
+      color: white;
+      border: 1px solid #ffffff33;
+      padding: 14px 32px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .stats { background: #f5f5f7; padding: 48px 24px; }
+
+    .stats-grid {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      text-align: center;
+    }
+
+    .stat-num { font-size: 40px; font-weight: 900; color: var(--accent); letter-spacing: -1px; }
+    .stat-label { font-size: 14px; color: #6e6e73; margin-top: 4px; }
+
+    .features { max-width: 1000px; margin: 0 auto; padding: 80px 24px; }
+
+    .section-label {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: clamp(26px, 4vw, 38px);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 56px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card { background: #f5f5f7; border-radius: 20px; padding: 28px; }
+
+    .feature-icon {
+      width: 52px; height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .feature-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+    .feature-card p { font-size: 14px; color: #6e6e73; line-height: 1.65; }
+
+    .how { background: var(--dark); color: white; padding: 80px 24px; text-align: center; }
+    .how .section-title { color: white; margin-bottom: 48px; }
+
+    .steps {
+      max-width: 780px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 32px;
+    }
+
+    .step-num { font-size: 42px; font-weight: 900; color: var(--accent); margin-bottom: 10px; }
+    .step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .step p { font-size: 14px; color: #ffffff99; }
+
+    .cta {
+      background: linear-gradient(135deg, #ff6b2b 0%, #e0431a 100%);
+      color: white;
+      text-align: center;
+      padding: 80px 24px;
+    }
+
+    .cta h2 { font-size: clamp(26px, 4vw, 40px); font-weight: 900; margin-bottom: 14px; }
+    .cta p { font-size: 17px; color: #ffffffcc; margin-bottom: 32px; }
+
+    .btn-white {
+      background: white;
+      color: var(--accent);
+      padding: 14px 36px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    footer {
+      background: var(--dark2);
+      color: #6e6e73;
+      text-align: center;
+      padding: 40px 24px;
+      font-size: 13px;
+    }
+
+    footer .footer-links { margin-bottom: 16px; }
+    footer .footer-links a { color: #8e8e93; text-decoration: none; margin: 0 12px; }
+    footer .footer-links a:hover { color: #fff; }
+
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .stats-grid { grid-template-columns: 1fr; gap: 16px; }
+      .hero { padding: 70px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">TRERO</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+      <a href="privacy_policy.html" data-ja="プライバシー" data-en="Privacy">プライバシー</a>
+      <a href="terms.html" data-ja="利用規約" data-en="Terms">利用規約</a>
+      <a class="nav-cta" href="https://apps.apple.com" target="_blank" data-ja="無料でダウンロード" data-en="Download Free">無料でダウンロード</a>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="ja" onclick="applyLang('ja')">JP</button>
+      <button class="lang-btn" data-lang="en" onclick="applyLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge" data-ja="iOS アプリ — 完全無料" data-en="iOS App — Completely Free">iOS アプリ — 完全無料</div>
+  <h1 data-ja="トレーニングを、<br /><span>データで進化させよう。</span>" data-en="Level Up Your Training<br /><span>with Data.</span>">トレーニングを、<br /><span>データで進化させよう。</span></h1>
+  <p data-ja="記録・分析・習慣化。Treroは筋トレをもっとスマートにするトレーニング管理アプリです。" data-en="Track, analyze, and build habits. Trero is the smart workout management app for iOS.">記録・分析・習慣化。Treroは筋トレをもっとスマートにするトレーニング管理アプリです。</p>
+  <div class="hero-buttons">
+    <a class="btn-primary" href="https://apps.apple.com" target="_blank">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <span data-ja="App Store でダウンロード" data-en="Download on App Store">App Store でダウンロード</span>
+    </a>
+    <a class="btn-secondary" href="support.html" data-ja="使い方を見る" data-en="See How It Works">使い方を見る</a>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-num">5+</div>
+      <div class="stat-label" data-ja="対応言語（日・英・韓・中）" data-en="Languages (JP/EN/KO/ZH)">対応言語（日・英・韓・中）</div>
+    </div>
+    <div>
+      <div class="stat-num">100+</div>
+      <div class="stat-label" data-ja="プリセット種目数" data-en="Preset Exercises">プリセット種目数</div>
+    </div>
+    <div>
+      <div class="stat-num" data-ja="0円" data-en="Free">0円</div>
+      <div class="stat-label" data-ja="完全無料・広告なし" data-en="No Cost • No Ads">完全無料・広告なし</div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="section-label">Features</div>
+  <div class="section-title" data-ja="必要な機能が、すべて揃っている" data-en="Everything You Need, All in One Place">必要な機能が、すべて揃っている</div>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#fff3ee;">🏋️</div>
+      <h3 data-ja="直感的なワークアウト記録" data-en="Intuitive Workout Logging">直感的なワークアウト記録</h3>
+      <p data-ja="部位・種目・重量・セット数・レップ数をすばやく記録。前回の記録を1タップで引き継げるので、毎回入力の手間がかかりません。" data-en="Log muscle group, exercise, weight, sets &amp; reps in seconds. Carry over your last session with just one tap.">部位・種目・重量・セット数・レップ数をすばやく記録。前回の記録を1タップで引き継げるので、毎回入力の手間がかかりません。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#e8f5e9;">📈</div>
+      <h3 data-ja="詳細な進捗分析" data-en="Detailed Progress Analytics">詳細な進捗分析</h3>
+      <p data-ja="種目別の最大重量推移・推定1RM・部位別ボリュームをグラフで可視化。成長の軌跡が一目でわかります。" data-en="Visualize max weight trends, estimated 1RM, and volume by muscle group. See your growth at a glance.">種目別の最大重量推移・推定1RM・部位別ボリュームをグラフで可視化。成長の軌跡が一目でわかります。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#e3f2fd;">🔥</div>
+      <h3 data-ja="ストリーク機能" data-en="Streak Tracking">ストリーク機能</h3>
+      <p data-ja="連続トレーニング日数を記録。カレンダーに部位別カラーのドットが表示され、習慣化の達成感を毎日感じられます。" data-en="Track consecutive training days. Color-coded dots on the calendar make building habits satisfying every day.">連続トレーニング日数を記録。カレンダーに部位別カラーのドットが表示され、習慣化の達成感を毎日感じられます。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#fce4ec;">⚖️</div>
+      <h3 data-ja="体組成トラッキング" data-en="Body Composition Tracking">体組成トラッキング</h3>
+      <p data-ja="体重・体脂肪率・筋肉率・BMIを継続記録。Apple ヘルスケアアプリとの自動同期にも対応しています。" data-en="Log weight, body fat %, muscle %, and BMI continuously. Auto-syncs with Apple Health.">体重・体脂肪率・筋肉率・BMIを継続記録。Apple ヘルスケアアプリとの自動同期にも対応しています。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#f3e5f5;">⏱️</div>
+      <h3 data-ja="インターバルタイマー" data-en="Rest Timer">インターバルタイマー</h3>
+      <p data-ja="セット間のレスト時間をタイマーで計測。時間になると通知でお知らせするので、スマートにトレーニングを進められます。" data-en="Time your rest intervals between sets. Get notified when time's up so you can train efficiently.">セット間のレスト時間をタイマーで計測。時間になると通知でお知らせするので、スマートにトレーニングを進められます。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:#e8eaf6;">🌏</div>
+      <h3 data-ja="多言語・単位対応" data-en="Multi-language &amp; Units">多言語・単位対応</h3>
+      <p data-ja="日本語・英語・韓国語・中国語（簡体・繁体）に対応。重量単位はkg/lbをワンタップで切り替えられます。" data-en="Supports Japanese, English, Korean, and Chinese (Simplified &amp; Traditional). Switch between kg/lb with one tap.">日本語・英語・韓国語・中国語（簡体・繁体）に対応。重量単位はkg/lbをワンタップで切り替えられます。</p>
+    </div>
+  </div>
+</section>
+
+<section class="how">
+  <div class="section-label" style="color:#ff6b2b;">How it works</div>
+  <div class="section-title" data-ja="始め方はシンプル" data-en="Simple to Get Started">始め方はシンプル</div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <h3 data-ja="アカウントを作成" data-en="Create an Account">アカウントを作成</h3>
+      <p data-ja="Apple ID またはメールで無料登録。ゲストモードでも試せます。" data-en="Sign up free with Apple ID or email. Try guest mode first.">Apple ID またはメールで無料登録。ゲストモードでも試せます。</p>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <h3 data-ja="種目を選んで記録" data-en="Pick Exercises &amp; Log">種目を選んで記録</h3>
+      <p data-ja="100種以上のプリセットから選ぶだけ。カスタム種目も追加できます。" data-en="Choose from 100+ presets. Add your own custom exercises too.">100種以上のプリセットから選ぶだけ。カスタム種目も追加できます。</p>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <h3 data-ja="グラフで成長を確認" data-en="Track Your Progress">グラフで成長を確認</h3>
+      <p data-ja="週・月・全期間の推移を自動で集計。次のPRを目指しましょう。" data-en="Auto-aggregated weekly, monthly, and all-time trends. Aim for your next PR.">週・月・全期間の推移を自動で集計。次のPRを目指しましょう。</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2 data-ja="今すぐ無料で始めよう" data-en="Start Free Today">今すぐ無料で始めよう</h2>
+  <p data-ja="トレーニングの記録が、習慣になる。" data-en="Make tracking your workouts a habit.">トレーニングの記録が、習慣になる。</p>
+  <a class="btn-white" href="https://apps.apple.com" target="_blank" data-ja="App Store でダウンロード" data-en="Download on App Store">App Store でダウンロード</a>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+    <a href="privacy_policy.html" data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</a>
+    <a href="terms.html" data-ja="利用規約" data-en="Terms of Service">利用規約</a>
+    <a href="mailto:chenyangli123@gmail.com" data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a>
+  </div>
+  <p>© 2026 Yangli Chen. All rights reserved.</p>
+</footer>
+
+<script>
+  function applyLang(lang) {
+    localStorage.setItem('trero_lang', lang);
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-ja]').forEach(function(el) {
+      el.innerHTML = lang === 'ja' ? el.dataset.ja : el.dataset.en;
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+  }
+  window.addEventListener('DOMContentLoaded', function() {
+    applyLang(localStorage.getItem('trero_lang') || 'ja');
+  });
+</script>
+
+</body>
+</html>

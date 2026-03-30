@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trero 利用規約</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: #1c1c1e;
+      background: #f5f5f7;
+    }
+
+    nav {
+      background: #0a0a1a;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav .logo { font-size: 20px; font-weight: 800; color: #ff6b2b; letter-spacing: -0.5px; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; }
+    nav .nav-links a { color: #ffffffcc; text-decoration: none; font-size: 14px; margin-left: 24px; }
+    nav .nav-links a:hover { color: #fff; }
+
+    .lang-toggle { display: flex; align-items: center; gap: 4px; margin-left: 20px; }
+    .lang-btn {
+      background: transparent;
+      border: 1px solid #ffffff33;
+      color: #ffffff88;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: all .15s;
+    }
+    .lang-btn.active { background: #ff6b2b; border-color: #ff6b2b; color: #fff; }
+    .lang-btn:hover:not(.active) { border-color: #ffffff66; color: #fff; }
+
+    .hero {
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 100%);
+      color: white;
+      text-align: center;
+      padding: 64px 24px 56px;
+    }
+    .hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; }
+    .hero p { font-size: 15px; color: #ffffffbb; }
+
+    .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    section { background: #ffffff; border-radius: 16px; padding: 28px 32px; margin-bottom: 14px; }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #1c1c1e;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #ff6b2b22;
+    }
+
+    p { margin-bottom: 12px; color: #3a3a3c; font-size: 15px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul { padding-left: 20px; margin-bottom: 12px; color: #3a3a3c; font-size: 15px; }
+    ul li { margin-bottom: 6px; }
+
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .important {
+      background: #fff3ee;
+      border-left: 4px solid #ff6b2b;
+      padding: 14px 18px;
+      border-radius: 0 10px 10px 0;
+      margin-bottom: 14px;
+      font-size: 14px;
+      color: #3a3a3c;
+    }
+
+    footer { text-align: center; padding: 32px 24px; font-size: 13px; color: #8e8e93; border-top: 1px solid #e5e5ea; }
+    footer a { color: #007aff; text-decoration: none; margin: 0 8px; }
+
+    @media (max-width: 600px) {
+      section { padding: 20px 18px; }
+      nav .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">TRERO</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a>
+      <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+      <a href="privacy_policy.html" data-ja="プライバシー" data-en="Privacy">プライバシー</a>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="ja" onclick="applyLang('ja')">JP</button>
+      <button class="lang-btn" data-lang="en" onclick="applyLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1 data-ja="利用規約" data-en="Terms of Service">利用規約</h1>
+  <p data-ja="最終更新日：2026年3月18日" data-en="Last Updated: March 18, 2026">最終更新日：2026年3月18日</p>
+</div>
+
+<div class="container">
+
+  <div class="important" data-ja="本利用規約（以下「本規約」）は、Yangli Chen（以下「開発者」）が提供するiOSアプリ「Trero」（以下「本アプリ」）の利用条件を定めるものです。本アプリをご利用いただく前に、必ず本規約をお読みください。本アプリをご利用いただいた時点で、本規約に同意したものとみなします。" data-en="These Terms of Service (the &quot;Terms&quot;) govern your use of the iOS app &quot;Trero&quot; (the &quot;App&quot;) provided by Yangli Chen (the &quot;Developer&quot;). Please read these Terms carefully before using the App. By using the App, you agree to be bound by these Terms.">
+    本利用規約（以下「本規約」）は、Yangli Chen（以下「開発者」）が提供するiOSアプリ「Trero」（以下「本アプリ」）の利用条件を定めるものです。本アプリをご利用いただく前に、必ず本規約をお読みください。本アプリをご利用いただいた時点で、本規約に同意したものとみなします。
+  </div>
+
+  <section>
+    <h2 data-ja="第1条（適用）" data-en="Article 1 (Application)">第1条（適用）</h2>
+    <p data-ja="本規約は、本アプリの利用に関して、ユーザーと開発者との間に適用されます。開発者が別途定める個別規定（プライバシーポリシー等）は、本規約の一部を構成します。" data-en="These Terms apply between users and the Developer regarding use of the App. Individual rules established separately by the Developer (such as the Privacy Policy) constitute part of these Terms.">本規約は、本アプリの利用に関して、ユーザーと開発者との間に適用されます。開発者が別途定める個別規定（プライバシーポリシー等）は、本規約の一部を構成します。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第2条（アカウント）" data-en="Article 2 (Account)">第2条（アカウント）</h2>
+    <p data-ja="ユーザーは、メールアドレスまたはApple IDを用いてアカウントを作成できます。また、ゲストモードとして認証なしで一部機能を利用することも可能です。" data-en="Users may create an account using an email address or Apple ID. Guest mode is also available without authentication for limited features.">ユーザーは、メールアドレスまたはApple IDを用いてアカウントを作成できます。また、ゲストモードとして認証なしで一部機能を利用することも可能です。</p>
+    <ul class="lang-ja">
+      <li>アカウント情報の管理はユーザー自身の責任で行ってください</li>
+      <li>アカウントの不正利用・第三者への貸与・譲渡は禁止します</li>
+      <li>ゲストモードでは、アプリの削除によりデータが消失する場合があります</li>
+      <li>1人のユーザーにつき1アカウントを原則とします</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>You are responsible for managing your own account information</li>
+      <li>Unauthorized use, lending, or transfer of your account to third parties is prohibited</li>
+      <li>In guest mode, data may be lost if the app is deleted</li>
+      <li>One account per user is the general principle</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 data-ja="第3条（禁止事項）" data-en="Article 3 (Prohibited Activities)">第3条（禁止事項）</h2>
+    <p data-ja="ユーザーは、本アプリの利用にあたり、以下の行為を行ってはなりません。" data-en="Users must not engage in the following activities when using the App:">ユーザーは、本アプリの利用にあたり、以下の行為を行ってはなりません。</p>
+    <ul class="lang-ja">
+      <li>本アプリのリバースエンジニアリング、逆コンパイル、改ざん</li>
+      <li>本アプリを利用した違法行為、または違法行為の補助</li>
+      <li>他のユーザーや第三者の権利を侵害する行為</li>
+      <li>開発者のサーバーやネットワークに過度な負荷をかける行為</li>
+      <li>本アプリを商業目的で無断利用・再配布する行為</li>
+      <li>虚偽の情報を登録する行為</li>
+      <li>本アプリの運営を妨害するいかなる行為</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>Reverse engineering, decompiling, or tampering with the App</li>
+      <li>Using the App for illegal activities or assisting in illegal activities</li>
+      <li>Infringing the rights of other users or third parties</li>
+      <li>Placing excessive load on the Developer's servers or network</li>
+      <li>Unauthorized commercial use or redistribution of the App</li>
+      <li>Registering false information</li>
+      <li>Any activity that disrupts the operation of the App</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 data-ja="第4条（サービスの提供・変更・停止）" data-en="Article 4 (Service Changes &amp; Suspension)">第4条（サービスの提供・変更・停止）</h2>
+    <p data-ja="開発者は、以下の場合において、ユーザーへの事前通知なく本アプリのサービスを変更・一時停止・終了することができます。" data-en="The Developer may change, suspend, or terminate the App's services without prior notice in the following cases:">開発者は、以下の場合において、ユーザーへの事前通知なく本アプリのサービスを変更・一時停止・終了することができます。</p>
+    <ul class="lang-ja">
+      <li>システムのメンテナンス・アップデート時</li>
+      <li>天災・停電・システム障害などの不可抗力が生じた場合</li>
+      <li>その他、開発者が必要と判断した場合</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>During system maintenance or updates</li>
+      <li>In cases of force majeure such as natural disasters, power outages, or system failures</li>
+      <li>In any other case the Developer deems necessary</li>
+    </ul>
+    <p data-ja="開発者は、サービスの変更・停止によってユーザーに生じた損害について、一切の責任を負いません。" data-en="The Developer assumes no liability for any damages incurred by users due to changes or suspension of the service.">開発者は、サービスの変更・停止によってユーザーに生じた損害について、一切の責任を負いません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第5条（知的財産権）" data-en="Article 5 (Intellectual Property)">第5条（知的財産権）</h2>
+    <p data-ja="本アプリに関する著作権、商標権、その他一切の知的財産権は、開発者または正当な権利者に帰属します。本規約に基づく本アプリの利用許諾は、知的財産権の譲渡を意味しません。" data-en="All copyrights, trademarks, and other intellectual property rights relating to the App belong to the Developer or legitimate rights holders. The license to use the App under these Terms does not constitute a transfer of intellectual property rights.">本アプリに関する著作権、商標権、その他一切の知的財産権は、開発者または正当な権利者に帰属します。本規約に基づく本アプリの利用許諾は、知的財産権の譲渡を意味しません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第6条（ユーザーデータ）" data-en="Article 6 (User Data)">第6条（ユーザーデータ）</h2>
+    <p data-ja="ユーザーが本アプリに入力したトレーニングデータ・体組成データ等の権利はユーザーに帰属します。開発者は、プライバシーポリシーに従い適切にデータを取り扱います。" data-en="Rights to training data, body composition data, and other data entered by users belong to those users. The Developer handles data appropriately in accordance with the Privacy Policy.">ユーザーが本アプリに入力したトレーニングデータ・体組成データ等の権利はユーザーに帰属します。開発者は、プライバシーポリシーに従い適切にデータを取り扱います。</p>
+    <p data-ja="ユーザーはいつでもアカウントを削除することにより、ご自身のデータをすべて消去できます。削除後のデータは復元できません。" data-en="Users may delete all their data at any time by deleting their account. Deleted data cannot be recovered.">ユーザーはいつでもアカウントを削除することにより、ご自身のデータをすべて消去できます。削除後のデータは復元できません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第7条（免責事項）" data-en="Article 7 (Disclaimer)">第7条（免責事項）</h2>
+    <p data-ja="本アプリは現状のまま（AS IS）提供されます。開発者は以下について保証しません。" data-en="The App is provided &quot;AS IS.&quot; The Developer makes no warranties regarding the following:">本アプリは現状のまま（AS IS）提供されます。開発者は以下について保証しません。</p>
+    <ul class="lang-ja">
+      <li>本アプリが特定の目的に適合すること</li>
+      <li>本アプリに誤り・バグが存在しないこと</li>
+      <li>本アプリの利用が中断されないこと</li>
+      <li>本アプリで提供される情報の正確性・完全性</li>
+    </ul>
+    <ul class="lang-en" style="display:none;">
+      <li>That the App is fit for any particular purpose</li>
+      <li>That the App is free of errors or bugs</li>
+      <li>That use of the App will be uninterrupted</li>
+      <li>The accuracy or completeness of information provided by the App</li>
+    </ul>
+    <p data-ja="本アプリはトレーニング記録ツールであり、医療・健康上のアドバイスを提供するものではありません。健康に関する重要な判断は、必ず医療専門家にご相談ください。" data-en="The App is a training logging tool and does not provide medical or health advice. For important health-related decisions, always consult a medical professional.">本アプリはトレーニング記録ツールであり、医療・健康上のアドバイスを提供するものではありません。健康に関する重要な判断は、必ず医療専門家にご相談ください。</p>
+    <p data-ja="開発者は、本アプリの利用または利用不能によってユーザーに生じた損害について、故意または重大な過失がある場合を除き、一切の責任を負いません。" data-en="The Developer assumes no liability for any damages incurred by users due to use or inability to use the App, except in cases of intentional misconduct or gross negligence.">開発者は、本アプリの利用または利用不能によってユーザーに生じた損害について、故意または重大な過失がある場合を除き、一切の責任を負いません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第8条（サードパーティサービス）" data-en="Article 8 (Third-Party Services)">第8条（サードパーティサービス）</h2>
+    <p data-ja="本アプリはFirebase（Google LLC）等のサードパーティサービスを利用しています。これらのサービスの利用には、各サービスの利用規約・プライバシーポリシーが適用されます。開発者は、これらのサードパーティサービスに起因する損害について責任を負いません。" data-en="The App uses third-party services such as Firebase (Google LLC). Use of these services is subject to each service's terms of use and privacy policy. The Developer assumes no liability for damages arising from these third-party services.">本アプリはFirebase（Google LLC）等のサードパーティサービスを利用しています。これらのサービスの利用には、各サービスの利用規約・プライバシーポリシーが適用されます。開発者は、これらのサードパーティサービスに起因する損害について責任を負いません。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第9条（Apple との関係）" data-en="Article 9 (Relationship with Apple)">第9条（Apple との関係）</h2>
+    <p data-ja="本アプリはApple Inc.が提供するApp Storeを通じて配信されます。本規約はユーザーと開発者の間にのみ適用され、Apple Inc.は本規約の当事者ではありません。本アプリに関するサポート・保証・クレームの窓口は開発者です。" data-en="The App is distributed through the App Store provided by Apple Inc. These Terms apply solely between users and the Developer; Apple Inc. is not a party to these Terms. The Developer is the contact for support, warranties, and claims regarding the App.">本アプリはApple Inc.が提供するApp Storeを通じて配信されます。本規約はユーザーと開発者の間にのみ適用され、Apple Inc.は本規約の当事者ではありません。本アプリに関するサポート・保証・クレームの窓口は開発者です。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第10条（規約の変更）" data-en="Article 10 (Changes to Terms)">第10条（規約の変更）</h2>
+    <p data-ja="開発者は、必要に応じて本規約を変更することがあります。変更後の規約は本ページに掲載した時点から効力を生じます。重要な変更を行う場合は、アプリ内または本ページにてお知らせします。変更後も本アプリを継続してご利用いただいた場合は、変更後の規約に同意したものとみなします。" data-en="The Developer may update these Terms as necessary. Updated Terms take effect upon posting on this page. For significant changes, notice will be provided within the App or on this page. Continued use of the App after changes constitutes acceptance of the revised Terms.">開発者は、必要に応じて本規約を変更することがあります。変更後の規約は本ページに掲載した時点から効力を生じます。重要な変更を行う場合は、アプリ内または本ページにてお知らせします。変更後も本アプリを継続してご利用いただいた場合は、変更後の規約に同意したものとみなします。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第11条（準拠法・裁判管轄）" data-en="Article 11 (Governing Law &amp; Jurisdiction)">第11条（準拠法・裁判管轄）</h2>
+    <p data-ja="本規約の解釈および適用は日本法に準拠します。本規約に関して生じた紛争については、開発者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。" data-en="These Terms shall be interpreted and applied in accordance with Japanese law. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the court having jurisdiction over the Developer's location as the court of first instance.">本規約の解釈および適用は日本法に準拠します。本規約に関して生じた紛争については、開発者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。</p>
+  </section>
+
+  <section>
+    <h2 data-ja="第12条（お問い合わせ）" data-en="Article 12 (Contact)">第12条（お問い合わせ）</h2>
+    <p data-ja="本規約に関するお問い合わせは下記までご連絡ください。" data-en="For inquiries regarding these Terms, please contact us at:">本規約に関するお問い合わせは下記までご連絡ください。</p>
+    <p>
+      <strong data-ja="開発者：" data-en="Developer:">開発者：</strong> Yangli Chen<br />
+      <strong data-ja="メール：" data-en="Email:">メール：</strong> <a href="mailto:chenyangli123@gmail.com">chenyangli123@gmail.com</a>
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <p>
+    <a href="privacy_policy.html" data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</a>
+    <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+    <a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a>
+  </p>
+  <p style="margin-top: 12px;">© 2026 Yangli Chen. All rights reserved.</p>
+</footer>
+
+<script>
+  function applyLang(lang) {
+    localStorage.setItem('trero_lang', lang);
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-ja]').forEach(function(el) {
+      el.innerHTML = lang === 'ja' ? el.dataset.ja : el.dataset.en;
+    });
+    document.querySelectorAll('.lang-ja, .lang-en').forEach(function(el) {
+      el.style.display = el.classList.contains('lang-' + lang) ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+  }
+  window.addEventListener('DOMContentLoaded', function() {
+    applyLang(localStorage.getItem('trero_lang') || 'ja');
+  });
+</script>
+
+</body>
+</html>
