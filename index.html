@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trero | Product Overview</title>
-  <meta name="description" content="Treroの現行コード実装に基づく製品概要、機能一覧、プラン差分、法的情報への導線をまとめたページです。" />
+  <title>Trero | ワークアウト記録・分析アプリ</title>
+  <meta name="description" content="Treroは、ワークアウト記録、進捗・履歴分析、体組成トラッキング、フレンド機能に対応したiPhone向けトレーニング管理アプリです。" />
   <style>
     * { box-sizing: border-box; }
     body {
@@ -211,14 +211,14 @@
 
   <header class="hero">
     <div class="hero-inner">
-      <div class="eyebrow" data-ja="コード実装ベースの製品概要" data-en="Implementation-Based Product Overview">コード実装ベースの製品概要</div>
+      <div class="eyebrow" data-ja="トレーニングを、もっと続けやすく" data-en="Make Training Easier to Keep Up">トレーニングを、もっと続けやすく</div>
       <h1 data-ja="Treroは、記録・進捗・体組成・ソーシャルを一体化したiPhone向け筋トレ管理アプリです。"
-          data-en="Trero is an iPhone workout management app that combines logging, progress tracking, body composition, and social features.">
+          data-en="Trero is an iPhone workout management app that combines logging, progress and history insights, body composition, and social features.">
         Treroは、記録・進捗・体組成・ソーシャルを一体化したiPhone向け筋トレ管理アプリです。
       </h1>
-      <p data-ja="このページは、2026年4月6日に現行リポジトリ内のアプリ実装を確認した結果をもとに記述しています。実装が確認できた機能と、未確認またはUI公開未確認の機能を区別して整理しています。"
-         data-en="This page reflects the current repository implementation reviewed on April 6, 2026. It distinguishes between features confirmed in the app code and items that were not confirmed as user-facing flows.">
-        このページは、2026年4月6日に現行リポジトリ内のアプリ実装を確認した結果をもとに記述しています。実装が確認できた機能と、未確認またはUI公開未確認の機能を区別して整理しています。
+      <p data-ja="毎日のワークアウト記録から、進捗や履歴の分析、体組成の記録、フレンドとのつながりまで、日々のトレーニングをひとつのアプリでサポートします。"
+         data-en="From daily workout logging to progress and history insights, body composition records, and staying connected with friends, Trero supports your training in one app.">
+        毎日のワークアウト記録から、進捗や履歴の分析、体組成の記録、フレンドとのつながりまで、日々のトレーニングをひとつのアプリでサポートします。
       </p>
       <div class="hero-meta">
         <span class="meta-pill" data-ja="アプリ版: 1.0" data-en="App version: 1.0">アプリ版: 1.0</span>
@@ -229,7 +229,6 @@
       <div class="cta-row">
         <a class="btn primary" href="support.html" data-ja="サポートを見る" data-en="Open Support">サポートを見る</a>
         <a class="btn secondary" href="Trero_UserGuide_JA_EN.docx" data-ja="ユーザーガイドを開く" data-en="Open User Guide">ユーザーガイドを開く</a>
-        <a class="btn secondary" href="Trero_PM_Functional_Spec_JA.docx" data-ja="PM仕様書を開く" data-en="Open PM Spec">PM仕様書を開く</a>
       </div>
     </div>
   </header>
@@ -254,12 +253,12 @@
         <h3 data-ja="進捗・履歴分析" data-en="Progress & History">進捗・履歴分析</h3>
         <ul class="lang-ja">
           <li>週・月・3か月・全期間で履歴を集計</li>
-          <li>種目別最大重量、総ボリューム、推定1RMを表示</li>
+          <li>目標の進捗確認、種目別最大重量、総ボリューム、推定1RMを表示</li>
           <li>Proでは全履歴、推定1RMランク、CSVエクスポートを解放</li>
         </ul>
         <ul class="lang-en">
           <li>History filters for week, month, three months, and all time</li>
-          <li>Shows max weight, total volume, and estimated 1RM by exercise</li>
+          <li>Shows goal progress, max weight, total volume, and estimated 1RM by exercise</li>
           <li>Pro unlocks full history, estimated 1RM rank, and CSV export</li>
         </ul>
       </article>
@@ -290,9 +289,9 @@
         </ul>
       </article>
     </div>
-    <p class="section-note" data-ja="補足: iPhone側にはWatchConnectivity連携実装があり、Apple Watchコンパニオンとのデータ受け渡しを行うコードが含まれます。ただし、本リポジトリ確認範囲ではWatch側UI全体までは検証していません。"
-       data-en="Note: The iPhone app includes WatchConnectivity integration for a companion Apple Watch app. The full watch-side UI was not fully verified within the inspected repository scope.">
-      補足: iPhone側にはWatchConnectivity連携実装があり、Apple Watchコンパニオンとのデータ受け渡しを行うコードが含まれます。ただし、本リポジトリ確認範囲ではWatch側UI全体までは検証していません。
+    <p class="section-note" data-ja="Apple Watchとの連携にも対応しており、より手軽にトレーニング記録を続けられるよう設計されています。"
+       data-en="Trero also supports Apple Watch integration, making it easier to keep logging your training.">
+      Apple Watchとの連携にも対応しており、より手軽にトレーニング記録を続けられるよう設計されています。
     </p>
   </section>
 
@@ -360,27 +359,25 @@
           <li><a href="terms.html">利用規約</a></li>
           <li><a href="support.html">サポートページ</a></li>
           <li><a href="Trero_UserGuide_JA_EN.docx">ユーザーガイド（JA/EN）</a></li>
-          <li><a href="Trero_PM_Functional_Spec_JA.docx">PM向け機能仕様書</a></li>
         </ul>
         <ul class="lang-en">
           <li><a href="privacy_policy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms of Service</a></li>
           <li><a href="support.html">Support</a></li>
           <li><a href="Trero_UserGuide_JA_EN.docx">User Guide (JA/EN)</a></li>
-          <li><a href="Trero_PM_Functional_Spec_JA.docx">PM Functional Spec</a></li>
         </ul>
       </article>
       <article class="card">
-        <h2 data-ja="事実ベースの補足" data-en="Implementation Notes">事実ベースの補足</h2>
+        <h2 data-ja="ご利用前に" data-en="Before You Start">ご利用前に</h2>
         <ul class="lang-ja">
-          <li>プロフィール画像は端末のローカル保存が主で、現行UIでは任意画像のクラウド同期フローは確認できません。</li>
-          <li>フレンド追加UIはTrero ID検索とQRが中心です。コード上にはメールハッシュ検索用バックエンドもありますが、現行画面では主要導線ではありません。</li>
-          <li>ストリーク救済に関する定数と文言はコード上に存在しますが、公開UIとしての利用導線は今回確認できていません。</li>
+          <li>Treroでは、ワークアウト記録、進捗・履歴分析、体組成の記録、フレンド機能をひとつのアプリで利用できます。</li>
+          <li>一部の機能にはアカウント登録や、通知・HealthKit などの端末権限が必要です。</li>
+          <li>機能や価格は、今後のアップデートにより変更される場合があります。</li>
         </ul>
         <ul class="lang-en">
-          <li>Profile photos are primarily stored locally on device; the current UI does not confirm a general cloud-sync upload flow for arbitrary photos.</li>
-          <li>The friend-add UI currently centers on Trero ID search and QR. Email-hash lookup infrastructure exists in code, but it is not the primary visible flow.</li>
-          <li>Streak-rescue related limits and strings exist in code, but a confirmed user-facing flow was not identified in this review.</li>
+          <li>Trero brings workout logging, progress and history insights, body composition records, and friend features together in one app.</li>
+          <li>Some features require an account or device permissions such as notifications or HealthKit.</li>
+          <li>Features and pricing may change in future updates.</li>
         </ul>
       </article>
     </div>
