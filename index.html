@@ -1,10 +1,91 @@
 <!DOCTYPE html>
+<!-- ============================================================
+  Trero — index.html
+  SEO / SNS (OGP・Twitter Card) / ASO (Smart App Banner・JSON-LD)
+  対応言語: ja / en
+  og:image → docs/og-image.png (1200×630) を別途用意してください
+  6760746164 → App Store 公開後に実際の ID に置き換えてください
+  SITE_URL    → 公開ドメインに置き換えてください（例: https://trero.app）
+============================================================ -->
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trero | ワークアウト記録・分析アプリ</title>
-  <meta name="description" content="Treroは、ワークアウト記録、進捗・履歴分析、体組成トラッキング、フレンド機能に対応したiPhone向けトレーニング管理アプリです。" />
+
+  <!-- ── SEO ── -->
+  <title>Trero | 筋トレ・ワークアウト管理アプリ for iPhone</title>
+  <meta name="description"
+        content="Treroは、ワークアウト記録・進捗分析・体組成トラッキング・フレンド機能を一体化したiPhone向け筋トレ管理アプリです。重量・回数・セットを記録して、目標達成までの進捗を可視化しましょう。" />
+  <meta name="keywords"
+        content="筋トレ,ワークアウト記録,筋トレアプリ,トレーニング記録,体組成,重量記録,セット,レップス,目標管理,フィットネス,ジム,筋肉,workout tracker,gym log,strength training,fitness app,weight training,body composition,iPhone" />
+  <link rel="canonical" href="https://trero.app/" />
+  <link rel="alternate" hreflang="ja"       href="https://trero.app/" />
+  <link rel="alternate" hreflang="en"       href="https://trero.app/?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://trero.app/" />
+
+  <!-- ── ASO: Apple Smart App Banner ── -->
+  <!-- App Store 公開後、content の app-id= を実際の ID に変更してください -->
+  <meta name="apple-itunes-app" content="app-id=6760746164, app-argument=https://trero.app/" />
+
+  <!-- ── SNS: Open Graph Protocol ── -->
+  <meta property="og:type"              content="website" />
+  <meta property="og:site_name"         content="Trero" />
+  <meta property="og:title"             content="Trero | 筋トレ・ワークアウト管理アプリ for iPhone" />
+  <meta property="og:description"
+        content="記録・分析・体組成・フレンドをひとつに。無料で始められるiPhone向け筋トレ管理アプリ。" />
+  <meta property="og:image"            content="https://trero.app/og-image.png" />
+  <meta property="og:image:width"       content="1200" />
+  <meta property="og:image:height"      content="630" />
+  <meta property="og:url"              content="https://trero.app/" />
+  <meta property="og:locale"           content="ja_JP" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- ── SNS: Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Trero | 筋トレ・ワークアウト管理アプリ for iPhone" />
+  <meta name="twitter:description"
+        content="記録・分析・体組成・フレンドをひとつに。無料で始められるiPhone向け筋トレ管理アプリ。" />
+  <meta name="twitter:image"       content="https://trero.app/og-image.png" />
+
+  <!-- ── ASO: JSON-LD (SoftwareApplication) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Trero",
+    "operatingSystem": "iOS",
+    "applicationCategory": "HealthApplication",
+    "applicationSubCategory": "Fitness",
+    "description": "Treroは、ワークアウト記録・進捗分析・体組成トラッキング・フレンド機能を一体化したiPhone向け筋トレ管理アプリです。",
+    "url": "https://trero.app/",
+    "downloadUrl": "https://apps.apple.com/app/id/6760746164",
+    "softwareVersion": "1.0",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "JPY"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Yangli Chen"
+    },
+    "featureList": [
+      "ワークアウト記録（重量・回数・セット）",
+      "進捗・履歴分析",
+      "体組成トラッキング（体重・体脂肪率・BMI）",
+      "目標管理・ProgressionEngine",
+      "フレンド機能・リアクション",
+      "インターバルタイマー",
+      "Apple Watch 連携",
+      "HealthKit 統合",
+      "CSVエクスポート（Pro）",
+      "プレート計算機（Pro）"
+    ],
+    "screenshot": "https://trero.app/og-image.png",
+    "availableOnDevice": "iPhone"
+  }
+  </script>
+
   <style>
     * { box-sizing: border-box; }
     body {
@@ -106,6 +187,23 @@
       color: #f7fafc;
       font-size: 13px;
     }
+    /* App Store バッジ */
+    .appstore-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background: #fff;
+      color: var(--ink);
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+    }
+    .appstore-badge svg { flex-shrink: 0; }
+    .appstore-badge .badge-sub { font-size: 10px; font-weight: 500; opacity: 0.6; display: block; line-height: 1; }
+    .appstore-badge .badge-main { font-size: 16px; font-weight: 800; display: block; line-height: 1.3; }
     .section { padding: 28px 20px 0; }
     .grid {
       display: grid;
@@ -161,7 +259,8 @@
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      margin-top: 16px;
+      margin-top: 24px;
+      align-items: center;
     }
     .btn {
       display: inline-flex;
@@ -179,6 +278,32 @@
       color: var(--ink);
       border: 1px solid var(--line);
     }
+    /* SNS シェアセクション */
+    .share-section {
+      max-width: 1100px;
+      margin: 32px auto 0;
+      padding: 24px 20px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+    }
+    .share-section h2 { margin: 0 0 14px; font-size: 18px; color: var(--ink); }
+    .share-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .share-btn.x       { background: #000; }
+    .share-btn.line    { background: #06c755; }
+    .share-btn.copy    { background: var(--muted); cursor: pointer; border: none; }
+    .hashtags { margin-top: 10px; font-size: 13px; color: var(--muted); }
     footer {
       max-width: 1100px;
       margin: 48px auto 0;
@@ -199,9 +324,9 @@
   <nav>
     <a class="logo" href="index.html">TRERO</a>
     <div class="nav-links">
-      <a href="support.html" data-ja="サポート" data-en="Support">サポート</a>
+      <a href="support.html"       data-ja="サポート"    data-en="Support">サポート</a>
       <a href="privacy_policy.html" data-ja="プライバシー" data-en="Privacy">プライバシー</a>
-      <a href="terms.html" data-ja="利用規約" data-en="Terms">利用規約</a>
+      <a href="terms.html"         data-ja="利用規約"    data-en="Terms">利用規約</a>
     </div>
     <div class="lang-toggle">
       <button class="lang-btn" data-lang="ja" onclick="applyLang('ja')">JP</button>
@@ -209,110 +334,146 @@
     </div>
   </nav>
 
+  <!-- ═══════════════════ HERO ═══════════════════ -->
   <header class="hero">
     <div class="hero-inner">
-      <div class="eyebrow" data-ja="トレーニングを、もっと続けやすく" data-en="Make Training Easier to Keep Up">トレーニングを、もっと続けやすく</div>
-      <h1 data-ja="Treroは、記録・進捗・体組成・ソーシャルを一体化したiPhone向け筋トレ管理アプリです。"
-          data-en="Trero is an iPhone workout management app that combines logging, progress and history insights, body composition, and social features.">
-        Treroは、記録・進捗・体組成・ソーシャルを一体化したiPhone向け筋トレ管理アプリです。
-      </h1>
-      <p data-ja="毎日のワークアウト記録から、進捗や履歴の分析、体組成の記録、フレンドとのつながりまで、日々のトレーニングをひとつのアプリでサポートします。"
-         data-en="From daily workout logging to progress and history insights, body composition records, and staying connected with friends, Trero supports your training in one app.">
-        毎日のワークアウト記録から、進捗や履歴の分析、体組成の記録、フレンドとのつながりまで、日々のトレーニングをひとつのアプリでサポートします。
-      </p>
-      <div class="hero-meta">
-        <span class="meta-pill" data-ja="アプリ版: 1.0" data-en="App version: 1.0">アプリ版: 1.0</span>
-        <span class="meta-pill" data-ja="対応OS: iOS 26.2以降" data-en="Supported OS: iOS 26.2 or later">対応OS: iOS 26.2以降</span>
-        <span class="meta-pill" data-ja="認証: メール / Apple / ゲスト" data-en="Auth: Email / Apple / Guest">認証: メール / Apple / ゲスト</span>
-        <span class="meta-pill" data-ja="課金: Trero Pro 月額 / 年額" data-en="Billing: Trero Pro monthly / yearly">課金: Trero Pro 月額 / 年額</span>
+      <div class="eyebrow"
+           data-ja="トレーニングを、もっと続けやすく"
+           data-en="Make Training Easier to Keep Up">
+        トレーニングを、もっと続けやすく
       </div>
+      <h1 data-ja="記録・分析・体組成・フレンド。<br>筋トレのすべてがTreroにある。"
+          data-en="Log. Analyze. Track. Connect.<br>Everything for your workout in one app.">
+        記録・分析・体組成・フレンド。<br>筋トレのすべてがTreroにある。
+      </h1>
+      <p data-ja="重量・回数・セットを記録して目標を設定。体重・体脂肪率もつけて、フレンドと励まし合える。iPhoneとApple Watchで、ジムでもどこでも続けられる筋トレ管理アプリです。"
+         data-en="Log weight, reps, and sets. Set goals and track progress. Monitor body composition and stay motivated with friends. A workout management app for iPhone and Apple Watch — built to keep you consistent.">
+        重量・回数・セットを記録して目標を設定。体重・体脂肪率もつけて、フレンドと励まし合える。iPhoneとApple Watchで、ジムでもどこでも続けられる筋トレ管理アプリです。
+      </p>
+
+      <!-- App Store ダウンロード CTA -->
       <div class="cta-row">
-        <a class="btn primary" href="support.html" data-ja="サポートを見る" data-en="Open Support">サポートを見る</a>
-        <a class="btn secondary" href="Trero_UserGuide_JA_EN.docx" data-ja="ユーザーガイドを開く" data-en="Open User Guide">ユーザーガイドを開く</a>
+        <!-- App Store 公開後に href の 6760746164 を実際の ID へ変更してください -->
+        <a class="appstore-badge"
+           href="https://apps.apple.com/app/id/6760746164"
+           rel="noopener"
+           data-ja-sub="App Store からダウンロード"
+           data-en-sub="Download on the"
+           data-ja-main="App Store"
+           data-en-main="App Store">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" fill="currentColor"/>
+          </svg>
+          <span>
+            <span class="badge-sub" data-ja="App Store でダウンロード" data-en="Download on the">App Store でダウンロード</span>
+            <span class="badge-main">App Store</span>
+          </span>
+        </a>
+        <a class="btn secondary" href="support.html"
+           data-ja="サポートを見る" data-en="View Support">サポートを見る</a>
+      </div>
+
+      <div class="hero-meta">
+        <span class="meta-pill" data-ja="📱 iPhone 向け" data-en="📱 iPhone">📱 iPhone 向け</span>
+        <span class="meta-pill" data-ja="⌚ Apple Watch 対応" data-en="⌚ Apple Watch">⌚ Apple Watch 対応</span>
+        <span class="meta-pill" data-ja="❤️ HealthKit 連携" data-en="❤️ HealthKit">❤️ HealthKit 連携</span>
+        <span class="meta-pill" data-ja="🌏 14言語対応" data-en="🌏 14 Languages">🌏 14言語対応</span>
+        <span class="meta-pill" data-ja="🆓 無料で始められる" data-en="🆓 Free to Start">🆓 無料で始められる</span>
       </div>
     </div>
   </header>
 
-  <section class="section">
-    <h2 class="section-title" data-ja="主要機能" data-en="Core Features">主要機能</h2>
+  <!-- ═══════════════════ 主要機能 ═══════════════════ -->
+  <section class="section" aria-labelledby="features-heading">
+    <h2 class="section-title" id="features-heading"
+        data-ja="主要機能" data-en="Core Features">主要機能</h2>
     <div class="grid">
       <article class="card">
-        <h3 data-ja="ワークアウト記録" data-en="Workout Logging">ワークアウト記録</h3>
+        <h3 data-ja="💪 ワークアウト記録" data-en="💪 Workout Logging">💪 ワークアウト記録</h3>
         <ul class="lang-ja">
-          <li>種目選択、重量、回数、セット、メモを記録</li>
-          <li>前回記録の参照、レストタイマー、当日セッション一覧を提供</li>
+          <li>種目・重量・回数・セット数をすばやく記録</li>
+          <li>前回値の自動表示とワンタップ入力</li>
+          <li>インターバルタイマー内蔵</li>
+          <li>63種目のプリセット＋カスタム種目に対応</li>
           <li>Proではプレート計算機を利用可能</li>
         </ul>
         <ul class="lang-en">
-          <li>Log exercise, weight, reps, set count, and memo</li>
-          <li>Includes previous-record hints, a rest timer, and same-day session summary</li>
-          <li>Plate calculator is available on Pro</li>
+          <li>Quickly log exercise, weight, reps, and sets</li>
+          <li>Auto-display previous values — one tap to fill</li>
+          <li>Built-in rest timer</li>
+          <li>63 preset exercises + custom exercises</li>
+          <li>Plate calculator available on Pro</li>
         </ul>
       </article>
       <article class="card">
-        <h3 data-ja="進捗・履歴分析" data-en="Progress & History">進捗・履歴分析</h3>
+        <h3 data-ja="📊 進捗・履歴分析" data-en="📊 Progress & History">📊 進捗・履歴分析</h3>
         <ul class="lang-ja">
           <li>週・月・3か月・全期間で履歴を集計</li>
-          <li>目標の進捗確認、種目別最大重量、総ボリューム、推定1RMを表示</li>
-          <li>Proでは全履歴、推定1RMランク、CSVエクスポートを解放</li>
+          <li>種目別の最大重量・推定1RM・総ボリュームを表示</li>
+          <li>目標の進捗確認と停滞アラート</li>
+          <li>Proでは全履歴・1RMランク・CSVエクスポートを解放</li>
         </ul>
         <ul class="lang-en">
-          <li>History filters for week, month, three months, and all time</li>
-          <li>Shows goal progress, max weight, total volume, and estimated 1RM by exercise</li>
-          <li>Pro unlocks full history, estimated 1RM rank, and CSV export</li>
+          <li>Aggregate history by week, month, 3 months, or all time</li>
+          <li>View max weight, estimated 1RM, and total volume by exercise</li>
+          <li>Goal progress tracking and stagnation alerts</li>
+          <li>Pro unlocks full history, 1RM rank, and CSV export</li>
         </ul>
       </article>
       <article class="card">
-        <h3 data-ja="体組成トラッキング" data-en="Body Composition">体組成トラッキング</h3>
+        <h3 data-ja="⚖️ 体組成トラッキング" data-en="⚖️ Body Composition">⚖️ 体組成トラッキング</h3>
         <ul class="lang-ja">
-          <li>体重、体脂肪率、筋肉率、ウエスト、メモを記録</li>
-          <li>BMI、除脂肪体重、脂肪量、筋肉量を自動計算</li>
-          <li>HealthKitの体重・体脂肪率読込/書込に対応</li>
+          <li>体重・体脂肪率・筋肉率・ウエストを記録</li>
+          <li>BMI・除脂肪体重・脂肪量を自動計算</li>
+          <li>Apple HealthKit と双方向同期</li>
         </ul>
         <ul class="lang-en">
-          <li>Track weight, body fat %, muscle %, waist, and memo</li>
-          <li>Automatically calculates BMI, lean mass, fat mass, and muscle mass</li>
-          <li>Supports HealthKit read/write for weight and body fat percentage</li>
+          <li>Track weight, body fat %, muscle %, and waist</li>
+          <li>Auto-calculate BMI, lean mass, and fat mass</li>
+          <li>Two-way sync with Apple HealthKit</li>
         </ul>
       </article>
       <article class="card">
-        <h3 data-ja="ソーシャル" data-en="Social">ソーシャル</h3>
+        <h3 data-ja="👥 ソーシャル" data-en="👥 Social">👥 ソーシャル</h3>
         <ul class="lang-ja">
-          <li>Trero ID検索またはQRでフレンド追加</li>
-          <li>申請承認、解除、ブロック、通報、ワークアウトへのリアクション</li>
-          <li>フレンドのワークアウトを読み取り専用で閲覧可能</li>
+          <li>Trero ID・QRコードでフレンド追加</li>
+          <li>フレンドのワークアウトを閲覧・リアクション</li>
+          <li>週次ストリークでモチベーション維持</li>
         </ul>
         <ul class="lang-en">
-          <li>Add friends via Trero ID search or QR</li>
-          <li>Includes requests, remove/block/report, and workout reactions</li>
-          <li>Friends' workouts are available in read-only mode</li>
+          <li>Add friends via Trero ID or QR code</li>
+          <li>View and react to friends' workouts</li>
+          <li>Weekly streak to keep you motivated</li>
         </ul>
       </article>
     </div>
-    <p class="section-note" data-ja="Apple Watchとの連携にも対応しており、より手軽にトレーニング記録を続けられるよう設計されています。"
-       data-en="Trero also supports Apple Watch integration, making it easier to keep logging your training.">
-      Apple Watchとの連携にも対応しており、より手軽にトレーニング記録を続けられるよう設計されています。
+    <p class="section-note"
+       data-ja="Apple Watch 連携対応。手首だけでセット記録が完結します。"
+       data-en="Apple Watch integration included — log sets right from your wrist.">
+      Apple Watch 連携対応。手首だけでセット記録が完結します。
     </p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title" data-ja="Free / Pro の差分" data-en="Free vs Pro">Free / Pro の差分</h2>
+  <!-- ═══════════════════ Free / Pro ═══════════════════ -->
+  <section class="section" aria-labelledby="plans-heading">
+    <h2 class="section-title" id="plans-heading"
+        data-ja="Free / Pro の差分" data-en="Free vs Pro">Free / Pro の差分</h2>
     <table>
       <thead>
         <tr>
-          <th data-ja="項目" data-en="Item">項目</th>
+          <th data-ja="項目"  data-en="Feature">項目</th>
           <th data-ja="Free" data-en="Free">Free</th>
-          <th data-ja="Pro" data-en="Pro">Pro</th>
+          <th data-ja="Pro"  data-en="Pro">Pro</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td data-ja="ワークアウト履歴表示" data-en="Workout history visibility">ワークアウト履歴表示</td>
+          <td data-ja="ワークアウト履歴表示" data-en="Workout history">ワークアウト履歴表示</td>
           <td data-ja="直近30ワークアウト日" data-en="Latest 30 workout days">直近30ワークアウト日</td>
           <td data-ja="制限なし" data-en="Unlimited">制限なし</td>
         </tr>
         <tr>
-          <td data-ja="体組成グラフ表示" data-en="Body composition chart visibility">体組成グラフ表示</td>
+          <td data-ja="体組成グラフ表示" data-en="Body composition chart">体組成グラフ表示</td>
           <td data-ja="直近30日" data-en="Latest 30 days">直近30日</td>
           <td data-ja="制限なし" data-en="Unlimited">制限なし</td>
         </tr>
@@ -342,40 +503,42 @@
           <td>300</td>
         </tr>
         <tr>
-          <td data-ja="CSVエクスポート / プレート計算 / 推定1RMランク" data-en="CSV export / plate calculator / estimated 1RM rank">CSVエクスポート / プレート計算 / 推定1RMランク</td>
+          <td data-ja="CSVエクスポート / プレート計算 / 推定1RMランク"
+              data-en="CSV export / Plate calculator / 1RM rank">
+            CSVエクスポート / プレート計算 / 推定1RMランク
+          </td>
           <td data-ja="利用不可" data-en="Unavailable">利用不可</td>
-          <td data-ja="利用可" data-en="Available">利用可</td>
+          <td data-ja="利用可"  data-en="Available">利用可</td>
         </tr>
       </tbody>
     </table>
   </section>
 
+  <!-- ═══════════════════ 法的・サポート文書 ═══════════════════ -->
   <section class="section">
     <div class="grid">
       <article class="card">
-        <h2 data-ja="法的・サポート文書" data-en="Legal & Support Documents">法的・サポート文書</h2>
+        <h2 data-ja="法的・サポート文書" data-en="Legal & Support">法的・サポート文書</h2>
         <ul class="lang-ja">
           <li><a href="privacy_policy.html">プライバシーポリシー</a></li>
           <li><a href="terms.html">利用規約</a></li>
-          <li><a href="support.html">サポートページ</a></li>
-          <li><a href="Trero_UserGuide_JA_EN.docx">ユーザーガイド（JA/EN）</a></li>
+          <li><a href="support.html">サポート / よくある質問</a></li>
         </ul>
         <ul class="lang-en">
           <li><a href="privacy_policy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms of Service</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="Trero_UserGuide_JA_EN.docx">User Guide (JA/EN)</a></li>
+          <li><a href="support.html">Support / FAQ</a></li>
         </ul>
       </article>
       <article class="card">
         <h2 data-ja="ご利用前に" data-en="Before You Start">ご利用前に</h2>
         <ul class="lang-ja">
-          <li>Treroでは、ワークアウト記録、進捗・履歴分析、体組成の記録、フレンド機能をひとつのアプリで利用できます。</li>
-          <li>一部の機能にはアカウント登録や、通知・HealthKit などの端末権限が必要です。</li>
+          <li>ゲストモードで登録なしにすぐ使い始められます。</li>
+          <li>一部の機能にはアカウント登録や、通知・HealthKitなどの端末権限が必要です。</li>
           <li>機能や価格は、今後のアップデートにより変更される場合があります。</li>
         </ul>
         <ul class="lang-en">
-          <li>Trero brings workout logging, progress and history insights, body composition records, and friend features together in one app.</li>
+          <li>Start immediately in guest mode — no sign-up required.</li>
           <li>Some features require an account or device permissions such as notifications or HealthKit.</li>
           <li>Features and pricing may change in future updates.</li>
         </ul>
@@ -383,19 +546,81 @@
     </div>
   </section>
 
+  <!-- ═══════════════════ SNS シェア ═══════════════════ -->
+  <div class="share-section" aria-label="SNS share">
+    <h2 data-ja="シェアする" data-en="Share">シェアする</h2>
+    <div class="share-btns">
+      <!-- X (Twitter) -->
+      <a class="share-btn x"
+         href="https://x.com/intent/tweet?text=Trero%20%7C%20%E7%AD%8B%E3%83%88%E3%83%AC%E3%83%BB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA%20for%20iPhone&url=https%3A%2F%2Ftrero.app%2F&hashtags=%E7%AD%8B%E3%83%88%E3%83%AC,Trero,workout"
+         target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+        <span data-ja="X でシェア" data-en="Share on X">X でシェア</span>
+      </a>
+      <!-- LINE -->
+      <a class="share-btn line"
+         href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Ftrero.app%2F"
+         target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.02 2 11c0 3.33 1.9 6.24 4.77 7.94.2.11.33.32.29.55l-.38 1.9c-.06.31.27.55.55.4L9.9 20.7c.13-.07.29-.08.43-.03C10.9 20.88 11.45 21 12 21c5.52 0 10-4.02 10-9S17.52 2 12 2z"/></svg>
+        <span data-ja="LINE でシェア" data-en="Share on LINE">LINE でシェア</span>
+      </a>
+      <!-- URLコピー -->
+      <button class="share-btn copy" onclick="copyURL(this)"
+              data-ja="URLをコピー" data-en="Copy URL">URLをコピー</button>
+    </div>
+    <p class="hashtags"
+       data-ja="おすすめハッシュタグ: #筋トレ #ワークアウト #Trero #筋トレ記録 #トレーニング"
+       data-en="Suggested hashtags: #workout #gym #Trero #strengthtraining #fitness">
+      おすすめハッシュタグ: #筋トレ #ワークアウト #Trero #筋トレ記録 #トレーニング
+    </p>
+  </div>
+
   <footer>
-    <div data-ja="最終更新日: 2026年4月6日 | 連絡先: freetokyo2020@yahoo.co.jp"
-         data-en="Last updated: April 6, 2026 | Contact: freetokyo2020@yahoo.co.jp">
-      最終更新日: 2026年4月6日 | 連絡先: freetokyo2020@yahoo.co.jp
+    <div data-ja="最終更新日: 2026年4月13日 | 連絡先: freetokyo2020@yahoo.co.jp"
+         data-en="Last updated: April 13, 2026 | Contact: freetokyo2020@yahoo.co.jp">
+      最終更新日: 2026年4月13日 | 連絡先: freetokyo2020@yahoo.co.jp
+    </div>
+    <div style="margin-top:8px;">
+      <a href="privacy_policy.html" data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</a> ·
+      <a href="terms.html"          data-ja="利用規約"            data-en="Terms">利用規約</a> ·
+      <a href="support.html"        data-ja="サポート"            data-en="Support">サポート</a>
     </div>
   </footer>
 
   <script>
+    /* ── 言語切り替え ── */
     function applyLang(lang) {
       document.documentElement.lang = lang;
       localStorage.setItem("trero_lang", lang);
+
+      /* title / meta description を言語に合わせて切り替え */
+      if (lang === "ja") {
+        document.title = "Trero | 筋トレ・ワークアウト管理アプリ for iPhone";
+        document.querySelector('meta[name="description"]').setAttribute("content",
+          "Treroは、ワークアウト記録・進捗分析・体組成トラッキング・フレンド機能を一体化したiPhone向け筋トレ管理アプリです。重量・回数・セットを記録して、目標達成までの進捗を可視化しましょう。");
+        document.querySelector('meta[property="og:title"]').setAttribute("content",
+          "Trero | 筋トレ・ワークアウト管理アプリ for iPhone");
+        document.querySelector('meta[property="og:description"]').setAttribute("content",
+          "記録・分析・体組成・フレンドをひとつに。無料で始められるiPhone向け筋トレ管理アプリ。");
+      } else {
+        document.title = "Trero | Workout Tracker & Gym Log App for iPhone";
+        document.querySelector('meta[name="description"]').setAttribute("content",
+          "Trero is an iPhone workout tracker that combines logging, progress analytics, body composition tracking, and social features — free to start.");
+        document.querySelector('meta[property="og:title"]').setAttribute("content",
+          "Trero | Workout Tracker & Gym Log App for iPhone");
+        document.querySelector('meta[property="og:description"]').setAttribute("content",
+          "Log workouts, track progress, monitor body composition, and connect with friends — all in one app.");
+      }
+
       document.querySelectorAll("[data-ja]").forEach(function(el) {
         el.innerHTML = lang === "ja" ? el.dataset.ja : el.dataset.en;
+      });
+      /* App Store バッジのサブテキスト */
+      document.querySelectorAll("[data-ja-sub]").forEach(function(el) {
+        el.textContent = lang === "ja" ? el.dataset.jaSub : el.dataset.enSub;
+      });
+      document.querySelectorAll("[data-ja-main]").forEach(function(el) {
+        el.textContent = lang === "ja" ? el.dataset.jaMain : el.dataset.enMain;
       });
       document.querySelectorAll(".lang-ja, .lang-en").forEach(function(el) {
         el.style.display = el.classList.contains("lang-" + lang) ? "" : "none";
@@ -404,6 +629,16 @@
         btn.classList.toggle("active", btn.dataset.lang === lang);
       });
     }
+
+    /* ── URL コピー ── */
+    function copyURL(btn) {
+      navigator.clipboard.writeText(location.href).then(function() {
+        var orig = btn.textContent;
+        btn.textContent = "✓ Copied!";
+        setTimeout(function() { btn.textContent = orig; }, 1800);
+      });
+    }
+
     window.addEventListener("DOMContentLoaded", function() {
       applyLang(localStorage.getItem("trero_lang") || "ja");
     });
