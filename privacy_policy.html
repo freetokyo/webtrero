@@ -142,9 +142,9 @@
   <main class="wrap">
     <section>
       <h2 data-ja="1. 本ポリシーについて" data-en="1. About This Policy">1. 本ポリシーについて</h2>
-      <p data-ja="本ポリシーは、Treroにおいて、ユーザー情報をどのように取得、利用、保存するかを説明するものです。Treroをご利用いただく前にご確認ください。"
-         data-en="This Policy explains how Trero collects, uses, and stores user information. Please review it before using the app.">
-        本ポリシーは、Treroにおいて、ユーザー情報をどのように取得、利用、保存するかを説明するものです。Treroをご利用いただく前にご確認ください。
+      <p data-ja="本ポリシーは、Treroがユーザー情報をどのように取得、利用、保存、削除するかを説明するものです。利用前にご確認ください。"
+         data-en="This Policy explains how Trero collects, uses, stores, and deletes user information. Please review it before using the app.">
+        本ポリシーは、Treroがユーザー情報をどのように取得、利用、保存、削除するかを説明するものです。利用前にご確認ください。
       </p>
     </section>
 
@@ -176,9 +176,9 @@
                 data-en="Exercise ID, exercise name, muscle group, date, set number, weight, reps, memo, logged timestamp">
               種目ID、種目名、部位、日付、セット番号、重量、回数、メモ、記録時刻
             </td>
-            <td data-ja="履歴表示、分析、目標進捗計算、CSV出力"
-                data-en="History, analytics, goal progress calculation, CSV export">
-              履歴表示、分析、目標進捗計算、CSV出力
+            <td data-ja="履歴表示、分析、目標進捗計算、CSV出力機能の提供"
+                data-en="History, analytics, goal progress calculation, and CSV export features">
+              履歴表示、分析、目標進捗計算、CSV出力機能の提供
             </td>
           </tr>
           <tr>
@@ -205,9 +205,9 @@
           </tr>
           <tr>
             <td data-ja="ローカル設定・端末保存" data-en="Local settings and on-device data">ローカル設定・端末保存</td>
-            <td data-ja="単位系、身長、目標体重、レストタイマー音、完了回数、オンボーディング状態、ローカル保存のプロフィール画像"
-                data-en="Unit system, height, goal weight, rest timer sound, completed-session count, onboarding state, locally saved profile image">
-              単位系、身長、目標体重、レストタイマー音、完了回数、オンボーディング状態、ローカル保存のプロフィール画像
+            <td data-ja="単位系、身長、目標体重、レストタイマー音、利用状況に応じた案内表示用の完了回数、オンボーディング状態、ローカル保存のプロフィール画像"
+                data-en="Unit system, height, goal weight, rest timer sound, completion counts used for in-app prompts, onboarding state, locally saved profile image">
+              単位系、身長、目標体重、レストタイマー音、利用状況に応じた案内表示用の完了回数、オンボーディング状態、ローカル保存のプロフィール画像
             </td>
             <td data-ja="表示設定、計算、端末内のユーザー体験維持"
                 data-en="Preferences, calculations, and on-device user experience">
@@ -236,16 +236,16 @@
     <section>
       <h2 data-ja="3. 任意アクセス" data-en="3. Optional Access">3. 任意アクセス</h2>
       <ul class="lang-ja">
-        <li>HealthKit: 体重と体脂肪率の読込・書込に使用します。許可しない場合でも基本機能は利用できます。</li>
+        <li>HealthKit: 体重と体脂肪率の保存時書込、および体組成入力画面での手動取込に使用します。許可しない場合でも基本機能は利用できます。</li>
         <li>通知: レストタイマー終了、当日20:00の未記録リマインダー、毎週月曜9:00の週次サマリー通知に使用します。</li>
         <li>カメラ: フレンド追加用QRコードの読み取りに使用します。</li>
-        <li>Face ID: 保存済み資格情報を使う生体認証ログインに使用します。</li>
+        <li>Face ID / Touch ID: 保存済み資格情報を使う生体認証ログインに使用します。</li>
       </ul>
       <ul class="lang-en">
-        <li>HealthKit: Used to read and write weight and body fat percentage. Core app functions remain available if permission is not granted.</li>
+        <li>HealthKit: Used to write weight and body fat percentage when saving, and to manually import the latest values from the body-record screen. Core app functions remain available if permission is not granted.</li>
         <li>Notifications: Used for rest-timer completion, a 20:00 no-workout reminder, and a weekly summary every Monday at 09:00.</li>
         <li>Camera: Used to scan QR codes for friend addition.</li>
-        <li>Face ID: Used for biometric sign-in when saved credentials are available.</li>
+        <li>Face ID / Touch ID: Used for biometric sign-in when saved credentials are available.</li>
       </ul>
     </section>
 
@@ -293,9 +293,9 @@
           <tr>
             <td>Apple Health</td>
             <td>Apple Inc.</td>
-            <td data-ja="体重・体脂肪率の読込と書込"
-                data-en="Read/write for weight and body fat percentage">
-              体重・体脂肪率の読込と書込
+            <td data-ja="体重・体脂肪率の保存時書込と手動取込"
+                data-en="Write on save and manual import for weight and body fat percentage">
+              体重・体脂肪率の保存時書込と手動取込
             </td>
           </tr>
         </tbody>
@@ -306,12 +306,12 @@
       <h2 data-ja="5. 保存場所" data-en="5. Storage Locations">5. 保存場所</h2>
       <ul class="lang-ja">
         <li>クラウド保存: Firebase / Google Cloud 上にアカウント、ワークアウト、体組成、フレンド関連データを保存します。</li>
-        <li>端末内保存: 設定値、オンボーディング状態、レビュー用完了回数、プロフィール画像、ワークアウトキャッシュ、Keychain資格情報を保存します。</li>
+        <li>端末内保存: 設定値、オンボーディング状態、案内表示に使う完了回数、プロフィール画像、ワークアウトキャッシュ、Keychain資格情報を保存します。</li>
         <li>HealthKit連携データ: Apple Health の権限内で読み書きされます。</li>
       </ul>
       <ul class="lang-en">
         <li>Cloud storage: Account, workout, body composition, and friend-related data are stored on Firebase / Google Cloud.</li>
-        <li>On-device storage: Preferences, onboarding state, review milestone count, profile images, workout caches, and Keychain credentials are stored locally.</li>
+        <li>On-device storage: Preferences, onboarding state, completion counts used for prompts, profile images, workout caches, and Keychain credentials are stored locally.</li>
         <li>HealthKit data: Accessed within the scope of Apple Health permissions.</li>
       </ul>
     </section>

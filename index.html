@@ -15,7 +15,7 @@
   <!-- ── SEO ── -->
   <title>Trero | 筋トレ・ワークアウト管理アプリ for iPhone</title>
   <meta name="description"
-        content="Treroは、ワークアウト記録・進捗分析・体組成トラッキング・フレンド機能を一体化したiPhone向け筋トレ管理アプリです。重量・回数・セットを記録して、目標達成までの進捗を可視化しましょう。" />
+        content="Treroは、前回記録を見ながらワークアウトをすばやく記録し、進捗と体の変化をまとめて見返せるiPhone向け筋トレ管理アプリです。Apple Watchやフレンド機能で継続もしやすくなります。" />
   <meta name="keywords"
         content="筋トレ,ワークアウト記録,筋トレアプリ,トレーニング記録,体組成,重量記録,セット,レップス,目標管理,フィットネス,ジム,筋肉,workout tracker,gym log,strength training,fitness app,weight training,body composition,iPhone" />
   <link rel="canonical" href="https://trero.app/" />
@@ -32,7 +32,7 @@
   <meta property="og:site_name"         content="Trero" />
   <meta property="og:title"             content="Trero | 筋トレ・ワークアウト管理アプリ for iPhone" />
   <meta property="og:description"
-        content="記録・分析・体組成・フレンドをひとつに。無料で始められるiPhone向け筋トレ管理アプリ。" />
+        content="前回記録を見ながらすばやく入力。進捗と体の変化をひとつにまとめて見返せる、無料で始められるiPhone向け筋トレ管理アプリ。" />
   <meta property="og:image"            content="https://trero.app/og-image.png" />
   <meta property="og:image:width"       content="1200" />
   <meta property="og:image:height"      content="630" />
@@ -44,7 +44,7 @@
   <meta name="twitter:card"        content="summary_large_image" />
   <meta name="twitter:title"       content="Trero | 筋トレ・ワークアウト管理アプリ for iPhone" />
   <meta name="twitter:description"
-        content="記録・分析・体組成・フレンドをひとつに。無料で始められるiPhone向け筋トレ管理アプリ。" />
+        content="前回記録を見ながらすばやく入力。進捗と体の変化をひとつにまとめて見返せる、無料で始められるiPhone向け筋トレ管理アプリ。" />
   <meta name="twitter:image"       content="https://trero.app/og-image.png" />
 
   <!-- ── ASO: JSON-LD (SoftwareApplication) ── -->
@@ -56,7 +56,7 @@
     "operatingSystem": "iOS",
     "applicationCategory": "HealthApplication",
     "applicationSubCategory": "Fitness",
-    "description": "Treroは、ワークアウト記録・進捗分析・体組成トラッキング・フレンド機能を一体化したiPhone向け筋トレ管理アプリです。",
+    "description": "Treroは、ワークアウト記録、進捗確認、体組成管理をひとつにまとめ、継続しやすさを重視したiPhone向けトレーニング管理アプリです。",
     "url": "https://trero.app/",
     "downloadUrl": "https://apps.apple.com/app/id/6760746164",
     "softwareVersion": "1.0",
@@ -76,8 +76,8 @@
       "目標管理・ProgressionEngine",
       "フレンド機能・リアクション",
       "インターバルタイマー",
-      "Apple Watch 連携",
-      "HealthKit 統合",
+      "Apple Watch からのセット記録",
+      "HealthKit への保存時書き出しと手動取り込み",
       "CSVエクスポート（Pro）",
       "プレート計算機（Pro）"
     ],
@@ -342,13 +342,13 @@
            data-en="Make Training Easier to Keep Up">
         トレーニングを、もっと続けやすく
       </div>
-      <h1 data-ja="記録・分析・体組成・フレンド。<br>筋トレのすべてがTreroにある。"
-          data-en="Log. Analyze. Track. Connect.<br>Everything for your workout in one app.">
-        記録・分析・体組成・フレンド。<br>筋トレのすべてがTreroにある。
+      <h1 data-ja="前回の記録を見ながら、<br>次のセットへすぐ入れる。"
+          data-en="See your last record.<br>Move straight into the next set.">
+        前回の記録を見ながら、<br>次のセットへすぐ入れる。
       </h1>
-      <p data-ja="重量・回数・セットを記録して目標を設定。体重・体脂肪率もつけて、フレンドと励まし合える。iPhoneとApple Watchで、ジムでもどこでも続けられる筋トレ管理アプリです。"
-         data-en="Log weight, reps, and sets. Set goals and track progress. Monitor body composition and stay motivated with friends. A workout management app for iPhone and Apple Watch — built to keep you consistent.">
-        重量・回数・セットを記録して目標を設定。体重・体脂肪率もつけて、フレンドと励まし合える。iPhoneとApple Watchで、ジムでもどこでも続けられる筋トレ管理アプリです。
+      <p data-ja="重量・回数・セットをすばやく残し、進捗と体の変化をまとめて確認。iPhoneで履歴を見返し、Apple Watchでセットを記録できるので、入力の手間を減らしながら続けやすくなります。"
+         data-en="Log weight, reps, and sets quickly, then review progress and body changes in one place. Check history on iPhone and record sets from Apple Watch to reduce logging friction and stay consistent.">
+        重量・回数・セットをすばやく残し、進捗と体の変化をまとめて確認。iPhoneで履歴を見返し、Apple Watchでセットを記録できるので、入力の手間を減らしながら続けやすくなります。
       </p>
 
       <!-- App Store ダウンロード CTA -->
@@ -392,14 +392,14 @@
         <h3 data-ja="💪 ワークアウト記録" data-en="💪 Workout Logging">💪 ワークアウト記録</h3>
         <ul class="lang-ja">
           <li>種目・重量・回数・セット数をすばやく記録</li>
-          <li>前回値の自動表示とワンタップ入力</li>
+          <li>前回値を見ながら、その場で次のセットを判断しやすい</li>
           <li>インターバルタイマー内蔵</li>
           <li>63種目のプリセット＋カスタム種目に対応</li>
           <li>Proではプレート計算機を利用可能</li>
         </ul>
         <ul class="lang-en">
           <li>Quickly log exercise, weight, reps, and sets</li>
-          <li>Auto-display previous values — one tap to fill</li>
+          <li>See previous values so the next set is easier to decide</li>
           <li>Built-in rest timer</li>
           <li>63 preset exercises + custom exercises</li>
           <li>Plate calculator available on Pro</li>
@@ -409,15 +409,15 @@
         <h3 data-ja="📊 進捗・履歴分析" data-en="📊 Progress & History">📊 進捗・履歴分析</h3>
         <ul class="lang-ja">
           <li>週・月・3か月・全期間で履歴を集計</li>
-          <li>種目別の最大重量・推定1RM・総ボリュームを表示</li>
+          <li>種目別の最大重量・推定1RM・総ボリュームで伸び方を見返せる</li>
           <li>目標の進捗確認と停滞アラート</li>
-          <li>Proでは全履歴・1RMランク・CSVエクスポートを解放</li>
+          <li>Proでは全履歴・1RMランク・CSVエクスポートを利用可能</li>
         </ul>
         <ul class="lang-en">
           <li>Aggregate history by week, month, 3 months, or all time</li>
-          <li>View max weight, estimated 1RM, and total volume by exercise</li>
+          <li>Review growth with max weight, estimated 1RM, and total volume by exercise</li>
           <li>Goal progress tracking and stagnation alerts</li>
-          <li>Pro unlocks full history, 1RM rank, and CSV export</li>
+          <li>Pro adds full history, 1RM rank, and CSV export</li>
         </ul>
       </article>
       <article class="card">
@@ -425,32 +425,32 @@
         <ul class="lang-ja">
           <li>体重・体脂肪率・筋肉率・ウエストを記録</li>
           <li>BMI・除脂肪体重・脂肪量を自動計算</li>
-          <li>Apple HealthKit と双方向同期</li>
+          <li>体重・体脂肪率はApple Healthへ保存時に書き出し、必要に応じて取り込み可能</li>
         </ul>
         <ul class="lang-en">
           <li>Track weight, body fat %, muscle %, and waist</li>
           <li>Auto-calculate BMI, lean mass, and fat mass</li>
-          <li>Two-way sync with Apple HealthKit</li>
+          <li>Write weight and body fat to Apple Health on save, and import the latest values when needed</li>
         </ul>
       </article>
       <article class="card">
         <h3 data-ja="👥 ソーシャル" data-en="👥 Social">👥 ソーシャル</h3>
         <ul class="lang-ja">
           <li>Trero ID・QRコードでフレンド追加</li>
-          <li>フレンドのワークアウトを閲覧・リアクション</li>
-          <li>週次ストリークでモチベーション維持</li>
+          <li>フレンドのワークアウトを閲覧し、リアクションで継続を後押し</li>
+          <li>週次ストリークで今週の達成状況を確認</li>
         </ul>
         <ul class="lang-en">
           <li>Add friends via Trero ID or QR code</li>
-          <li>View and react to friends' workouts</li>
-          <li>Weekly streak to keep you motivated</li>
+          <li>View friends' workouts and react to support consistency</li>
+          <li>Check weekly streak and current-week progress</li>
         </ul>
       </article>
     </div>
     <p class="section-note"
-       data-ja="Apple Watch 連携対応。手首だけでセット記録が完結します。"
-       data-en="Apple Watch integration included — log sets right from your wrist.">
-      Apple Watch 連携対応。手首だけでセット記録が完結します。
+       data-ja="Apple Watch対応。手首からセットを記録し、iPhone側の履歴へ反映できます。"
+       data-en="Apple Watch supported — record sets from your wrist and reflect them in iPhone history.">
+      Apple Watch対応。手首からセットを記録し、iPhone側の履歴へ反映できます。
     </p>
   </section>
 
