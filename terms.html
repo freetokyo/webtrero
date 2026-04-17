@@ -38,23 +38,23 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
-      background: #f4f7fb;
-      color: #1f2d3d;
+      background: #fbf4ef;
+      color: #2b1d1a;
       line-height: 1.8;
     }
     :root {
-      --ink: #102033;
-      --accent: #ff6b2b;
-      --line: #d9e3ef;
+      --ink: #241717;
+      --accent: #ff5a1f;
+      --line: #ead8cf;
       --card: #fff;
-      --muted: #607084;
+      --muted: #705c57;
     }
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 14px 20px;
-      background: #102033;
+      background: #241717;
     }
     nav a { color: #eef5fb; text-decoration: none; }
     .lang-toggle { display: flex; gap: 8px; }
@@ -71,7 +71,9 @@
     .lang-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
     header {
       padding: 54px 20px 34px;
-      background: linear-gradient(150deg, #102033 0%, #213f5c 100%);
+      background:
+        radial-gradient(circle at top right, rgba(255,138,61,0.22), transparent 28%),
+        linear-gradient(145deg, #241717 0%, #4a1f16 50%, #7b2d1b 100%);
       color: #fff;
     }
     .wrap { max-width: 920px; margin: 0 auto; }
@@ -88,9 +90,9 @@
     p, li { font-size: 15px; }
     ul { padding-left: 20px; margin: 10px 0 0; }
     .notice {
-      background: #fff4ec;
-      border: 1px solid #ffd2bd;
-      color: #6a351d;
+      background: #fff0e6;
+      border: 1px solid #ffc9af;
+      color: #7a3217;
     }
     .lang-en { display: none; }
     footer {
@@ -127,9 +129,9 @@
 
     <section>
       <h2 data-ja="1. サービス内容" data-en="1. Service Description">1. サービス内容</h2>
-      <p data-ja="Treroは、ワークアウト記録、体組成記録、目標管理、履歴分析、フレンド機能、Apple Watch連携、サブスクリプション機能を含むトレーニング支援アプリです。利用できる機能は、プラン、端末設定、認証状態、外部サービスの提供状況などにより異なる場合があります。"
-         data-en="Trero is a workout support app that includes workout logging, body composition logging, goal management, history analytics, social features, Apple Watch support, and subscription features. Available functions may vary depending on plan level, device settings, sign-in state, and third-party service availability.">
-        Treroは、ワークアウト記録、体組成記録、目標管理、履歴分析、フレンド機能、Apple Watch連携、サブスクリプション機能を含むトレーニング支援アプリです。利用できる機能は、プラン、端末設定、認証状態、外部サービスの提供状況などにより異なる場合があります。
+      <p data-ja="Treroは、ワークアウト記録、体組成記録、目標管理、履歴分析、フレンド機能、Apple Watch連携、サブスクリプション機能を含むトレーニング支援アプリです。本サービスには、品質改善、利用状況把握、機能導線評価のための利用状況計測が含まれます。利用できる機能は、プラン、端末設定、認証状態、外部サービスの提供状況などにより異なる場合があります。"
+         data-en="Trero is a training support app that includes workout logging, body composition logging, goal management, history analytics, friend features, Apple Watch integration, and subscription features. This service also includes usage measurement for quality improvement, understanding service usage, and evaluating feature flows. Available functions may vary depending on your plan, device settings, sign-in state, and the availability of third-party services.">
+        Treroは、ワークアウト記録、体組成記録、目標管理、履歴分析、フレンド機能、Apple Watch連携、サブスクリプション機能を含むトレーニング支援アプリです。本サービスには、品質改善、利用状況把握、機能導線評価のための利用状況計測が含まれます。利用できる機能は、プラン、端末設定、認証状態、外部サービスの提供状況などにより異なる場合があります。
       </p>
     </section>
 
@@ -143,8 +145,8 @@
       </ul>
       <ul class="lang-en">
         <li>Users may access the app via email, Apple ID, or guest mode.</li>
-        <li>Email-account users are responsible for managing their credentials.</li>
-        <li>Guest data is designed to carry over into a registered account, and account conversion is recommended before using another device or relying on sync.</li>
+        <li>Users of email accounts are responsible for managing their passwords and other credentials.</li>
+        <li>Guest data is designed to be carried over into a registered account, but account conversion is recommended before continuing on another device or relying on synchronisation.</li>
         <li>Impersonation and unauthorized credential use are prohibited.</li>
       </ul>
     </section>
@@ -159,7 +161,7 @@
       <ul class="lang-en">
         <li>The free plan includes limits such as the latest 30 workout days of workout history, the latest 30 days of body-composition charts, up to 3 active goals, up to 10 custom exercises, and up to 10 exercise sessions per day.</li>
         <li>Trero Pro unlocks additional features such as CSV export, the plate calculator, and estimated 1RM rank display.</li>
-        <li>Pricing and the availability of free trials or introductory offers may vary depending on App Store settings and region.</li>
+        <li>Billing terms, pricing, and the availability of free trials or introductory offers may vary depending on App Store product settings and your region.</li>
       </ul>
       <ul class="lang-ja">
         <li>Trero Proは自動更新サブスクリプションです。現在の利用期間が終了するまでに解約しない限り、自動的に更新されます。</li>
@@ -172,7 +174,7 @@
       <ul class="lang-en">
         <li>Trero Pro is an auto-renewable subscription. Unless you cancel before the end of the current billing period, it renews automatically.</li>
         <li>Payment is charged to your Apple Account at confirmation of purchase. Renewal charges occur within 24 hours before the end of the current billing period.</li>
-        <li>To stop auto-renewal, cancel at least 24 hours before the end of the current billing period in Settings &gt; Apple Account &gt; Subscriptions on your iPhone.</li>
+        <li>To stop auto-renewal, cancel at least 24 hours before the end of the current billing period in iPhone Settings &gt; Apple Account &gt; Subscriptions.</li>
         <li>Subscription management and cancellation are handled through Apple's subscription management interface. Deleting the app or deleting your Trero account does not automatically cancel the subscription.</li>
         <li>If a free trial or introductory offer is available, the subscription renews at the standard price after the offer period unless canceled beforehand.</li>
         <li>Refunds are handled under Apple's billing policies. The developer cannot issue refunds for App Store charges beyond the scope permitted by Apple.</li>
@@ -197,9 +199,9 @@
 
     <section>
       <h2 data-ja="5. ユーザーデータ" data-en="5. User Data">5. ユーザーデータ</h2>
-      <p data-ja="ユーザーが入力したデータに関する権利は、法令または本規約に別段の定めがある場合を除き、原則としてユーザーに帰属します。開発者は、アプリ提供、保守、障害対応、法令順守のために必要な範囲で当該データを取り扱います。"
-         data-en="Except where otherwise required by law or these Terms, rights in user-entered data remain with the user. The developer may handle such data to the extent necessary for service delivery, maintenance, incident response, and legal compliance.">
-        ユーザーが入力したデータに関する権利は、法令または本規約に別段の定めがある場合を除き、原則としてユーザーに帰属します。開発者は、アプリ提供、保守、障害対応、法令順守のために必要な範囲で当該データを取り扱います。
+      <p data-ja="ユーザーが入力したデータに関する権利は、法令または本規約に別段の定めがある場合を除き、原則としてユーザーに帰属します。開発者は、アプリ提供、保守、障害対応、法令順守のために必要な範囲で当該データを取り扱います。また、保存されるワークアウト記録や体組成データとは別に、利用状況把握と改善目的でイベント計測データを扱う場合があります。詳細はプライバシーポリシーをご確認ください。"
+         data-en="Except where otherwise required by law or separately provided in these Terms, rights in data entered by users belong in principle to the user. The developer may handle that data only to the extent necessary for providing the app, maintenance, incident response, and legal compliance. Separately from stored workout and body composition data, event measurement data may also be handled for understanding usage and improving the service. Please refer to the Privacy Policy for details.">
+        ユーザーが入力したデータに関する権利は、法令または本規約に別段の定めがある場合を除き、原則としてユーザーに帰属します。開発者は、アプリ提供、保守、障害対応、法令順守のために必要な範囲で当該データを取り扱います。また、保存されるワークアウト記録や体組成データとは別に、利用状況把握と改善目的でイベント計測データを扱う場合があります。詳細はプライバシーポリシーをご確認ください。
       </p>
     </section>
 
@@ -213,14 +215,14 @@
       <ul class="lang-en">
         <li>The app is provided on an “as is” basis and is not guaranteed to be uninterrupted or error-free.</li>
         <li>The app does not provide medical treatment, diagnosis, or professional health advice.</li>
-        <li>Training and health decisions should be made with qualified professionals when appropriate.</li>
+        <li>Final decisions about training and health should be made with medical or other qualified professionals when appropriate.</li>
       </ul>
     </section>
 
     <section>
       <h2 data-ja="7. アカウント削除・停止" data-en="7. Deletion and Suspension">7. アカウント削除・停止</h2>
       <p data-ja="ユーザーはアプリ内の設定画面からアカウント削除を申請できます。規約違反や安全上の理由がある場合、開発者は合理的な範囲で利用制限を行うことがあります。"
-         data-en="Users may request account deletion from the in-app Settings screen. The developer may impose reasonable restrictions where there is a Terms violation or a safety-related need.">
+         data-en="Users may request account deletion from the in-app Settings screen. If there is a violation of these Terms or a safety-related reason, the developer may impose reasonable restrictions on use.">
         ユーザーはアプリ内の設定画面からアカウント削除を申請できます。規約違反や安全上の理由がある場合、開発者は合理的な範囲で利用制限を行うことがあります。
       </p>
     </section>
@@ -228,7 +230,7 @@
     <section>
       <h2 data-ja="8. Appleとの関係" data-en="8. Relationship with Apple">8. Appleとの関係</h2>
       <p data-ja="本アプリはAppleのApp Storeを通じて配信されますが、本規約の当事者はユーザーと開発者です。Appleは本規約の直接当事者ではありません。"
-         data-en="The app is distributed via Apple's App Store, but these Terms are between the user and the developer. Apple is not a direct party to these Terms.">
+         data-en="This app is distributed through Apple's App Store, but the parties to these Terms are the user and the developer. Apple is not a direct party to these Terms.">
         本アプリはAppleのApp Storeを通じて配信されますが、本規約の当事者はユーザーと開発者です。Appleは本規約の直接当事者ではありません。
       </p>
     </section>
@@ -266,7 +268,7 @@
         el.innerHTML = lang === "ja" ? el.dataset.ja : el.dataset.en;
       });
       document.querySelectorAll(".lang-ja, .lang-en").forEach(function(el) {
-        el.style.display = el.classList.contains("lang-" + lang) ? "" : "none";
+        el.style.display = el.classList.contains("lang-" + lang) ? "block" : "none";
       });
       document.querySelectorAll(".lang-btn").forEach(function(btn) {
         btn.classList.toggle("active", btn.dataset.lang === lang);
