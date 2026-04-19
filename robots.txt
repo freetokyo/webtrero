@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*.source.html$
+Disallow: /*.source.txt$
+
+Sitemap: https://trero.app/sitemap.xml

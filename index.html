@@ -18,6 +18,10 @@
   <link rel="alternate" hreflang="en" href="https://trero.app/?lang=en" />
   <link rel="alternate" hreflang="x-default" href="https://trero.app/" />
 
+  <!-- パフォーマンス: App Store への遷移を早める -->
+  <link rel="preconnect" href="https://apps.apple.com" />
+  <link rel="dns-prefetch" href="https://apps.apple.com" />
+
   <meta name="apple-itunes-app" content="app-id=6760746164, app-argument=https://trero.app/" />
 
   <meta property="og:type" content="website" />
@@ -28,6 +32,7 @@
   <meta property="og:image" content="https://trero.app/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Trero — iPhone 向け筋トレ・ワークアウト管理アプリ" />
   <meta property="og:url" content="https://trero.app/" />
   <meta property="og:locale" content="ja_JP" />
   <meta property="og:locale:alternate" content="en_US" />
@@ -37,27 +42,38 @@
   <meta name="twitter:description"
         content="前回記録の確認、目標管理、進捗分析、体組成トラッキング、Apple Watch記録までひとつにまとめた筋トレ管理アプリ。" />
   <meta name="twitter:image" content="https://trero.app/og-image.png" />
+  <meta name="twitter:image:alt" content="Trero — iPhone workout tracker app" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "MobileApplication",
     "name": "Trero",
-    "operatingSystem": "iOS",
+    "alternateName": ["トレロ", "Trero: Workout Log & Goals"],
+    "operatingSystem": "iOS 16.4+",
     "applicationCategory": "HealthApplication",
     "applicationSubCategory": "Fitness",
     "description": "Treroは、ワークアウト記録、目標管理、進捗分析、体組成管理をひとつにまとめたiPhone向けトレーニング管理アプリです。",
+    "inLanguage": ["ja", "en"],
     "url": "https://trero.app/",
     "downloadUrl": "https://apps.apple.com/app/id/6760746164",
+    "installUrl":  "https://apps.apple.com/app/id/6760746164",
     "softwareVersion": "1.0",
     "offers": {
       "@type": "Offer",
       "price": "0",
-      "priceCurrency": "JPY"
+      "priceCurrency": "JPY",
+      "availability": "https://schema.org/InStock"
     },
     "author": {
       "@type": "Organization",
-      "name": "Trero"
+      "name": "Trero",
+      "url": "https://trero.app/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Trero",
+      "url": "https://trero.app/"
     },
     "featureList": [
       "重量・回数・セットのワークアウト記録",
@@ -71,8 +87,19 @@
       "CSVエクスポート（Pro）",
       "プレート計算機と推定1RMランク（Pro）"
     ],
-    "screenshot": "https://trero.app/og-image.png",
+    "screenshot": [
+      "https://trero.app/og-image.png"
+    ],
     "availableOnDevice": "iPhone"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://trero.app/",
+    "name": "Trero",
+    "inLanguage": ["ja", "en"]
   }
   </script>
 
@@ -815,8 +842,30 @@
       });
     }
 
+    // 初回訪問時は次の優先順位で言語を決める:
+    //   1. URL の ?lang=xx（SEO hreflang 経由での流入を尊重）
+    //   2. localStorage（前回選択を記憶）
+    //   3. ブラウザの navigator.language（日本語ブラウザなら ja、それ以外は en）
+    //   4. ja をデフォルト
+    function detectInitialLang() {
+      var params = new URLSearchParams(location.search);
+      var fromQuery = params.get("lang");
+      if (fromQuery === "ja" || fromQuery === "en") return fromQuery;
+      var stored = localStorage.getItem("trero_lang");
+      if (stored === "ja" || stored === "en") return stored;
+      var navLangs = navigator.languages && navigator.languages.length
+        ? navigator.languages
+        : [navigator.language || "ja"];
+      for (var i = 0; i < navLangs.length; i++) {
+        var l = (navLangs[i] || "").toLowerCase();
+        if (l.startsWith("ja")) return "ja";
+        if (l.startsWith("en")) return "en";
+      }
+      return "ja";
+    }
+
     window.addEventListener("DOMContentLoaded", function() {
-      applyLang(localStorage.getItem("trero_lang") || "ja");
+      applyLang(detectInitialLang());
     });
   </script>
 </body>
