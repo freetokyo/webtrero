@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!-- ============================================================
+  Trero — index.html
+  SEO / SNS / ASO
+============================================================ --><html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Trero | Workout Tracker &amp; Gym Log App for iPhone</title>
+<meta content="Trero is an iPhone workout tracker for people who want faster gym logging, clearer goal tracking, progress analysis, body metrics, and Apple Watch support in one app." name="description"/>
+<meta content="筋トレ,ワークアウト記録,筋トレアプリ,トレーニング記録,体組成,重量記録,セット,レップス,目標管理,フィットネス,ジム,筋肉,1RM,Apple Watch,HealthKit,iPhone" name="keywords"/>
+<link href="https://trero.app/en/" rel="canonical"/>
+<link href="https://trero.app/" hreflang="ja" rel="alternate"/>
+<link href="https://trero.app/en/" hreflang="en" rel="alternate"/>
+<link href="https://trero.app/" hreflang="x-default" rel="alternate"/>
+<!-- パフォーマンス: App Store への遷移を早める -->
+<link href="https://apps.apple.com" rel="preconnect"/>
+<link href="https://apps.apple.com" rel="dns-prefetch"/>
+<meta content="app-id=6760746164, app-argument=https://trero.app/en/" name="apple-itunes-app"/>
+<meta content="website" property="og:type"/>
+<meta content="Trero" property="og:site_name"/>
+<meta content="Trero | Workout Tracker &amp; Gym Log App for iPhone" property="og:title"/>
+<meta content="Check previous records, reuse past values, track exercise goals, review body metrics, and log sets from Apple Watch in one app." property="og:description"/>
+<meta content="https://trero.app/og-image.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Trero — iPhone 向け筋トレ・ワークアウト管理アプリ" property="og:image:alt"/>
+<meta content="https://trero.app/en/" property="og:url"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="ja_JP" property="og:locale:alternate"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Trero | Workout Tracker &amp; Gym Log App for iPhone" name="twitter:title"/>
+<meta content="Check previous records, reuse past values, track exercise goals, review body metrics, and log sets from Apple Watch in one app." name="twitter:description"/>
+<meta content="https://trero.app/og-image.png" name="twitter:image"/>
+<meta content="Trero — iPhone workout tracker app" name="twitter:image:alt"/>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Trero",
+    "alternateName": ["トレロ", "Trero: Workout Log & Goals"],
+    "operatingSystem": "iOS 16.4+",
+    "applicationCategory": "HealthApplication",
+    "applicationSubCategory": "Fitness",
+    "description": "Treroは、ワークアウト記録、目標管理、進捗分析、体組成管理をひとつにまとめたiPhone向けトレーニング管理アプリです。",
+    "inLanguage": "en",
+    "url": "https://trero.app/",
+    "downloadUrl": "https://apps.apple.com/app/id/6760746164",
+    "installUrl":  "https://apps.apple.com/app/id/6760746164",
+    "softwareVersion": "1.0",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "JPY",
+      "availability": "https://schema.org/InStock"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Trero",
+      "url": "https://trero.app/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Trero",
+      "url": "https://trero.app/"
+    },
+    "featureList": [
+      "重量・回数・セットのワークアウト記録",
+      "前回値の表示と再利用",
+      "直近7日間の使用頻度上位5種目の表示",
+      "種目別目標設定と進捗提案",
+      "週次ストリークと履歴分析",
+      "体重・体脂肪率・筋肉率・ウエスト管理",
+      "Apple Watchからのセット記録",
+      "フレンド追加とリアクション",
+      "CSVエクスポート（Pro）",
+      "プレート計算機と推定1RMランク（Pro）"
+    ],
+    "screenshot": [
+      "https://trero.app/og-image.png"
+    ],
+    "availableOnDevice": "iPhone"
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://trero.app/",
+    "name": "Trero",
+    "inLanguage": "en"
+  }
+  </script>
+<style>
+    * { box-sizing: border-box; }
+    :root {
+      --ink: #241717;
+      --accent: #ff5a1f;
+      --accent-2: #ff8a3d;
+      --muted: #6f5b56;
+      --card: #ffffff;
+      --line: #ead8cf;
+      --bg: #fbf4ef;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      line-height: 1.7;
+      color: #2b1d1a;
+      background: var(--bg);
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 20px;
+      background: rgba(36, 23, 23, 0.94);
+      backdrop-filter: blur(12px);
+    }
+    .logo {
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+    }
+    .nav-links, .lang-toggle { display: flex; align-items: center; gap: 12px; }
+    .nav-links a {
+      color: #dbe7f3;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .lang-btn {
+      border: 1px solid #ffffff33;
+      background: transparent;
+      color: #ffffffaa;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .lang-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .hero {
+      padding: 72px 20px 56px;
+      background:
+        radial-gradient(circle at top right, rgba(255,138,61,0.30), transparent 28%),
+        radial-gradient(circle at bottom left, rgba(139,36,22,0.22), transparent 26%),
+        linear-gradient(145deg, #241717 0%, #4a1f16 46%, #7b2d1b 100%);
+      color: #fff;
+    }
+    .hero-inner, .section, footer {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+    }
+    .hero p {
+      max-width: 780px;
+      margin: 0 0 22px;
+      color: #e6edf5;
+      font-size: 18px;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .meta-pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      color: #f7fafc;
+      font-size: 13px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+      align-items: center;
+    }
+    .appstore-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background: #fff;
+      color: var(--ink);
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+    }
+    .appstore-badge .badge-sub {
+      font-size: 10px;
+      font-weight: 500;
+      opacity: 0.6;
+      display: block;
+      line-height: 1;
+    }
+    .appstore-badge .badge-main {
+      font-size: 16px;
+      font-weight: 800;
+      display: block;
+      line-height: 1.3;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .btn.primary { background: var(--accent); color: #fff; }
+    .btn.secondary {
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+    .section { padding: 28px 20px 0; }
+    .section-title {
+      margin: 0 0 14px;
+      font-size: 27px;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+    .section-lead {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .section-note, p.note {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(16, 32, 51, 0.05);
+    }
+    .card h2, .card h3 {
+      margin-top: 0;
+      color: var(--ink);
+    }
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .persona-card {
+      background: linear-gradient(180deg, #ffffff 0%, #fff6f0 100%);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(16, 32, 51, 0.05);
+    }
+    .persona-tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #fff0e6;
+      color: #8b3a1a;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 30px rgba(16, 32, 51, 0.05);
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      background: #fff1e8;
+      color: var(--ink);
+      font-size: 13px;
+    }
+    tr:last-child td { border-bottom: none; }
+    .faq-list {
+      display: grid;
+      gap: 14px;
+    }
+    .faq-item {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 20px;
+      box-shadow: 0 10px 30px rgba(16, 32, 51, 0.04);
+    }
+    .faq-item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--ink);
+    }
+    .share-section {
+      max-width: 1100px;
+      margin: 32px auto 0;
+      padding: 24px 20px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+    }
+    .share-section h2 { margin: 0 0 14px; font-size: 18px; color: var(--ink); }
+    .share-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .share-btn.x { background: #000; }
+    .share-btn.line { background: #ff6a2a; }
+    .share-btn.copy {
+      background: var(--muted);
+      cursor: pointer;
+      border: none;
+    }
+    .hashtags { margin-top: 10px; font-size: 13px; color: var(--muted); }
+    footer {
+      margin-top: 48px;
+      padding: 24px 20px 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer a { color: #245ea8; text-decoration: none; }
+    .lang-en { display: none; }
+    @media (max-width: 760px) {
+      .nav-links { display: none; }
+      h1 { font-size: 36px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+<nav>
+<a class="logo" href="index.html">TRERO</a>
+<div class="nav-links">
+<a href="support.html">Support</a>
+<a href="privacy_policy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+</div>
+
+</nav>
+<header class="hero">
+<div class="hero-inner">
+<div class="eyebrow">Make Training Easier to Keep Up</div>
+<h1>See your last record.<br/>Move straight into the next set.</h1>
+<p>Trero is a strength training app that helps you log today’s workout while checking the weight and reps from your last session at the gym. Goal setting, progress analysis, body metrics, Apple Watch logging, and friend features are all in one place, so it is easier to stay consistent without adding more logging work.</p>
+<div class="cta-row">
+<a class="appstore-badge" href="https://apps.apple.com/app/id/6760746164" rel="noopener">
+<span>
+<span class="badge-sub">Download on the</span>
+<span class="badge-main">App Store</span>
+</span>
+</a>
+<a class="btn secondary" href="support.html">View Support</a>
+</div>
+<div class="hero-meta">
+<span class="meta-pill">📱 iPhone</span>
+<span class="meta-pill">⌚ Apple Watch</span>
+<span class="meta-pill">❤️ HealthKit</span>
+<span class="meta-pill">🆓 Free to Start</span>
+<span class="meta-pill">📊 Goals, history, and body metrics together</span>
+</div>
+</div>
+</header>
+<section aria-labelledby="features-heading" class="section">
+<h2 class="section-title" id="features-heading">What You Can Do</h2>
+<p class="section-lead">The main features people often check before installing are organised by the situations where they are actually useful. Instead of only listing features, this section explains which actions reduce which kinds of friction.</p>
+<div class="grid">
+<article class="card">
+<h3>💪 When You Want Fast Logging</h3>
+
+<ul>
+<li>You can log exercises, weight, reps, and sets on iPhone.</li>
+<li>When you select an exercise, the previous log appears, so you do not need to search separately for what you lifted last time.</li>
+<li>If you use "same as last time," previous values can be filled in with one tap.</li>
+<li>The rest timer can be used together with set saving and also supports notifications.</li>
+</ul>
+</article>
+<article class="card">
+<h3>⭐ When You Reuse the Same Exercises</h3>
+
+<ul>
+<li>The app shows the top 5 most-used exercises from the last 7 days.</li>
+<li>If you repeat the same routine often, it becomes easier to start without searching the full list each time.</li>
+<li>In addition to 63 preset exercises, you can also create custom exercises.</li>
+</ul>
+</article>
+<article class="card">
+<h3>🎯 When You Want Goal-Oriented Progress</h3>
+
+<ul>
+<li>You can set target weight, target reps, increase and decrease steps, and a deadline for each exercise.</li>
+<li>You can check your current position and the next suggestion while reviewing progress rate.</li>
+<li>When progress stalls, the app shows an adjustment idea such as changing weight or reps.</li>
+<li>Your weekly goal can be changed from 1 to 7 workout days per week.</li>
+</ul>
+</article>
+<article class="card">
+<h3>📊 When You Want to Review Progress</h3>
+
+<ul>
+<li>You can review history by week, month, 3 months, or all time.</li>
+<li>You can check max weight, total volume, and estimated 1RM by exercise.</li>
+<li>Weekly streaks and the calendar help you understand whether you are staying consistent.</li>
+<li>Pro also includes CSV export, the plate calculator, and estimated 1RM rank.</li>
+</ul>
+</article>
+<article class="card">
+<h3>⚖️ When You Track Body Changes Too</h3>
+
+<ul>
+<li>You can record weight, body fat percentage, muscle percentage, waist, and notes.</li>
+<li>BMI, lean body mass, and fat mass are calculated automatically.</li>
+<li>Weight and body fat percentage can be written to Apple Health when you save.</li>
+<li>Import from Apple Health can be triggered manually from the body-record screen.</li>
+</ul>
+</article>
+<article class="card">
+<h3>⌚ When You Want Better Consistency</h3>
+
+<ul>
+<li>You can log sets from Apple Watch and reflect them in iPhone history.</li>
+<li>Friends can be added by Trero ID search or QR code scan.</li>
+<li>You can send reactions to workouts and create a reason to keep logging.</li>
+<li>Block and report are also supported.</li>
+</ul>
+</article>
+</div>
+</section>
+<section aria-labelledby="persona-heading" class="section">
+<h2 class="section-title" id="persona-heading">Usage Examples</h2>
+<p class="section-lead">These examples show the kinds of users Trero fits well and how they can use it in practice.</p>
+<div class="persona-grid">
+<article class="persona-card">
+<span class="persona-tag">Strength Goal</span>
+<h3>For Someone Chasing a 100 kg Bench</h3>
+
+<ul>
+<li>First, set a target weight and target reps for bench press.</li>
+<li>For the first session, select bench press and start logging.</li>
+<li>From the next session onward, you can quickly choose the same exercise while checking recent exercises and previous values.</li>
+<li>While reviewing goal progress and the next suggestion, you can increase the load little by little.</li>
+</ul>
+</article>
+<article class="persona-card">
+<span class="persona-tag">Fixed Routine</span>
+<h3>For Someone Repeating the Same 5 Exercises</h3>
+
+<ul>
+<li>Your most-used exercises from the last 7 days appear near the top.</li>
+<li>By choosing from that list each time, you can reduce the number of steps before logging starts.</li>
+<li>If the set is the same as last time, the main flow becomes reusing previous values and saving.</li>
+<li>If you also use the rest timer, logging and rest management can be handled in the same screen flow.</li>
+</ul>
+</article>
+<article class="persona-card">
+<span class="persona-tag">Body Management</span>
+<h3>For Someone Tracking Training and Body Composition</h3>
+
+<ul>
+<li>You can review workout history together with changes in weight and body fat percentage in the same app.</li>
+<li>Body composition can be recorded every day or only when needed.</li>
+<li>If you use Apple Health, you can combine write-on-save with manual import.</li>
+<li>This fits people who do not want to separate strength progress from body changes.</li>
+</ul>
+</article>
+<article class="persona-card">
+<span class="persona-tag">Consistency Support</span>
+<h3>For Someone Who Wants Social Accountability</h3>
+
+<ul>
+<li>Once you add friends, you can view their workouts.</li>
+<li>By sending reactions, you can create a reason to keep recording.</li>
+<li>Weekly streaks and weekly summary notifications also help you understand your own consistency.</li>
+<li>If needed, block and report tools are available.</li>
+</ul>
+</article>
+</div>
+</section>
+<section aria-labelledby="plans-heading" class="section">
+<h2 class="section-title" id="plans-heading">Free vs Pro</h2>
+<p class="section-lead">Instead of listing every detailed limit, this comparison focuses on the main differences people are most likely to check before subscribing.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Free</th>
+<th>Pro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can you start for free?</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Workout history</td>
+<td>Latest 30 workout days</td>
+<td>Unlimited</td>
+</tr>
+<tr>
+<td>Body composition chart</td>
+<td>Latest 30 days</td>
+<td>Unlimited</td>
+</tr>
+<tr>
+<td>Active goals</td>
+<td>3</td>
+<td>Unlimited</td>
+</tr>
+<tr>
+<td>Custom exercises</td>
+<td>10</td>
+<td>Unlimited</td>
+</tr>
+<tr>
+<td>CSV export</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Plate calculator</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Estimated 1RM rank</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p class="section-note">Free plan quantity limits include 10 exercise sessions per day, 10 custom exercises, and 3 active goals. See the Support page for details.</p>
+</section>
+<section aria-labelledby="faq-heading" class="section">
+<h2 class="section-title" id="faq-heading">Common Questions</h2>
+<div class="faq-list">
+<article class="faq-item">
+<strong>Can I use it as a guest?</strong>
+<span>Yes. You can still log workouts as a guest. If you want to use another device or plan to keep using the app long term, moving later to an email or Apple account is safer.</span>
+</article>
+<article class="faq-item">
+<strong>How does Apple Health integration work?</strong>
+<span>Weight and body fat percentage can be written to Apple Health when you save. Import is done manually from the body-record screen.</span>
+</article>
+<article class="faq-item">
+<strong>What can Apple Watch do?</strong>
+<span>You can log sets from Apple Watch and reflect them in iPhone history.</span>
+</article>
+<article class="faq-item">
+<strong>What changes on the free plan?</strong>
+<span>The free plan includes limits on history range, custom exercise count, and active goals. CSV export, the plate calculator, and estimated 1RM rank are Pro features.</span>
+</article>
+</div>
+<div class="cta-row">
+<a class="btn primary" href="support.html">Read Full FAQ</a>
+</div>
+</section>
+<section class="section">
+<div class="grid">
+<article class="card">
+<h2>Legal &amp; Support</h2>
+
+<ul>
+<li><a href="support.html">Support / FAQ</a></li>
+<li><a href="privacy_policy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+</ul>
+</article>
+<article class="card">
+<h2>Before You Start</h2>
+
+<ul>
+<li>You can start in guest mode without registration.</li>
+<li>Some features require device permissions such as notifications, HealthKit, or camera access.</li>
+<li>Available functions may vary depending on your plan, sign-in state, device environment, and third-party service availability.</li>
+</ul>
+</article>
+</div>
+</section>
+<div aria-label="SNS share" class="share-section">
+<h2>Share</h2>
+<div class="share-btns">
+<a class="share-btn x" href="https://x.com/intent/tweet?text=Trero%20%7C%20%E7%AD%8B%E3%83%88%E3%83%AC%E3%83%BB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA%20for%20iPhone&amp;url=https%3A%2F%2Ftrero.app%2F&amp;hashtags=%E7%AD%8B%E3%83%88%E3%83%AC,Trero,%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88,%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0,workout" rel="noopener" target="_blank">
+<span>Share on X</span>
+</a>
+<a class="share-btn line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Ftrero.app%2F" rel="noopener" target="_blank">
+<span>Share on LINE</span>
+</a>
+<button class="share-btn copy" onclick="copyURL(this)">Copy URL</button>
+</div>
+<p class="hashtags">Suggested hashtags: #workout #gym #Trero #strengthtraining #fitness #goals #bodycomposition</p>
+</div>
+<footer>
+<div>Contact: freetokyo2020@yahoo.co.jp</div>
+<div style="margin-top:8px;">
+<a href="privacy_policy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="support.html">Support</a>
+</div>
+</footer>
+
+</body>
+</html>
