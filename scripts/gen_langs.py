@@ -16,7 +16,26 @@ TRANS_DIR = os.path.join(BASE, "translations")
 PAGES = ["index.html", "support.html", "privacy_policy.html", "terms.html"]
 
 # All language codes (ja = default/root, en = already generated via gen_en.py)
-ALL_LANGS = ["ja", "en", "de", "da", "es", "fr", "it", "ko", "nb", "nl", "pl", "sv", "zh-Hans", "zh-Hant"]
+ALL_LANGS = [
+    "ja", "en",
+    # Original 12
+    "da", "de", "es", "fr", "it", "ko", "nb", "nl", "pl", "sv", "zh-Hans", "zh-Hant",
+    # 20 new languages
+    "ar", "ca", "cs", "el", "fi", "he", "hi", "hr", "hu", "id",
+    "ms", "pt-BR", "pt-PT", "ro", "ru", "sk", "th", "tr", "uk", "vi",
+]
+
+# RTL languages
+RTL_LANGS = {"ar", "he"}
+
+# Regional variants that map to an existing language path (no separate page generated)
+REGIONAL_VARIANTS = {
+    "en-AU": "en",
+    "en-CA": "en",
+    "en-GB": "en",
+    "es-MX": "es",
+    "fr-CA": "fr",
+}
 
 def page_url(lang, page):
     """Return the canonical URL for a given lang/page combo."""
@@ -27,10 +46,13 @@ def page_url(lang, page):
     return f"{base}/{lang}/{slug}" if slug else f"{base}/{lang}/"
 
 def all_hreflang_links(page):
-    """Return list of (hreflang, href) for every language + x-default."""
+    """Return list of (hreflang, href) for every language + regional variants + x-default."""
     links = []
     for lang in ALL_LANGS:
         links.append((lang, page_url(lang, page)))
+    # Regional variants pointing to their base language URL
+    for variant, base_lang in REGIONAL_VARIANTS.items():
+        links.append((variant, page_url(base_lang, page)))
     links.append(("x-default", page_url("ja", page)))
     return links
 
@@ -44,8 +66,12 @@ def transform(src_path, page, lang, t):
     strings = t.get("strings", {})
     blocks = t.get("blocks", {}).get(page, {})
 
-    # 1. lang attribute
+    # 1. lang attribute + RTL direction
     soup.html["lang"] = lang
+    if lang in RTL_LANGS:
+        soup.html["dir"] = "rtl"
+    elif soup.html.get("dir"):
+        del soup.html["dir"]
 
     # 2. title
     if meta.get("title") and soup.title:
