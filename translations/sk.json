@@ -13,7 +13,7 @@
       "og_title": "Podpora a FAQ | Trero",
       "og_description": "Odpovede podpory Trero o účtoch, tréningoch, cieľoch a Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Zásady ochrany súkromia | Trero",
       "description": "Zásady ochrany súkromia Trero: aké dáta sa zbierajú, služby tretích strán a ako vymazať účet.",
       "og_title": "Zásady ochrany súkromia | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Najpoužívanejšie cvičenia za posledných 7 dní sa zobrazujú navrchu.</li>\n<li>Výber z tohto zoznamu znižuje počet krokov pred záznamen.</li>\n<li>Ak je séria rovnaká ako minule, hlavný tok je vyplniť predchádzajúce hodnoty a uložiť.</li>\n<li>S časovačom odpočinku možno záznam a správu odpočinku kombinovať v jednom toku.</li>",
       "8": "<li>Kontroluj históriu tréningov spolu so zmenami váhy a zloženia tela v jednej aplikácii.</li>\n<li>Zaznamenávaj zloženie tela denne alebo podľa potreby.</li>\n<li>Kombinuj zápis pri uložení a manuálny import s Apple Health.</li>\n<li>Ideálne pre tých, ktorí nechcú oddeľovať silový pokrok od telesných zmien.</li>",
       "9": "<li>Po pridaní priateľov zobrazuj ich tréningy.</li>\n<li>Reakcie vytvárajú dôvod pokračovať v záznamu.</li>\n<li>Týždenné série a oznámenia týždenného zhrnutia pomáhajú pochopiť konzistenciu.</li>\n<li>Blokovanie a hlásenie sú k dispozícii v prípade potreby.</li>",
-      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Zásady ochrany súkromia</a></li>\n<li><a href=\"terms.html\">Podmienky používania</a></li>",
+      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy.html\">Zásady ochrany súkromia</a></li>\n<li><a href=\"terms.html\">Podmienky používania</a></li>",
       "11": "\n<li>Niektoré funkcie vyžadujú oprávnenia zariadenia ako oznámenia, HealthKit alebo kamera.</li>\n<li>Dostupné funkcie sa môžu líšiť podľa plánu, stavu prihlásenia, prostredia zariadenia a služieb tretích strán.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Používa sa na zápis váhy a % tuku pri uložení a manuálny import z obrazovky záznamu tela. Základné funkcie sú dostupné aj bez povolenia.</li>\n<li>Oznámenia: Pre dokončenie časovača odpočinku, denné pripomenutie o 20:00 a týždenné zhrnutie každý pondelok o 09:00.</li>\n<li>Kamera: Na skenovanie QR kódov pri pridávaní priateľov.</li>\n<li>Face ID / Touch ID: Na biometrické prihlásenie pri dostupných uložených prihlasovacích údajoch.</li>",
       "1": "<li>Cloudové úložisko: Dáta účtu, tréningov, zloženia tela a priateľov sú uložené na Firebase / Google Cloud.</li>\n<li>Analytika použitia: Informácie o udalostiach a vlastnosti stavu použitia môžu byť spracovávané cez Firebase Analytics na infraštruktúre Google.</li>\n<li>Miestne úložisko: Nastavenia, stav zavádzania, počty dokončenia, profilové obrázky a prihlasovacie údaje Kľúčenky sú uložené miestne.</li>\n<li>Dáta prepojené s HealthKit: Čítané a zapisované v rámci oprávnení Apple Health.</li>"
     },

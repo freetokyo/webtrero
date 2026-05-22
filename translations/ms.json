@@ -13,7 +13,7 @@
       "og_title": "Sokongan & FAQ | Trero",
       "og_description": "Jawapan sokongan Trero tentang akaun, log latihan, matlamat dan Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Dasar Privasi | Trero",
       "description": "Dasar privasi Trero: data yang dikumpul, perkhidmatan pihak ketiga, dan cara memadam akaun.",
       "og_title": "Dasar Privasi | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Senaman paling banyak digunakan dalam 7 hari lepas muncul di atas senarai.</li>\n<li>Memilih dari senarai ini mengurangkan langkah sebelum log.</li>\n<li>Jika set sama seperti kali lepas, alir utama ialah mengisi nilai sebelumnya dan menyimpan.</li>\n<li>Dengan pemasa rehat, log dan pengurusan rehat boleh digabungkan dalam aliran skrin yang sama.</li>",
       "8": "<li>Semak sejarah latihan bersama perubahan berat dan komposisi badan dalam satu aplikasi.</li>\n<li>Log komposisi badan setiap hari atau mengikut keperluan.</li>\n<li>Gabungkan tulis semasa menyimpan dan import manual dengan Apple Health.</li>\n<li>Sesuai untuk yang tidak mahu memisahkan kemajuan kekuatan dan perubahan badan.</li>",
       "9": "<li>Setelah menambah rakan, lihat latihan mereka.</li>\n<li>Reaksi memberi alasan untuk terus log.</li>\n<li>Streak mingguan dan pemberitahuan ringkasan mingguan membantu memahami konsistensi.</li>\n<li>Sekat dan laporan tersedia apabila diperlukan.</li>",
-      "10": "<li><a href=\"support.html\">Sokongan / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Dasar Privasi</a></li>\n<li><a href=\"terms.html\">Syarat Perkhidmatan</a></li>",
+      "10": "<li><a href=\"support.html\">Sokongan / FAQ</a></li>\n<li><a href=\"privacy.html\">Dasar Privasi</a></li>\n<li><a href=\"terms.html\">Syarat Perkhidmatan</a></li>",
       "11": "\n<li>Sesetengah ciri memerlukan kebenaran peranti seperti pemberitahuan, HealthKit atau kamera.</li>\n<li>Fungsi tersedia boleh berbeza mengikut pelan, status log masuk, persekitaran peranti dan perkhidmatan pihak ketiga.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Untuk menulis berat dan % lemak semasa menyimpan dan import manual dari skrin rekod badan. Ciri teras tetap tersedia tanpa kebenaran.</li>\n<li>Pemberitahuan: Untuk penyiapan pemasa rehat, peringatan harian 20:00, dan ringkasan mingguan Isnin 09:00.</li>\n<li>Kamera: Untuk mengimbas kod QR bagi menambah rakan.</li>\n<li>Face ID / Touch ID: Untuk log masuk biometrik apabila kelayakan tersimpan tersedia.</li>",
       "1": "<li>Penyimpanan awan: Data akaun, latihan, komposisi badan dan rakan disimpan di Firebase / Google Cloud.</li>\n<li>Analitik penggunaan: Maklumat acara dan sifat keadaan boleh diproses melalui Firebase Analytics di infrastruktur Google.</li>\n<li>Penyimpanan tempatan: Tetapan, keadaan onboarding, pembilang, gambar profil, cache, dan kelayakan Keychain disimpan secara tempatan.</li>\n<li>Data berkaitan HealthKit: Dibaca dan ditulis dalam skop kebenaran Apple Health.</li>"
     },

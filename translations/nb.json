@@ -13,7 +13,7 @@
       "og_title": "Støtte & FAQ | Trero treningstracker-app",
       "og_description": "Trero støttesvar om konto, treningslogging, mål, kroppsmålinger, Apple Health, Apple Watch, varsler og Free vs. Pro."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Personvernerklæring | Trero – treningstracker-app",
       "description": "Treros personvernerklæring: hvilke data som samles inn, hvordan tredjepartstjenester brukes, og hvordan kontoen slettes.",
       "og_title": "Personvernerklæring | Trero – treningstracker-app",
@@ -227,10 +227,10 @@
       "7": "<li>De mest brukte øvelsene fra de siste 7 dagene vises øverst.</li>\n<li>Valg fra denne listen reduserer antall trinn før logging.</li>\n<li>Er settet det samme som sist, består hovedflyten av fyll inn forrige verdier og lagre.</li>\n<li>Med hvile-timeren kan logging og hvilestyring skje i samme skjermflyt.</li>",
       "8": "<li>Gjennomgå treningshistorikk sammen med vekt- og fettendringer i én app.</li>\n<li>Registrer kroppssammensetning daglig eller etter behov.</li>\n<li>Kombiner skriv-ved-lagring og manuell import med Apple Health.</li>\n<li>Ideelt for dem som ikke ønsker å skille styrkeframgang og kroppsendringer.</li>",
       "9": "<li>Gjennomgå venners trening etter tillegg.</li>\n<li>Reaksjoner skaper en grunn til fortsatt logging.</li>\n<li>Ukentlige streaks og ukentlige sammendragsvarsler hjelper med å forstå din kontinuitet.</li>\n<li>Blokker- og rapporteringsfunksjoner er tilgjengelige ved behov.</li>",
-      "10": "<li><a href=\"support.html\">Støtte / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Personvernerklæring</a></li>\n<li><a href=\"terms.html\">Brukervilkår</a></li>",
+      "10": "<li><a href=\"support.html\">Støtte / FAQ</a></li>\n<li><a href=\"privacy.html\">Personvernerklæring</a></li>\n<li><a href=\"terms.html\">Brukervilkår</a></li>",
       "11": "\n<li>Noen funksjoner krever enhetstillatelser som varsler, HealthKit eller kamera.</li>\n<li>Tilgjengelige funksjoner kan variere avhengig av plan, påloggingsstatus, enhetsmiljø og tredjepartstjenester.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Brukes til å skrive vekt og fettprosent ved lagring og manuelt importere siste verdier fra kroppsdataskjermen. Kjernefunksjoner er tilgjengelige uten tillatelse.</li>\n<li>Varsler: For hvile-timer-fullførelse, daglig påminnelse kl. 20:00 (ingen trening logget) og ukentlig sammendrag mandag kl. 09:00.</li>\n<li>Kamera: For skanning av QR-koder ved tillegg av venner.</li>\n<li>Face ID / Touch ID: For biometrisk pålogging med lagrede opplysninger.</li>",
       "1": "<li>Cloud-lagring: Konto-, trenings-, kroppssammensetnings- og vennedata lagres på Firebase / Google Cloud.</li>\n<li>Bruksanalyse: Hendelsesopplysninger og bruksstatusegenskaper kan behandles via Firebase Analytics på Google-infrastruktur.</li>\n<li>Enhetslagring: Innstillinger, onboarding-tilstand, fullføringstellere, profilbilder, treningscacher og Keychain-påloggingsopplysninger lagres lokalt.</li>\n<li>HealthKit-tilknyttede data: Leses og skrives innenfor Apple Health-tillatelsene.</li>"
     },

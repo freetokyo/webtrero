@@ -31,7 +31,7 @@ LANGS = {
       "og_title": "الدعم والأسئلة الشائعة | Trero",
       "og_description": "إجابات دعم Trero حول الحسابات، تسجيل التمارين، الأهداف، قياسات الجسم، Apple Health، Apple Watch."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "سياسة الخصوصية | Trero",
       "description": "سياسة خصوصية Trero: البيانات المجمعة، الخدمات الخارجية، وكيفية حذف الحساب.",
       "og_title": "سياسة الخصوصية | Trero",
@@ -245,10 +245,10 @@ LANGS = {
       "7": "<li>تظهر التمارين الأكثر استخداماً في آخر 7 أيام في أعلى القائمة.</li>\n<li>الاختيار من هذه القائمة يقلل الخطوات قبل التسجيل.</li>\n<li>إذا كانت المجموعة مثل المرة السابقة، فالتدفق الرئيسي هو ملء القيم السابقة والحفظ.</li>\n<li>مع مؤقت الراحة، يمكن دمج التسجيل وإدارة الراحة في نفس تدفق الشاشة.</li>",
       "8": "<li>مراجعة سجل التمارين مع تغيرات الوزن وتكوين الجسم في تطبيق واحد.</li>\n<li>تسجيل تكوين الجسم يومياً أو عند الحاجة.</li>\n<li>الجمع بين الكتابة عند الحفظ والاستيراد اليدوي مع Apple Health.</li>\n<li>مثالي لمن لا يريد الفصل بين تقدم القوة وتغيرات الجسم.</li>",
       "9": "<li>بعد إضافة الأصدقاء، عرض تماريناتهم.</li>\n<li>الردود توفر سبباً للاستمرار في التسجيل.</li>\n<li>السلاسل الأسبوعية وإشعارات الملخص الأسبوعي تساعد على فهم الاتساق.</li>\n<li>الحظر والإبلاغ متاحان عند الحاجة.</li>",
-      "10": "<li><a href=\"support.html\">الدعم / الأسئلة الشائعة</a></li>\n<li><a href=\"privacy_policy.html\">سياسة الخصوصية</a></li>\n<li><a href=\"terms.html\">شروط الخدمة</a></li>",
+      "10": "<li><a href=\"support.html\">الدعم / الأسئلة الشائعة</a></li>\n<li><a href=\"privacy.html\">سياسة الخصوصية</a></li>\n<li><a href=\"terms.html\">شروط الخدمة</a></li>",
       "11": "\n<li>بعض الميزات تتطلب أذونات الجهاز مثل الإشعارات أو HealthKit أو الكاميرا.</li>\n<li>قد تختلف الوظائف المتاحة حسب الخطة وحالة تسجيل الدخول وبيئة الجهاز والخدمات الخارجية.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: يُستخدم لكتابة الوزن ونسبة الدهون عند الحفظ والاستيراد اليدوي من شاشة سجل الجسم. تظل الميزات الأساسية متاحة بدون إذن.</li>\n<li>الإشعارات: لانتهاء مؤقت الراحة، وتذكير يومي الساعة 20:00، وملخص أسبوعي كل يوم اثنين الساعة 09:00.</li>\n<li>الكاميرا: لمسح رموز QR لإضافة الأصدقاء.</li>\n<li>Face ID / Touch ID: لتسجيل الدخول البيومتري عند توفر بيانات الاعتماد المحفوظة.</li>",
       "1": "<li>التخزين السحابي: بيانات الحساب والتمارين وتكوين الجسم والأصدقاء مخزنة على Firebase / Google Cloud.</li>\n<li>تحليلات الاستخدام: يمكن معالجة معلومات الأحداث وخصائص حالة الاستخدام عبر Firebase Analytics على بنية Google التحتية.</li>\n<li>التخزين المحلي: الإعدادات وحالة الإعداد وعدادات الإتمام وصور الملف الشخصي وذاكرة التخزين المؤقت وبيانات اعتماد Keychain تُخزَّن محلياً.</li>\n<li>البيانات المرتبطة بـ HealthKit: تُقرأ وتُكتب ضمن أذونات Apple Health.</li>"
     },
@@ -278,7 +278,7 @@ LANGS = {
       "og_title": "Suport i PMF | Trero",
       "og_description": "Respostes de suport de Trero sobre comptes, registre d'entrenaments, objectius i Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Política de privadesa | Trero",
       "description": "Política de privadesa de Trero: quines dades es recullen, serveis de tercers i com eliminar el compte.",
       "og_title": "Política de privadesa | Trero",
@@ -492,10 +492,10 @@ LANGS = {
       "7": "<li>Els exercicis més usats dels últims 7 dies apareixen a dalt.</li>\n<li>Seleccionar des d'aquesta llista redueix els passos abans de registrar.</li>\n<li>Si la sèrie és igual que l'última vegada, el flux principal és omplir els valors anteriors i desar.</li>\n<li>Amb el temporitzador de descans, el registre i la gestió del descans es poden combinar en el mateix flux de pantalla.</li>",
       "8": "<li>Revisa l'historial d'entrenament juntament amb els canvis de pes i composició corporal en una app.</li>\n<li>Registra la composició corporal diàriament o quan sigui necessari.</li>\n<li>Combina l'escriptura en desar i la importació manual amb Apple Health.</li>\n<li>Ideal per a qui no vol separar el progrés de força dels canvis corporals.</li>",
       "9": "<li>Després d'afegir amics, visualitza els seus entrenaments.</li>\n<li>Les reaccions creen un motiu per continuar registrant.</li>\n<li>Les ratxes setmanals i les notificacions de resum setmanal ajuden a entendre la teva constància.</li>\n<li>El bloqueig i la denúncia estan disponibles si cal.</li>",
-      "10": "<li><a href=\"support.html\">Suport / PMF</a></li>\n<li><a href=\"privacy_policy.html\">Política de privadesa</a></li>\n<li><a href=\"terms.html\">Condicions d'ús</a></li>",
+      "10": "<li><a href=\"support.html\">Suport / PMF</a></li>\n<li><a href=\"privacy.html\">Política de privadesa</a></li>\n<li><a href=\"terms.html\">Condicions d'ús</a></li>",
       "11": "\n<li>Algunes funcions requereixen permisos del dispositiu com notificacions, HealthKit o la càmera.</li>\n<li>Les funcions disponibles poden variar segons el pla, l'estat d'inici de sessió, l'entorn del dispositiu i els serveis de tercers.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: S'usa per escriure el pes i el % de greix en desar i per importar manualment els valors més recents des de la pantalla de registre corporal. Les funcions bàsiques estan disponibles fins i tot sense permís.</li>\n<li>Notificacions: Per a la finalització del temporitzador de descans, recordatori diari a les 20:00 i resum setmanal cada dilluns a les 09:00.</li>\n<li>Càmera: Per escanejar codis QR per afegir amics.</li>\n<li>Face ID / Touch ID: Per a l'inici de sessió biomètric quan les credencials guardades estan disponibles.</li>",
       "1": "<li>Emmagatzematge al núvol: Les dades de compte, entrenament, composició corporal i amics s'emmagatzemen a Firebase / Google Cloud.</li>\n<li>Anàlisis d'ús: La informació d'esdeveniments i les propietats d'estat d'ús es poden processar a través de Firebase Analytics a la infraestructura de Google.</li>\n<li>Emmagatzematge local: La configuració, l'estat d'incorporació, els comptadors de finalització, les imatges de perfil, les memòries cau d'entrenament i les credencials del Clauer s'emmagatzemen localment.</li>\n<li>Dades vinculades a HealthKit: Llegides i escrites en el marc dels permisos d'Apple Health.</li>"
     },
@@ -525,7 +525,7 @@ LANGS = {
       "og_title": "Podpora a časté dotazy | Trero",
       "og_description": "Odpovědi podpory Trero na účty, záznam tréninku, cíle a Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Zásady ochrany soukromí | Trero",
       "description": "Zásady ochrany soukromí Trero: jaká data jsou shromažďována, služby třetích stran a jak smazat účet.",
       "og_title": "Zásady ochrany soukromí | Trero",
@@ -739,10 +739,10 @@ LANGS = {
       "7": "<li>Nejpoužívanější cviky za posledních 7 dní se zobrazí nahoře.</li>\n<li>Výběr z tohoto seznamu snižuje počet kroků před zaznamenáním.</li>\n<li>Je-li série stejná jako minule, stačí doplnit předchozí hodnoty a uložit.</li>\n<li>S odpočinkovým časovačem lze záznam a správu odpočinku spojit do jednoho toku.</li>",
       "8": "<li>Kontrolujte historii tréninků spolu se změnami váhy a složení těla v jedné aplikaci.</li>\n<li>Zaznamenávejte složení těla denně nebo podle potřeby.</li>\n<li>Kombinujte zápis při uložení a ruční import s Apple Health.</li>\n<li>Ideální pro toho, kdo nechce oddělovat silový pokrok od tělesných změn.</li>",
       "9": "<li>Po přidání přátel si prohlížejte jejich tréninky.</li>\n<li>Reakce vytvářejí důvod pokračovat v zaznamenávání.</li>\n<li>Týdenní série a oznámení týdenního souhrnu pomáhají pochopit vaši pravidelnost.</li>\n<li>Blokování a nahlášení jsou k dispozici, pokud je potřeba.</li>",
-      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Zásady ochrany soukromí</a></li>\n<li><a href=\"terms.html\">Podmínky používání</a></li>",
+      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy.html\">Zásady ochrany soukromí</a></li>\n<li><a href=\"terms.html\">Podmínky používání</a></li>",
       "11": "\n<li>Některé funkce vyžadují oprávnění zařízení jako oznámení, HealthKit nebo kameru.</li>\n<li>Dostupné funkce se mohou lišit podle plánu, stavu přihlášení, prostředí zařízení a služeb třetích stran.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Používá se k zápisu váhy a % tuku při uložení a k ručnímu importu posledních hodnot z obrazovky tělesných záznamů. Základní funkce jsou dostupné i bez povolení.</li>\n<li>Oznámení: Pro dokončení odpočinkového časovače, denní připomenutí ve 20:00 a týdenní souhrn každé pondělí v 09:00.</li>\n<li>Kamera: Pro skenování QR kódů k přidávání přátel.</li>\n<li>Face ID / Touch ID: Pro biometrické přihlášení, když jsou k dispozici uložené přihlašovací údaje.</li>",
       "1": "<li>Cloudové úložiště: Data účtu, tréninku, složení těla a přátel jsou uložena na Firebase / Google Cloud.</li>\n<li>Analýza používání: Informace o událostech a vlastnosti stavu používání mohou být zpracovávány prostřednictvím Firebase Analytics na infrastruktuře Google.</li>\n<li>Místní úložiště: Nastavení, stav onboardingu, počítadla, profilové obrázky, mezipaměti tréninku a přihlašovací údaje v Klíčence jsou uloženy lokálně.</li>\n<li>Data propojená s HealthKit: Čtou a zapisují se v rámci oprávnění Apple Health.</li>"
     },
@@ -772,7 +772,7 @@ LANGS = {
       "og_title": "Υποστήριξη & Συχνές Ερωτήσεις | Trero",
       "og_description": "Απαντήσεις υποστήριξης Trero για λογαριασμούς, καταγραφή προπόνησης, στόχους και Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Πολιτική Απορρήτου | Trero",
       "description": "Πολιτική απορρήτου Trero: ποια δεδομένα συλλέγονται, υπηρεσίες τρίτων και πώς διαγράφετε τον λογαριασμό.",
       "og_title": "Πολιτική Απορρήτου | Trero",
@@ -986,10 +986,10 @@ LANGS = {
       "7": "<li>Οι πιο χρησιμοποιημένες ασκήσεις των τελευταίων 7 ημερών εμφανίζονται στην κορυφή.</li>\n<li>Η επιλογή από αυτή τη λίστα μειώνει τα βήματα πριν την καταγραφή.</li>\n<li>Αν το σετ είναι ίδιο με την προηγούμενη φορά, η κύρια ροή είναι συμπλήρωση και αποθήκευση.</li>\n<li>Με το χρονόμετρο ανάπαυσης, η καταγραφή και η διαχείριση ανάπαυσης συνδυάζονται στην ίδια ροή.</li>",
       "8": "<li>Ελέγξτε το ιστορικό προπόνησης μαζί με τις αλλαγές βάρους και σύστασης σώματος σε μία εφαρμογή.</li>\n<li>Καταγράψτε τη σύσταση σώματος καθημερινά ή όπως χρειάζεται.</li>\n<li>Συνδυάστε εγγραφή κατά την αποθήκευση και χειροκίνητη εισαγωγή με Apple Health.</li>\n<li>Ιδανικό για όσους δεν θέλουν να διαχωρίζουν την πρόοδο δύναμης από τις σωματικές αλλαγές.</li>",
       "9": "<li>Μετά την προσθήκη φίλων, δείτε τις προπονήσεις τους.</li>\n<li>Οι αντιδράσεις δημιουργούν λόγο να συνεχίσετε την καταγραφή.</li>\n<li>Οι εβδομαδιαίες ακολουθίες και οι ειδοποιήσεις σύνοψης βοηθούν να κατανοείτε τη συνέπειά σας.</li>\n<li>Ο αποκλεισμός και η αναφορά είναι διαθέσιμα όταν χρειάζεται.</li>",
-      "10": "<li><a href=\"support.html\">Υποστήριξη / Συχνές Ερωτήσεις</a></li>\n<li><a href=\"privacy_policy.html\">Πολιτική Απορρήτου</a></li>\n<li><a href=\"terms.html\">Όροι Χρήσης</a></li>",
+      "10": "<li><a href=\"support.html\">Υποστήριξη / Συχνές Ερωτήσεις</a></li>\n<li><a href=\"privacy.html\">Πολιτική Απορρήτου</a></li>\n<li><a href=\"terms.html\">Όροι Χρήσης</a></li>",
       "11": "\n<li>Ορισμένες λειτουργίες απαιτούν άδειες συσκευής όπως ειδοποιήσεις, HealthKit ή κάμερα.</li>\n<li>Οι διαθέσιμες λειτουργίες μπορεί να διαφέρουν ανάλογα με το πλάνο, την κατάσταση σύνδεσης, το περιβάλλον συσκευής και τις υπηρεσίες τρίτων.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Χρησιμοποιείται για εγγραφή βάρους και % λίπους κατά την αποθήκευση και χειροκίνητη εισαγωγή από την οθόνη καταγραφής σώματος. Οι βασικές λειτουργίες είναι διαθέσιμες και χωρίς άδεια.</li>\n<li>Ειδοποιήσεις: Για ολοκλήρωση χρονομέτρου ανάπαυσης, ημερήσια υπενθύμιση 20:00 και εβδομαδιαία σύνοψη κάθε Δευτέρα 09:00.</li>\n<li>Κάμερα: Για σάρωση κωδικών QR για προσθήκη φίλων.</li>\n<li>Face ID / Touch ID: Για βιομετρική σύνδεση όταν υπάρχουν αποθηκευμένα διαπιστευτήρια.</li>",
       "1": "<li>Αποθήκευση cloud: Δεδομένα λογαριασμού, προπόνησης, σύστασης σώματος και φίλων αποθηκεύονται στο Firebase / Google Cloud.</li>\n<li>Αναλυτικά χρήσης: Πληροφορίες συμβάντων και ιδιότητες κατάστασης χρήσης μπορούν να επεξεργάζονται μέσω Firebase Analytics στην υποδομή Google.</li>\n<li>Τοπική αποθήκευση: Ρυθμίσεις, κατάσταση onboarding, μετρητές, εικόνες προφίλ, cache προπόνησης και διαπιστευτήρια Keychain αποθηκεύονται τοπικά.</li>\n<li>Δεδομένα συνδεδεμένα με HealthKit: Διαβάζονται και γράφονται στο πλαίσιο των αδειών Apple Health.</li>"
     },
@@ -1019,7 +1019,7 @@ LANGS = {
       "og_title": "Tuki ja UKK | Trero",
       "og_description": "Trero-tuki: tilit, treenin kirjaus, tavoitteet ja Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Tietosuojakäytäntö | Trero",
       "description": "Treron tietosuojakäytäntö: kerätyt tiedot, kolmansien osapuolten palvelut ja tilin poisto.",
       "og_title": "Tietosuojakäytäntö | Trero",
@@ -1233,10 +1233,10 @@ LANGS = {
       "7": "<li>Viimeisten 7 päivän käytetyimmät liikkeet näkyvät ylhäällä.</li>\n<li>Valinta tästä listasta vähentää askelia ennen kirjausta.</li>\n<li>Jos sarja on sama kuin viimeksi, pääkulku on täyttää edelliset arvot ja tallentaa.</li>\n<li>Lepoajastimen avulla kirjaus ja lepo yhdistyvät samaan näkymään.</li>",
       "8": "<li>Tarkastele treenihistoriaa painon ja kehonkoostumuksen muutosten rinnalla yhdessä sovelluksessa.</li>\n<li>Kirjaa kehonkoostumus päivittäin tai tarvittaessa.</li>\n<li>Yhdistä kirjoitus tallennettaessa ja manuaalinen tuonti Apple Healthin kanssa.</li>\n<li>Ihanteellinen niille, jotka eivät halua erottaa voimankehitystä kehon muutoksista.</li>",
       "9": "<li>Kun olet lisännyt kavereita, näet heidän treeninsä.</li>\n<li>Reaktiot luovat syyn jatkaa kirjaamista.</li>\n<li>Viikkoputket ja viikkoyhteenvetoilmoitukset auttavat ymmärtämään säännöllisyyttäsi.</li>\n<li>Esto ja ilmoitus ovat saatavilla tarvittaessa.</li>",
-      "10": "<li><a href=\"support.html\">Tuki / UKK</a></li>\n<li><a href=\"privacy_policy.html\">Tietosuojakäytäntö</a></li>\n<li><a href=\"terms.html\">Käyttöehdot</a></li>",
+      "10": "<li><a href=\"support.html\">Tuki / UKK</a></li>\n<li><a href=\"privacy.html\">Tietosuojakäytäntö</a></li>\n<li><a href=\"terms.html\">Käyttöehdot</a></li>",
       "11": "\n<li>Jotkut toiminnot vaativat laitteen oikeuksia, kuten ilmoitukset, HealthKit tai kamera.</li>\n<li>Käytettävissä olevat toiminnot voivat vaihdella tilauksen, kirjautumistilan, laitteen ja kolmansien osapuolten palveluiden mukaan.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Käytetään painon ja rasva-%:n kirjoittamiseen tallennettaessa ja manuaaliseen tuontiin kehotiedot-näytöltä. Perustoiminnot toimivat ilman lupaakin.</li>\n<li>Ilmoitukset: Lepoajastimen valmistumiseen, 20:00 päivittäiseen muistutukseen ja viikkoyhteenvetoon maanantaisin 09:00.</li>\n<li>Kamera: QR-koodien skannaukseen kavereiden lisäämistä varten.</li>\n<li>Face ID / Touch ID: Biometriseen kirjautumiseen, kun tallennetut tiedot ovat saatavilla.</li>",
       "1": "<li>Pilvitallennus: Tili-, treeni-, kehonkoostumus- ja kaveritiedot tallennetaan Firebaseen / Google Cloudiin.</li>\n<li>Käyttöanalytiikka: Tapahtumatiedot ja tilaominaisuudet voidaan käsitellä Firebase Analyticsin kautta Googlen infrastruktuurissa.</li>\n<li>Paikallinen tallennus: Asetukset, onboarding-tila, laskurit, profiilikuvat, treenivälimuistit ja Keychain-tiedot tallennetaan paikallisesti.</li>\n<li>HealthKitiin linkitetyt tiedot: Luetaan ja kirjoitetaan Apple Health -lupien puitteissa.</li>"
     },
@@ -1266,7 +1266,7 @@ LANGS = {
       "og_title": "תמיכה ושאלות נפוצות | Trero",
       "og_description": "תשובות תמיכת Trero על חשבונות, תיעוד אימונים, יעדים ו-Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "מדיניות פרטיות | Trero",
       "description": "מדיניות הפרטיות של Trero: אילו נתונים נאספים, שירותי צד שלישי ואיך למחוק חשבון.",
       "og_title": "מדיניות פרטיות | Trero",
@@ -1480,10 +1480,10 @@ LANGS = {
       "7": "<li>התרגילים הנפוצים מ-7 הימים האחרונים מופיעים בראש הרשימה.</li>\n<li>בחירה מרשימה זו מצמצמת שלבים לפני תיעוד.</li>\n<li>אם הסט זהה לקודם, הזרימה העיקרית היא מילוי ערכים קודמים ושמירה.</li>\n<li>עם טיימר מנוחה, ניתן לשלב תיעוד וניהול מנוחה באותו מסך.</li>",
       "8": "<li>בחן היסטוריית אימונים עם שינויי משקל והרכב גוף באפליקציה אחת.</li>\n<li>תעד הרכב גוף יומית או לפי הצורך.</li>\n<li>שלב כתיבה בשמירה וייבוא ידני עם Apple Health.</li>\n<li>אידיאלי למי שלא רוצה להפריד בין התקדמות כוח ושינויי גוף.</li>",
       "9": "<li>לאחר הוספת חברים, צפה באימונים שלהם.</li>\n<li>תגובות יוצרות סיבה להמשיך לתעד.</li>\n<li>רצפים שבועיים והתראות סיכום שבועי עוזרים להבין עקביות.</li>\n<li>חסימה ודיווח זמינים בעת הצורך.</li>",
-      "10": "<li><a href=\"support.html\">תמיכה / שאלות נפוצות</a></li>\n<li><a href=\"privacy_policy.html\">מדיניות פרטיות</a></li>\n<li><a href=\"terms.html\">תנאי שירות</a></li>",
+      "10": "<li><a href=\"support.html\">תמיכה / שאלות נפוצות</a></li>\n<li><a href=\"privacy.html\">מדיניות פרטיות</a></li>\n<li><a href=\"terms.html\">תנאי שירות</a></li>",
       "11": "\n<li>תכונות מסוימות דורשות הרשאות מכשיר כגון התראות, HealthKit או מצלמה.</li>\n<li>הפונקציות הזמינות עשויות להשתנות לפי תוכנית, מצב התחברות, סביבת המכשיר ושירותי צד שלישי.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: משמש לכתיבת משקל ו-% שומן בשמירה ולייבוא ידני ממסך רישום הגוף. תכונות בסיסיות זמינות גם ללא הרשאה.</li>\n<li>התראות: לסיום טיימר מנוחה, תזכורת יומית ב-20:00 וסיכום שבועי בכל יום שני ב-09:00.</li>\n<li>מצלמה: לסריקת קודי QR להוספת חברים.</li>\n<li>Face ID / Touch ID: להתחברות ביומטרית כאשר אישורים שמורים זמינים.</li>",
       "1": "<li>אחסון בענן: נתוני חשבון, אימון, הרכב גוף וחברים נשמרים ב-Firebase / Google Cloud.</li>\n<li>ניתוח שימוש: מידע אירועים ומאפייני מצב שימוש יכולים להיות מעובדים דרך Firebase Analytics בתשתית Google.</li>\n<li>אחסון מקומי: הגדרות, מצב אונבורדינג, מונים, תמונות פרופיל, מטמוני אימון ואישורי Keychain נשמרים מקומית.</li>\n<li>נתונים מקושרים ל-HealthKit: נקראים ונכתבים במסגרת הרשאות Apple Health.</li>"
     },
@@ -1513,7 +1513,7 @@ LANGS = {
       "og_title": "सहायता और FAQ | Trero",
       "og_description": "Trero सहायता: खाते, वर्कआउट लॉगिंग, लक्ष्य और Apple Health के उत्तर।"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "गोपनीयता नीति | Trero",
       "description": "Trero गोपनीयता नीति: कौन से डेटा एकत्र किए जाते हैं, तृतीय-पक्ष सेवाएं और खाता कैसे हटाएं।",
       "og_title": "गोपनीयता नीति | Trero",
@@ -1727,10 +1727,10 @@ LANGS = {
       "7": "<li>पिछले 7 दिनों के सबसे अधिक उपयोग किए गए व्यायाम शीर्ष पर दिखाई देते हैं।</li>\n<li>इस सूची से चयन लॉगिंग से पहले चरण कम करता है।</li>\n<li>यदि सेट पिछली बार जैसा है, मुख्य प्रवाह पिछले मान भरना और सहेजना है।</li>\n<li>विश्राम टाइमर के साथ, लॉगिंग और विश्राम प्रबंधन एक ही स्क्रीन प्रवाह में संयुक्त हो सकते हैं।</li>",
       "8": "<li>एक ऐप में वजन और शरीर संरचना परिवर्तनों के साथ वर्कआउट इतिहास की समीक्षा करें।</li>\n<li>शरीर संरचना दैनिक या आवश्यकतानुसार लॉग करें।</li>\n<li>Apple Health के साथ सहेजने पर लेखन और मैन्युअल आयात को संयोजित करें।</li>\n<li>उन लोगों के लिए आदर्श जो स्ट्रेंथ प्रगति और शरीर परिवर्तन को अलग नहीं करना चाहते।</li>",
       "9": "<li>दोस्तों को जोड़ने के बाद, उनके वर्कआउट देखें।</li>\n<li>प्रतिक्रियाएं लॉगिंग जारी रखने का कारण बनाती हैं।</li>\n<li>साप्ताहिक स्ट्रीक और साप्ताहिक सारांश सूचनाएं आपकी निरंतरता समझने में मदद करती हैं।</li>\n<li>आवश्यकता होने पर ब्लॉक और रिपोर्ट उपलब्ध हैं।</li>",
-      "10": "<li><a href=\"support.html\">सहायता / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">गोपनीयता नीति</a></li>\n<li><a href=\"terms.html\">सेवा की शर्तें</a></li>",
+      "10": "<li><a href=\"support.html\">सहायता / FAQ</a></li>\n<li><a href=\"privacy.html\">गोपनीयता नीति</a></li>\n<li><a href=\"terms.html\">सेवा की शर्तें</a></li>",
       "11": "\n<li>कुछ सुविधाओं के लिए सूचनाएं, HealthKit या कैमरा जैसी डिवाइस अनुमतियों की आवश्यकता होती है।</li>\n<li>उपलब्ध कार्य प्लान, साइन-इन स्थिति, डिवाइस वातावरण और तृतीय-पक्ष सेवाओं के आधार पर भिन्न हो सकते हैं।</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: सहेजने पर वजन और % फैट लिखने और शरीर-रिकॉर्ड स्क्रीन से मैन्युअल आयात के लिए उपयोग किया जाता है। मुख्य सुविधाएं अनुमति के बिना भी उपलब्ध हैं।</li>\n<li>सूचनाएं: विश्राम टाइमर पूर्णता, दैनिक 20:00 अनुस्मारक और हर सोमवार 09:00 साप्ताहिक सारांश के लिए।</li>\n<li>कैमरा: दोस्तों को जोड़ने के लिए QR कोड स्कैन करने के लिए।</li>\n<li>Face ID / Touch ID: सहेजे गए प्रमाण पत्र उपलब्ध होने पर बायोमेट्रिक साइन-इन के लिए।</li>",
       "1": "<li>क्लाउड भंडारण: खाता, वर्कआउट, शरीर संरचना और मित्र डेटा Firebase / Google Cloud पर संग्रहीत हैं।</li>\n<li>उपयोग विश्लेषण: ईवेंट जानकारी और उपयोग-स्थिति गुण Google अवसंरचना पर Firebase Analytics के माध्यम से संसाधित किए जा सकते हैं।</li>\n<li>स्थानीय भंडारण: सेटिंग्स, ऑनबोर्डिंग स्थिति, पूर्णता गणना, प्रोफ़ाइल छवियां, वर्कआउट कैश और Keychain प्रमाण पत्र स्थानीय रूप से संग्रहीत हैं।</li>\n<li>HealthKit से जुड़ा डेटा: Apple Health अनुमतियों के दायरे में पढ़ा और लिखा जाता है।</li>"
     },
@@ -1760,7 +1760,7 @@ LANGS = {
       "og_title": "Podrška i FAQ | Trero",
       "og_description": "Trero podrška za račune, bilježenje treninga, ciljeve i Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Pravila privatnosti | Trero",
       "description": "Trero pravila privatnosti: koji se podaci prikupljaju, usluge trećih strana i kako izbrisati račun.",
       "og_title": "Pravila privatnosti | Trero",
@@ -1974,10 +1974,10 @@ LANGS = {
       "7": "<li>Najkorištenije vježbe iz posljednjih 7 dana prikazuju se na vrhu.</li>\n<li>Odabir s ovog popisa smanjuje korake prije bilježenja.</li>\n<li>Ako je serija ista kao prošli put, glavni tok je ispuniti prethodne vrijednosti i spremiti.</li>\n<li>Uz tajmer odmora, bilježenje i upravljanje odmorom mogu se kombinirati u istom toku.</li>",
       "8": "<li>Pregledavajte povijest treninga zajedno s promjenama težine i sastava tijela u jednoj aplikaciji.</li>\n<li>Bilježite sastav tijela dnevno ili prema potrebi.</li>\n<li>Kombinirajte pisanje pri spremanju i ručni uvoz s Apple Healthom.</li>\n<li>Idealno za one koji ne žele odvajati napredak snage od tjelesnih promjena.</li>",
       "9": "<li>Nakon dodavanja prijatelja, pregledavajte njihove treninge.</li>\n<li>Reakcije stvaraju razlog za nastavak bilježenja.</li>\n<li>Tjedni nizovi i obavijesti tjednog sažetka pomažu razumjeti vašu dosljednost.</li>\n<li>Blokiranje i prijava dostupni su po potrebi.</li>",
-      "10": "<li><a href=\"support.html\">Podrška / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Pravila privatnosti</a></li>\n<li><a href=\"terms.html\">Uvjeti korištenja</a></li>",
+      "10": "<li><a href=\"support.html\">Podrška / FAQ</a></li>\n<li><a href=\"privacy.html\">Pravila privatnosti</a></li>\n<li><a href=\"terms.html\">Uvjeti korištenja</a></li>",
       "11": "\n<li>Neke značajke zahtijevaju dopuštenja uređaja poput obavijesti, HealthKita ili kamere.</li>\n<li>Dostupne funkcije mogu varirati ovisno o planu, stanju prijave, okruženju uređaja i uslugama trećih strana.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Koristi se za pisanje težine i % masti pri spremanju i ručni uvoz sa zaslona tjelesnih zapisa. Osnovne značajke dostupne su i bez dopuštenja.</li>\n<li>Obavijesti: Za završetak tajmera odmora, dnevni podsjetnik u 20:00 i tjedni sažetak ponedjeljkom u 09:00.</li>\n<li>Kamera: Za skeniranje QR kodova za dodavanje prijatelja.</li>\n<li>Face ID / Touch ID: Za biometrijsku prijavu kada su spremljene vjerodajnice dostupne.</li>",
       "1": "<li>Pohrana u oblaku: Podaci računa, treninga, sastava tijela i prijatelja pohranjuju se na Firebase / Google Cloud.</li>\n<li>Analitika korištenja: Podaci događaja i svojstva stanja korištenja mogu se obrađivati kroz Firebase Analytics na Google infrastrukturi.</li>\n<li>Lokalna pohrana: Postavke, stanje onboardinga, brojači, profilne slike, međuspremnici treninga i Keychain vjerodajnice pohranjuju se lokalno.</li>\n<li>Podaci povezani s HealthKitom: Čitaju se i pišu u okviru Apple Health dopuštenja.</li>"
     },
@@ -2007,7 +2007,7 @@ LANGS = {
       "og_title": "Támogatás és GYIK | Trero",
       "og_description": "Trero támogatási válaszok fiókokról, edzésrögzítésről, célokról és Apple Healthről."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Adatvédelmi irányelvek | Trero",
       "description": "Trero adatvédelmi irányelvei: milyen adatokat gyűjtünk, harmadik fél szolgáltatásai és fióktörlés.",
       "og_title": "Adatvédelmi irányelvek | Trero",
@@ -2221,10 +2221,10 @@ LANGS = {
       "7": "<li>Az elmúlt 7 nap leghasználtabb gyakorlatai a lista tetején jelennek meg.</li>\n<li>Ebből a listából választás csökkenti a lépéseket a rögzítés előtt.</li>\n<li>Ha a sorozat ugyanaz mint múltkor, a fő folyamat az előző értékek kitöltése és mentése.</li>\n<li>A pihenőidőzítővel a rögzítés és pihenő kezelése ugyanabban a képernyőfolyamatban kombinálható.</li>",
       "8": "<li>Nézd meg az edzésnaplót a súly és testösszetétel változásaival együtt egyetlen alkalmazásban.</li>\n<li>Rögzítsd a testösszetételt naponta vagy szükség szerint.</li>\n<li>Kombináld a mentéskor való írást és kézi importot Apple Health-tel.</li>\n<li>Ideális azoknak, akik nem akarják szétválasztani az erőhaladást és a testváltozásokat.</li>",
       "9": "<li>Miután barátokat adtál hozzá, nézd meg az edzéseiket.</li>\n<li>A reakciók okot adnak a rögzítés folytatására.</li>\n<li>A heti sorozatok és heti összefoglaló-értesítések segítenek megérteni a következetességed.</li>\n<li>A blokkolás és jelentés szükség esetén elérhető.</li>",
-      "10": "<li><a href=\"support.html\">Támogatás / GYIK</a></li>\n<li><a href=\"privacy_policy.html\">Adatvédelmi irányelvek</a></li>\n<li><a href=\"terms.html\">Felhasználási feltételek</a></li>",
+      "10": "<li><a href=\"support.html\">Támogatás / GYIK</a></li>\n<li><a href=\"privacy.html\">Adatvédelmi irányelvek</a></li>\n<li><a href=\"terms.html\">Felhasználási feltételek</a></li>",
       "11": "\n<li>Egyes funkciók eszközengedélyeket igényelnek, mint az értesítések, HealthKit vagy kamera.</li>\n<li>Az elérhető funkciók változhatnak a csomagtól, bejelentkezési állapottól, eszközkörnyezettől és harmadik fél szolgáltatásoktól függően.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: A súly és % zsír mentéskor való írásához és testadat-képernyőről történő kézi importhoz. Az alapfunkciók engedély nélkül is elérhetők.</li>\n<li>Értesítések: Pihenőidőzítő befejezéséhez, napi 20:00 emlékeztetőhöz és heti összefoglalóhoz hétfőnként 09:00-kor.</li>\n<li>Kamera: QR-kódok szkenneléséhez barátok hozzáadásához.</li>\n<li>Face ID / Touch ID: Biometrikus bejelentkezéshez, ha mentett hitelesítő adatok elérhetők.</li>",
       "1": "<li>Felhő-tárolás: Fiók, edzés, testösszetétel és barátok adatai Firebase / Google Cloud-on vannak tárolva.</li>\n<li>Használati elemzés: Eseményadatok és állapottulajdonságok Firebase Analyticsen keresztül, Google infrastruktúrán dolgozhatók fel.</li>\n<li>Helyi tárolás: Beállítások, onboarding állapot, számlálók, profilképek, edzés-cache és Keychain hitelesítő adatok helyileg vannak tárolva.</li>\n<li>HealthKit-hez kapcsolódó adatok: Apple Health engedélyek keretében olvasódnak és íródnak.</li>"
     },
@@ -2253,7 +2253,7 @@ LANGS = {
       "og_title": "Dukungan & FAQ | Trero",
       "og_description": "Jawaban dukungan Trero tentang akun, pencatatan latihan, tujuan, dan Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Kebijakan Privasi | Trero",
       "description": "Kebijakan privasi Trero: data yang dikumpulkan, layanan pihak ketiga, dan cara menghapus akun.",
       "og_title": "Kebijakan Privasi | Trero",
@@ -2467,10 +2467,10 @@ LANGS = {
       "7": "<li>Latihan paling sering digunakan dalam 7 hari terakhir muncul di atas daftar.</li>\n<li>Memilih dari daftar ini mengurangi langkah sebelum pencatatan.</li>\n<li>Jika set sama dengan sebelumnya, alur utama adalah mengisi nilai sebelumnya dan menyimpan.</li>\n<li>Dengan timer istirahat, pencatatan dan pengelolaan istirahat digabung dalam alur layar yang sama.</li>",
       "8": "<li>Tinjau riwayat latihan bersama perubahan berat dan komposisi tubuh dalam satu aplikasi.</li>\n<li>Catat komposisi tubuh setiap hari atau sesuai kebutuhan.</li>\n<li>Gabungkan penulisan saat menyimpan dan impor manual dengan Apple Health.</li>\n<li>Ideal bagi yang tidak ingin memisahkan kemajuan kekuatan dan perubahan tubuh.</li>",
       "9": "<li>Setelah menambah teman, lihat latihan mereka.</li>\n<li>Reaksi memberi alasan untuk terus mencatat.</li>\n<li>Streak mingguan dan notifikasi ringkasan mingguan membantu memahami konsistensi.</li>\n<li>Blokir dan laporan tersedia saat dibutuhkan.</li>",
-      "10": "<li><a href=\"support.html\">Dukungan / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Kebijakan Privasi</a></li>\n<li><a href=\"terms.html\">Ketentuan Layanan</a></li>",
+      "10": "<li><a href=\"support.html\">Dukungan / FAQ</a></li>\n<li><a href=\"privacy.html\">Kebijakan Privasi</a></li>\n<li><a href=\"terms.html\">Ketentuan Layanan</a></li>",
       "11": "\n<li>Beberapa fitur memerlukan izin perangkat seperti notifikasi, HealthKit, atau kamera.</li>\n<li>Fungsi yang tersedia dapat bervariasi tergantung pada paket, status masuk, lingkungan perangkat, dan layanan pihak ketiga.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Untuk menulis berat dan % lemak saat menyimpan dan impor manual dari layar catatan tubuh. Fitur inti tetap tersedia tanpa izin.</li>\n<li>Notifikasi: Untuk penyelesaian timer istirahat, pengingat harian 20:00, dan ringkasan mingguan Senin 09:00.</li>\n<li>Kamera: Untuk memindai kode QR demi menambahkan teman.</li>\n<li>Face ID / Touch ID: Untuk masuk biometrik ketika kredensial tersimpan tersedia.</li>",
       "1": "<li>Penyimpanan cloud: Data akun, latihan, komposisi tubuh, dan teman disimpan di Firebase / Google Cloud.</li>\n<li>Analitik penggunaan: Informasi peristiwa dan properti status dapat diproses melalui Firebase Analytics di infrastruktur Google.</li>\n<li>Penyimpanan lokal: Pengaturan, status onboarding, penghitung, foto profil, cache, dan kredensial Keychain disimpan secara lokal.</li>\n<li>Data terkait HealthKit: Dibaca dan ditulis dalam lingkup izin Apple Health.</li>"
     },
@@ -2499,7 +2499,7 @@ LANGS = {
       "og_title": "Sokongan & FAQ | Trero",
       "og_description": "Jawapan sokongan Trero tentang akaun, log latihan, matlamat dan Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Dasar Privasi | Trero",
       "description": "Dasar privasi Trero: data yang dikumpul, perkhidmatan pihak ketiga, dan cara memadam akaun.",
       "og_title": "Dasar Privasi | Trero",
@@ -2713,10 +2713,10 @@ LANGS = {
       "7": "<li>Senaman paling banyak digunakan dalam 7 hari lepas muncul di atas senarai.</li>\n<li>Memilih dari senarai ini mengurangkan langkah sebelum log.</li>\n<li>Jika set sama seperti kali lepas, alir utama ialah mengisi nilai sebelumnya dan menyimpan.</li>\n<li>Dengan pemasa rehat, log dan pengurusan rehat boleh digabungkan dalam aliran skrin yang sama.</li>",
       "8": "<li>Semak sejarah latihan bersama perubahan berat dan komposisi badan dalam satu aplikasi.</li>\n<li>Log komposisi badan setiap hari atau mengikut keperluan.</li>\n<li>Gabungkan tulis semasa menyimpan dan import manual dengan Apple Health.</li>\n<li>Sesuai untuk yang tidak mahu memisahkan kemajuan kekuatan dan perubahan badan.</li>",
       "9": "<li>Setelah menambah rakan, lihat latihan mereka.</li>\n<li>Reaksi memberi alasan untuk terus log.</li>\n<li>Streak mingguan dan pemberitahuan ringkasan mingguan membantu memahami konsistensi.</li>\n<li>Sekat dan laporan tersedia apabila diperlukan.</li>",
-      "10": "<li><a href=\"support.html\">Sokongan / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Dasar Privasi</a></li>\n<li><a href=\"terms.html\">Syarat Perkhidmatan</a></li>",
+      "10": "<li><a href=\"support.html\">Sokongan / FAQ</a></li>\n<li><a href=\"privacy.html\">Dasar Privasi</a></li>\n<li><a href=\"terms.html\">Syarat Perkhidmatan</a></li>",
       "11": "\n<li>Sesetengah ciri memerlukan kebenaran peranti seperti pemberitahuan, HealthKit atau kamera.</li>\n<li>Fungsi tersedia boleh berbeza mengikut pelan, status log masuk, persekitaran peranti dan perkhidmatan pihak ketiga.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Untuk menulis berat dan % lemak semasa menyimpan dan import manual dari skrin rekod badan. Ciri teras tetap tersedia tanpa kebenaran.</li>\n<li>Pemberitahuan: Untuk penyiapan pemasa rehat, peringatan harian 20:00, dan ringkasan mingguan Isnin 09:00.</li>\n<li>Kamera: Untuk mengimbas kod QR bagi menambah rakan.</li>\n<li>Face ID / Touch ID: Untuk log masuk biometrik apabila kelayakan tersimpan tersedia.</li>",
       "1": "<li>Penyimpanan awan: Data akaun, latihan, komposisi badan dan rakan disimpan di Firebase / Google Cloud.</li>\n<li>Analitik penggunaan: Maklumat acara dan sifat keadaan boleh diproses melalui Firebase Analytics di infrastruktur Google.</li>\n<li>Penyimpanan tempatan: Tetapan, keadaan onboarding, pembilang, gambar profil, cache, dan kelayakan Keychain disimpan secara tempatan.</li>\n<li>Data berkaitan HealthKit: Dibaca dan ditulis dalam skop kebenaran Apple Health.</li>"
     },
@@ -2745,7 +2745,7 @@ LANGS = {
       "og_title": "Suporte & FAQ | Trero",
       "og_description": "Respostas de suporte do Trero sobre contas, registro de treinos, metas e Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Política de Privacidade | Trero",
       "description": "Política de privacidade do Trero: dados coletados, serviços de terceiros e como excluir sua conta.",
       "og_title": "Política de Privacidade | Trero",
@@ -2959,10 +2959,10 @@ LANGS = {
       "7": "<li>Os exercícios mais usados nos últimos 7 dias aparecem no topo da lista.</li>\n<li>Selecionar a partir dessa lista reduz os passos antes do registro.</li>\n<li>Se a série for igual à última, o fluxo principal é preencher os valores anteriores e salvar.</li>\n<li>Com o timer de descanso, registro e descanso podem ser gerenciados no mesmo fluxo.</li>",
       "8": "<li>Veja o histórico de treinos junto com mudanças de peso e composição corporal em um único app.</li>\n<li>Registre a composição corporal diariamente ou quando necessário.</li>\n<li>Combine gravação ao salvar com importação manual via Apple Health.</li>\n<li>Ideal para quem não quer separar progresso de força e mudanças corporais.</li>",
       "9": "<li>Depois de adicionar amigos, veja os treinos deles.</li>\n<li>As reações dão motivo para continuar registrando.</li>\n<li>Sequências semanais e resumos semanais ajudam a entender a consistência.</li>\n<li>Bloqueio e denúncia estão disponíveis quando necessário.</li>",
-      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
+      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
       "11": "\n<li>Alguns recursos exigem permissões do dispositivo, como notificações, HealthKit ou câmera.</li>\n<li>As funções disponíveis podem variar conforme o plano, estado de login, ambiente do dispositivo e serviços de terceiros.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Para gravar peso e % de gordura ao salvar e para importação manual na tela de registro corporal. Os recursos principais funcionam sem a permissão.</li>\n<li>Notificações: Para término do timer de descanso, lembrete diário às 20:00 e resumo semanal às segundas 09:00.</li>\n<li>Câmera: Para ler QR codes e adicionar amigos.</li>\n<li>Face ID / Touch ID: Para login biométrico quando houver credenciais salvas.</li>",
       "1": "<li>Armazenamento em nuvem: Dados de conta, treino, composição e amigos ficam no Firebase / Google Cloud.</li>\n<li>Analytics de uso: Eventos e propriedades de estado podem ser processados via Firebase Analytics na infraestrutura do Google.</li>\n<li>Armazenamento local: Configurações, estado de onboarding, contadores, fotos, cache e credenciais do Keychain ficam locais.</li>\n<li>Dados ligados ao HealthKit: São lidos e gravados dentro das permissões do Apple Health.</li>"
     },
@@ -2993,7 +2993,7 @@ LANGS = {
       "og_title": "Suporte e FAQ | Trero",
       "og_description": "Respostas de suporte Trero sobre contas, registo de treino, objetivos e Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Política de Privacidade | Trero",
       "description": "Política de privacidade Trero: que dados são recolhidos, serviços de terceiros e como eliminar a conta.",
       "og_title": "Política de Privacidade | Trero",
@@ -3207,10 +3207,10 @@ LANGS = {
       "7": "<li>Os exercícios mais usados nos últimos 7 dias aparecem no topo.</li>\n<li>Selecionar a partir desta lista reduz os passos antes do registo.</li>\n<li>Se a série for igual à última vez, o fluxo principal é preencher os valores anteriores e guardar.</li>\n<li>Com o temporizador de descanso, o registo e a gestão do descanso podem ser combinados no mesmo fluxo.</li>",
       "8": "<li>Revê o histórico de treino juntamente com as alterações de peso e composição corporal numa app.</li>\n<li>Regista a composição corporal diariamente ou conforme necessário.</li>\n<li>Combina a escrita ao guardar e a importação manual com o Apple Health.</li>\n<li>Ideal para quem não quer separar o progresso de força das alterações corporais.</li>",
       "9": "<li>Depois de adicionar amigos, vê os treinos deles.</li>\n<li>As reações criam razão para continuar a registar.</li>\n<li>As sequências semanais e as notificações de resumo semanal ajudam a compreender a consistência.</li>\n<li>O bloqueio e a denúncia estão disponíveis se necessário.</li>",
-      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
+      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
       "11": "\n<li>Algumas funcionalidades requerem permissões do dispositivo como notificações, HealthKit ou câmara.</li>\n<li>As funcionalidades disponíveis podem variar consoante o plano, o estado de sessão, o ambiente do dispositivo e os serviços de terceiros.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Usado para escrever peso e % de gordura ao guardar e para importação manual do ecrã de registo corporal. As funcionalidades principais estão disponíveis mesmo sem permissão.</li>\n<li>Notificações: Para o fim do temporizador de descanso, lembrete diário às 20:00 e resumo semanal às segundas às 09:00.</li>\n<li>Câmara: Para digitalizar códigos QR ao adicionar amigos.</li>\n<li>Face ID / Touch ID: Para início de sessão biométrico quando as credenciais guardadas estão disponíveis.</li>",
       "1": "<li>Armazenamento na nuvem: Dados de conta, treino, composição corporal e amigos estão armazenados no Firebase / Google Cloud.</li>\n<li>Análises de utilização: Informações de eventos e propriedades de estado de utilização podem ser processadas via Firebase Analytics na infraestrutura da Google.</li>\n<li>Armazenamento local: Definições, estado de integração, contadores de conclusão, imagens de perfil e credenciais do Porta-chaves são armazenados localmente.</li>\n<li>Dados vinculados ao HealthKit: Lidos e escritos no âmbito das permissões do Apple Health.</li>"
     },
@@ -3240,7 +3240,7 @@ LANGS = {
       "og_title": "Suport și FAQ | Trero",
       "og_description": "Răspunsuri de suport Trero despre conturi, antrenamente, obiective și Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Politica de confidențialitate | Trero",
       "description": "Politica de confidențialitate Trero: ce date sunt colectate, servicii terțe și cum să ștergi contul.",
       "og_title": "Politica de confidențialitate | Trero",
@@ -3454,10 +3454,10 @@ LANGS = {
       "7": "<li>Cele mai utilizate exerciții din ultimele 7 zile apar în partea de sus.</li>\n<li>Selectarea din această listă reduce pașii înainte de înregistrare.</li>\n<li>Dacă seria este la fel ca data trecută, fluxul principal este să completezi valorile anterioare și să salvezi.</li>\n<li>Cu temporizatorul de odihnă, înregistrarea și gestionarea odihnei pot fi combinate în același flux.</li>",
       "8": "<li>Revizuiește istoricul antrenamentelor împreună cu modificările de greutate și compoziție corporală într-o singură aplicație.</li>\n<li>Înregistrează compoziția corporală zilnic sau după necesitate.</li>\n<li>Combină scrierea la salvare și importul manual cu Apple Health.</li>\n<li>Ideal pentru cei care nu vor să separe progresul de forță de modificările corporale.</li>",
       "9": "<li>După adăugarea prietenilor, vizualizează antrenamentele lor.</li>\n<li>Reacțiile creează un motiv pentru a continua înregistrarea.</li>\n<li>Seriile săptămânale și notificările de rezumat săptămânal ajută la înțelegerea consecvenței.</li>\n<li>Blocarea și raportarea sunt disponibile dacă este necesar.</li>",
-      "10": "<li><a href=\"support.html\">Suport / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Politica de confidențialitate</a></li>\n<li><a href=\"terms.html\">Termeni și condiții</a></li>",
+      "10": "<li><a href=\"support.html\">Suport / FAQ</a></li>\n<li><a href=\"privacy.html\">Politica de confidențialitate</a></li>\n<li><a href=\"terms.html\">Termeni și condiții</a></li>",
       "11": "\n<li>Unele funcții necesită permisiuni ale dispozitivului precum notificări, HealthKit sau cameră.</li>\n<li>Funcțiile disponibile pot varia în funcție de plan, starea de autentificare, mediul dispozitivului și serviciile terțe.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Folosit pentru scrierea greutății și a % grăsime la salvare și importul manual din ecranul de înregistrare corporală. Funcțiile de bază sunt disponibile chiar fără permisiune.</li>\n<li>Notificări: Pentru finalizarea temporizatorului de odihnă, memento zilnic la 20:00 și rezumat săptămânal în fiecare luni la 09:00.</li>\n<li>Cameră: Pentru scanarea codurilor QR la adăugarea prietenilor.</li>\n<li>Face ID / Touch ID: Pentru autentificare biometrică când sunt disponibile credențiale salvate.</li>",
       "1": "<li>Stocare cloud: Datele contului, antrenamentului, compoziției corporale și prietenilor sunt stocate pe Firebase / Google Cloud.</li>\n<li>Analize utilizare: Informațiile despre evenimente și proprietățile de stare a utilizării pot fi procesate prin Firebase Analytics pe infrastructura Google.</li>\n<li>Stocare locală: Setările, starea de onboarding, contoarele de finalizare, imaginile de profil și credențialele Keychain sunt stocate local.</li>\n<li>Date legate de HealthKit: Citite și scrise în cadrul permisiunilor Apple Health.</li>"
     },
@@ -3488,7 +3488,7 @@ LANGS = {
       "og_title": "Поддержка и FAQ | Trero",
       "og_description": "Ответы поддержки Trero по аккаунтам, тренировкам, целям и Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Политика конфиденциальности | Trero",
       "description": "Политика конфиденциальности Trero: какие данные собираются, сторонние сервисы и как удалить аккаунт.",
       "og_title": "Политика конфиденциальности | Trero",
@@ -3702,10 +3702,10 @@ LANGS = {
       "7": "<li>Самые используемые упражнения за последние 7 дней отображаются вверху.</li>\n<li>Выбор из этого списка сокращает шаги перед записью.</li>\n<li>Если подход такой же, как в прошлый раз, основной поток — заполнить предыдущие значения и сохранить.</li>\n<li>С таймером отдыха запись и управление отдыхом можно объединить в одном потоке экрана.</li>",
       "8": "<li>Просматривай историю тренировок вместе с изменениями веса и состава тела в одном приложении.</li>\n<li>Записывай состав тела ежедневно или по необходимости.</li>\n<li>Комбинируй запись при сохранении и ручной импорт с Apple Health.</li>\n<li>Идеально для тех, кто не хочет разделять силовой прогресс и телесные изменения.</li>",
       "9": "<li>После добавления друзей просматривай их тренировки.</li>\n<li>Реакции создают причину продолжать запись.</li>\n<li>Еженедельные серии и уведомления еженедельного резюме помогают понять регулярность.</li>\n<li>Блокировка и жалоба доступны при необходимости.</li>",
-      "10": "<li><a href=\"support.html\">Поддержка / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Политика конфиденциальности</a></li>\n<li><a href=\"terms.html\">Условия использования</a></li>",
+      "10": "<li><a href=\"support.html\">Поддержка / FAQ</a></li>\n<li><a href=\"privacy.html\">Политика конфиденциальности</a></li>\n<li><a href=\"terms.html\">Условия использования</a></li>",
       "11": "\n<li>Некоторые функции требуют разрешений устройства, таких как уведомления, HealthKit или камера.</li>\n<li>Доступные функции могут варьироваться в зависимости от плана, состояния входа, среды устройства и сторонних сервисов.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: используется для записи веса и % жира при сохранении и ручного импорта с экрана записи тела. Основные функции доступны даже без разрешения.</li>\n<li>Уведомления: для окончания таймера отдыха, ежедневного напоминания в 20:00 и еженедельного резюме каждый понедельник в 09:00.</li>\n<li>Камера: для сканирования QR-кодов при добавлении друзей.</li>\n<li>Face ID / Touch ID: для биометрического входа при наличии сохранённых учётных данных.</li>",
       "1": "<li>Облачное хранилище: данные аккаунта, тренировок, состава тела и друзей хранятся на Firebase / Google Cloud.</li>\n<li>Аналитика использования: информация о событиях и свойства состояния использования могут обрабатываться через Firebase Analytics на инфраструктуре Google.</li>\n<li>Локальное хранилище: настройки, состояние онбординга, счётчики завершения, фото профилей и учётные данные Keychain хранятся локально.</li>\n<li>Данные, связанные с HealthKit: читаются и записываются в рамках разрешений Apple Health.</li>"
     },
@@ -3735,7 +3735,7 @@ LANGS = {
       "og_title": "Podpora a FAQ | Trero",
       "og_description": "Odpovede podpory Trero o účtoch, tréningoch, cieľoch a Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Zásady ochrany súkromia | Trero",
       "description": "Zásady ochrany súkromia Trero: aké dáta sa zbierajú, služby tretích strán a ako vymazať účet.",
       "og_title": "Zásady ochrany súkromia | Trero",
@@ -3949,10 +3949,10 @@ LANGS = {
       "7": "<li>Najpoužívanejšie cvičenia za posledných 7 dní sa zobrazujú navrchu.</li>\n<li>Výber z tohto zoznamu znižuje počet krokov pred záznamen.</li>\n<li>Ak je séria rovnaká ako minule, hlavný tok je vyplniť predchádzajúce hodnoty a uložiť.</li>\n<li>S časovačom odpočinku možno záznam a správu odpočinku kombinovať v jednom toku.</li>",
       "8": "<li>Kontroluj históriu tréningov spolu so zmenami váhy a zloženia tela v jednej aplikácii.</li>\n<li>Zaznamenávaj zloženie tela denne alebo podľa potreby.</li>\n<li>Kombinuj zápis pri uložení a manuálny import s Apple Health.</li>\n<li>Ideálne pre tých, ktorí nechcú oddeľovať silový pokrok od telesných zmien.</li>",
       "9": "<li>Po pridaní priateľov zobrazuj ich tréningy.</li>\n<li>Reakcie vytvárajú dôvod pokračovať v záznamu.</li>\n<li>Týždenné série a oznámenia týždenného zhrnutia pomáhajú pochopiť konzistenciu.</li>\n<li>Blokovanie a hlásenie sú k dispozícii v prípade potreby.</li>",
-      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Zásady ochrany súkromia</a></li>\n<li><a href=\"terms.html\">Podmienky používania</a></li>",
+      "10": "<li><a href=\"support.html\">Podpora / FAQ</a></li>\n<li><a href=\"privacy.html\">Zásady ochrany súkromia</a></li>\n<li><a href=\"terms.html\">Podmienky používania</a></li>",
       "11": "\n<li>Niektoré funkcie vyžadujú oprávnenia zariadenia ako oznámenia, HealthKit alebo kamera.</li>\n<li>Dostupné funkcie sa môžu líšiť podľa plánu, stavu prihlásenia, prostredia zariadenia a služieb tretích strán.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Používa sa na zápis váhy a % tuku pri uložení a manuálny import z obrazovky záznamu tela. Základné funkcie sú dostupné aj bez povolenia.</li>\n<li>Oznámenia: Pre dokončenie časovača odpočinku, denné pripomenutie o 20:00 a týždenné zhrnutie každý pondelok o 09:00.</li>\n<li>Kamera: Na skenovanie QR kódov pri pridávaní priateľov.</li>\n<li>Face ID / Touch ID: Na biometrické prihlásenie pri dostupných uložených prihlasovacích údajoch.</li>",
       "1": "<li>Cloudové úložisko: Dáta účtu, tréningov, zloženia tela a priateľov sú uložené na Firebase / Google Cloud.</li>\n<li>Analytika použitia: Informácie o udalostiach a vlastnosti stavu použitia môžu byť spracovávané cez Firebase Analytics na infraštruktúre Google.</li>\n<li>Miestne úložisko: Nastavenia, stav zavádzania, počty dokončenia, profilové obrázky a prihlasovacie údaje Kľúčenky sú uložené miestne.</li>\n<li>Dáta prepojené s HealthKit: Čítané a zapisované v rámci oprávnení Apple Health.</li>"
     },
@@ -3983,7 +3983,7 @@ LANGS = {
       "og_title": "ความช่วยเหลือและคำถามที่พบบ่อย | Trero",
       "og_description": "คำตอบสนับสนุน Trero เกี่ยวกับบัญชี การออกกำลังกาย เป้าหมาย และ Apple Health"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "นโยบายความเป็นส่วนตัว | Trero",
       "description": "นโยบายความเป็นส่วนตัว Trero: ข้อมูลที่รวบรวม บริการของบุคคลที่สาม และวิธีลบบัญชี",
       "og_title": "นโยบายความเป็นส่วนตัว | Trero",
@@ -4197,10 +4197,10 @@ LANGS = {
       "7": "<li>ท่าที่ใช้บ่อยที่สุดใน 7 วันล่าสุดปรากฏที่ด้านบน</li>\n<li>การเลือกจากรายการนี้ลดขั้นตอนก่อนการบันทึก</li>\n<li>ถ้าเซตเหมือนครั้งที่แล้ว ขั้นตอนหลักคือเติมค่าก่อนหน้าและบันทึก</li>\n<li>ด้วยตัวจับเวลาพัก การบันทึกและการจัดการการพักสามารถรวมไว้ในกระบวนการหน้าจอเดียวกัน</li>",
       "8": "<li>ตรวจสอบประวัติการออกกำลังกายพร้อมการเปลี่ยนแปลงน้ำหนักและองค์ประกอบร่างกายในแอปเดียว</li>\n<li>บันทึกองค์ประกอบร่างกายทุกวันหรือตามต้องการ</li>\n<li>รวมการเขียนเมื่อบันทึกและการนำเข้าด้วยตนเองกับ Apple Health</li>\n<li>เหมาะสำหรับผู้ที่ไม่ต้องการแยกความก้าวหน้าด้านความแข็งแรงจากการเปลี่ยนแปลงร่างกาย</li>",
       "9": "<li>หลังเพิ่มเพื่อน ดูการออกกำลังกายของพวกเขา</li>\n<li>การตอบสนองสร้างเหตุผลดำเนินต่อการบันทึก</li>\n<li>Streak รายสัปดาห์และการแจ้งเตือนสรุปรายสัปดาห์ช่วยทำความเข้าใจความสม่ำเสมอ</li>\n<li>การบล็อกและรายงานพร้อมใช้งานเมื่อจำเป็น</li>",
-      "10": "<li><a href=\"support.html\">ความช่วยเหลือ / คำถามที่พบบ่อย</a></li>\n<li><a href=\"privacy_policy.html\">นโยบายความเป็นส่วนตัว</a></li>\n<li><a href=\"terms.html\">ข้อกำหนดการใช้งาน</a></li>",
+      "10": "<li><a href=\"support.html\">ความช่วยเหลือ / คำถามที่พบบ่อย</a></li>\n<li><a href=\"privacy.html\">นโยบายความเป็นส่วนตัว</a></li>\n<li><a href=\"terms.html\">ข้อกำหนดการใช้งาน</a></li>",
       "11": "\n<li>บางฟีเจอร์ต้องการสิทธิ์อุปกรณ์ เช่น การแจ้งเตือน HealthKit หรือกล้อง</li>\n<li>ฟีเจอร์ที่ใช้งานได้อาจแตกต่างกันตามแผน สถานะการเข้าสู่ระบบ สภาพแวดล้อมอุปกรณ์ และบริการของบุคคลที่สาม</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: ใช้สำหรับเขียนน้ำหนักและ % ไขมันเมื่อบันทึกและการนำเข้าด้วยตนเองจากหน้าจอบันทึกร่างกาย ฟีเจอร์หลักยังใช้งานได้แม้ไม่อนุญาต</li>\n<li>การแจ้งเตือน: สำหรับการสิ้นสุดตัวจับเวลาพัก การเตือนรายวันเวลา 20:00 และสรุปรายสัปดาห์ทุกวันจันทร์เวลา 09:00</li>\n<li>กล้อง: สำหรับสแกน QR code เมื่อเพิ่มเพื่อน</li>\n<li>Face ID / Touch ID: สำหรับการเข้าสู่ระบบแบบไบโอเมตริกเมื่อมีข้อมูลรับรองที่บันทึกไว้</li>",
       "1": "<li>การจัดเก็บในคลาวด์: ข้อมูลบัญชี การออกกำลังกาย องค์ประกอบร่างกาย และเพื่อนจัดเก็บบน Firebase / Google Cloud</li>\n<li>การวิเคราะห์การใช้งาน: ข้อมูลเหตุการณ์และคุณสมบัติสถานะการใช้งานอาจประมวลผลผ่าน Firebase Analytics บนโครงสร้างพื้นฐาน Google</li>\n<li>การจัดเก็บในเครื่อง: การตั้งค่า สถานะการเริ่มต้น จำนวนการทำสำเร็จ รูปโปรไฟล์ และข้อมูลรับรอง Keychain จัดเก็บในเครื่อง</li>\n<li>ข้อมูลที่เชื่อมโยงกับ HealthKit: อ่านและเขียนภายใต้สิทธิ์ Apple Health</li>"
     },
@@ -4231,7 +4231,7 @@ LANGS = {
       "og_title": "Destek ve SSS | Trero",
       "og_description": "Hesaplar, antrenmanlar, hedefler ve Apple Health hakkında Trero destek yanıtları."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Gizlilik Politikası | Trero",
       "description": "Trero Gizlilik Politikası: toplanan veriler, üçüncü taraf hizmetler ve hesap silme.",
       "og_title": "Gizlilik Politikası | Trero",
@@ -4445,10 +4445,10 @@ LANGS = {
       "7": "<li>Son 7 günün en çok kullanılan egzersizleri üstte görünür.</li>\n<li>Bu listeden seçim, kayıt öncesi adım sayısını azaltır.</li>\n<li>Set bir öncekiyle aynıysa ana akış önceki değerleri doldurup kaydetmektir.</li>\n<li>Dinlenme zamanlayıcısıyla kayıt ve dinlenme yönetimi aynı ekran akışında birleştirilebilir.</li>",
       "8": "<li>Antrenman geçmişini ağırlık değişimleri ve vücut kompozisyonuyla tek uygulamada incele.</li>\n<li>Vücut kompozisyonunu günlük veya gerektiğinde kaydet.</li>\n<li>Apple Health ile kaydetmede yazma ve manuel içe aktarmayı birleştir.</li>\n<li>Güç ilerlemesini vücut değişikliklerinden ayırmak istemeyenler için ideal.</li>",
       "9": "<li>Arkadaş ekledikten sonra antrenmanlarını görüntüle.</li>\n<li>Tepkiler kayıt yapmaya devam etmek için neden oluşturur.</li>\n<li>Haftalık seriler ve haftalık özet bildirimleri tutarlılığı anlamaya yardımcı olur.</li>\n<li>Gerektiğinde engelleme ve şikayet mevcuttur.</li>",
-      "10": "<li><a href=\"support.html\">Destek / SSS</a></li>\n<li><a href=\"privacy_policy.html\">Gizlilik Politikası</a></li>\n<li><a href=\"terms.html\">Kullanım Koşulları</a></li>",
+      "10": "<li><a href=\"support.html\">Destek / SSS</a></li>\n<li><a href=\"privacy.html\">Gizlilik Politikası</a></li>\n<li><a href=\"terms.html\">Kullanım Koşulları</a></li>",
       "11": "\n<li>Bazı özellikler bildirimler, HealthKit veya kamera gibi cihaz izinleri gerektirir.</li>\n<li>Kullanılabilir özellikler plana, giriş durumuna, cihaz ortamına ve üçüncü taraf hizmetlere göre değişebilir.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Kaydetmede ağırlık ve yağ % yazmak ve vücut kaydı ekranından manuel içe aktarma için kullanılır. Temel özellikler izin vermesen de kullanılabilir.</li>\n<li>Bildirimler: Dinlenme zamanlayıcısı bitişi, 20:00'de günlük hatırlatıcı ve her Pazartesi 09:00'da haftalık özet için.</li>\n<li>Kamera: Arkadaş eklerken QR kod taramak için.</li>\n<li>Face ID / Touch ID: Kaydedilmiş kimlik bilgileri mevcut olduğunda biyometrik giriş için.</li>",
       "1": "<li>Bulut depolama: Hesap, antrenman, vücut kompozisyonu ve arkadaş verileri Firebase / Google Cloud'da depolanır.</li>\n<li>Kullanım analitikleri: Etkinlik bilgileri ve kullanım durumu özellikleri Google altyapısındaki Firebase Analytics aracılığıyla işlenebilir.</li>\n<li>Yerel depolama: Ayarlar, katılım durumu, tamamlama sayıları, profil resimleri ve Anahtarlık kimlik bilgileri yerel olarak depolanır.</li>\n<li>HealthKit bağlantılı veriler: Apple Health izinleri kapsamında okunur ve yazılır.</li>"
     },
@@ -4479,7 +4479,7 @@ LANGS = {
       "og_title": "Підтримка та FAQ | Trero",
       "og_description": "Відповіді підтримки Trero щодо акаунтів, тренувань, цілей та Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Політика конфіденційності | Trero",
       "description": "Політика конфіденційності Trero: які дані збираються, сторонні сервіси та як видалити акаунт.",
       "og_title": "Політика конфіденційності | Trero",
@@ -4693,10 +4693,10 @@ LANGS = {
       "7": "<li>Найуживаніші вправи за останні 7 днів відображаються вгорі.</li>\n<li>Вибір з цього списку скорочує кроки перед записом.</li>\n<li>Якщо підхід такий самий, як минулого разу, основний потік — заповнити попередні значення та зберегти.</li>\n<li>З таймером відпочинку запис і управління відпочинком можна поєднати в одному потоці екрана.</li>",
       "8": "<li>Переглядай історію тренувань разом зі змінами ваги та складу тіла в одному додатку.</li>\n<li>Записуй склад тіла щодня або за необхідності.</li>\n<li>Поєднуй запис при збереженні та ручний імпорт з Apple Health.</li>\n<li>Ідеально для тих, хто не хоче розділяти силовий прогрес і тілесні зміни.</li>",
       "9": "<li>Після додавання друзів переглядай їхні тренування.</li>\n<li>Реакції створюють причину продовжувати запис.</li>\n<li>Щотижневі серії та сповіщення щотижневого резюме допомагають зрозуміти регулярність.</li>\n<li>Блокування та скарга доступні при необхідності.</li>",
-      "10": "<li><a href=\"support.html\">Підтримка / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Політика конфіденційності</a></li>\n<li><a href=\"terms.html\">Умови використання</a></li>",
+      "10": "<li><a href=\"support.html\">Підтримка / FAQ</a></li>\n<li><a href=\"privacy.html\">Політика конфіденційності</a></li>\n<li><a href=\"terms.html\">Умови використання</a></li>",
       "11": "\n<li>Деякі функції потребують дозволів пристрою, таких як сповіщення, HealthKit або камера.</li>\n<li>Доступні функції можуть відрізнятися залежно від плану, стану входу, середовища пристрою та сторонніх сервісів.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: використовується для запису ваги та % жиру при збереженні та ручного імпорту з екрана запису тіла. Основні функції доступні навіть без дозволу.</li>\n<li>Сповіщення: для закінчення таймера відпочинку, щоденного нагадування о 20:00 та щотижневого резюме кожного понеділка о 09:00.</li>\n<li>Камера: для сканування QR-кодів при додаванні друзів.</li>\n<li>Face ID / Touch ID: для біометричного входу при наявності збережених облікових даних.</li>",
       "1": "<li>Хмарне сховище: дані акаунту, тренувань, складу тіла та друзів зберігаються на Firebase / Google Cloud.</li>\n<li>Аналітика використання: інформація про події та властивості стану використання можуть оброблятися через Firebase Analytics на інфраструктурі Google.</li>\n<li>Локальне сховище: налаштування, стан онбордингу, лічильники завершення, фото профілів та облікові дані Keychain зберігаються локально.</li>\n<li>Дані, пов'язані з HealthKit: читаються та записуються в межах дозволів Apple Health.</li>"
     },
@@ -4726,7 +4726,7 @@ LANGS = {
       "og_title": "Hỗ trợ và FAQ | Trero",
       "og_description": "Câu trả lời hỗ trợ Trero về tài khoản, bài tập, mục tiêu và Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Chính sách bảo mật | Trero",
       "description": "Chính sách bảo mật Trero: dữ liệu được thu thập, dịch vụ bên thứ ba và cách xóa tài khoản.",
       "og_title": "Chính sách bảo mật | Trero",
@@ -4940,10 +4940,10 @@ LANGS = {
       "7": "<li>Các bài tập được dùng nhiều nhất trong 7 ngày qua xuất hiện ở trên cùng.</li>\n<li>Chọn từ danh sách này giảm bớt các bước trước khi ghi.</li>\n<li>Nếu hiệp giống lần trước, luồng chính là điền giá trị trước đó và lưu.</li>\n<li>Với bộ hẹn giờ nghỉ, việc ghi và quản lý nghỉ có thể kết hợp trong cùng một luồng màn hình.</li>",
       "8": "<li>Xem lại lịch sử tập luyện cùng với thay đổi cân nặng và thành phần cơ thể trong một ứng dụng.</li>\n<li>Ghi thành phần cơ thể hàng ngày hoặc khi cần.</li>\n<li>Kết hợp ghi khi lưu và nhập thủ công với Apple Health.</li>\n<li>Lý tưởng cho những người không muốn tách biệt tiến trình sức mạnh khỏi thay đổi cơ thể.</li>",
       "9": "<li>Sau khi thêm bạn bè, xem bài tập của họ.</li>\n<li>Phản ứng tạo lý do để tiếp tục ghi.</li>\n<li>Chuỗi hàng tuần và thông báo tóm tắt hàng tuần giúp hiểu sự đều đặn.</li>\n<li>Chặn và báo cáo có sẵn khi cần thiết.</li>",
-      "10": "<li><a href=\"support.html\">Hỗ trợ / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Chính sách bảo mật</a></li>\n<li><a href=\"terms.html\">Điều khoản dịch vụ</a></li>",
+      "10": "<li><a href=\"support.html\">Hỗ trợ / FAQ</a></li>\n<li><a href=\"privacy.html\">Chính sách bảo mật</a></li>\n<li><a href=\"terms.html\">Điều khoản dịch vụ</a></li>",
       "11": "\n<li>Một số tính năng yêu cầu quyền thiết bị như thông báo, HealthKit hoặc camera.</li>\n<li>Các tính năng có sẵn có thể khác nhau tùy theo gói, trạng thái đăng nhập, môi trường thiết bị và dịch vụ bên thứ ba.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Dùng để ghi cân nặng và % mỡ khi lưu và nhập thủ công từ màn hình ghi cơ thể. Tính năng cơ bản vẫn hoạt động dù không cấp quyền.</li>\n<li>Thông báo: Khi hết thời gian nghỉ, nhắc nhở lúc 20:00 hàng ngày và tóm tắt hàng tuần vào mỗi thứ Hai lúc 09:00.</li>\n<li>Camera: Để quét mã QR khi thêm bạn bè.</li>\n<li>Face ID / Touch ID: Để đăng nhập sinh trắc học khi có thông tin đăng nhập đã lưu.</li>",
       "1": "<li>Lưu trữ đám mây: Dữ liệu tài khoản, tập luyện, thành phần cơ thể và bạn bè được lưu trên Firebase / Google Cloud.</li>\n<li>Phân tích sử dụng: Thông tin sự kiện và thuộc tính trạng thái sử dụng có thể được xử lý qua Firebase Analytics trên cơ sở hạ tầng Google.</li>\n<li>Lưu trữ cục bộ: Cài đặt, trạng thái giới thiệu, số lần hoàn thành, ảnh hồ sơ và thông tin đăng nhập Keychain được lưu cục bộ.</li>\n<li>Dữ liệu liên kết HealthKit: Được đọc và ghi trong phạm vi quyền Apple Health.</li>"
     },

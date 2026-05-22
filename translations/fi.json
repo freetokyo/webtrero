@@ -13,7 +13,7 @@
       "og_title": "Tuki ja UKK | Trero",
       "og_description": "Trero-tuki: tilit, treenin kirjaus, tavoitteet ja Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Tietosuojakäytäntö | Trero",
       "description": "Treron tietosuojakäytäntö: kerätyt tiedot, kolmansien osapuolten palvelut ja tilin poisto.",
       "og_title": "Tietosuojakäytäntö | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Viimeisten 7 päivän käytetyimmät liikkeet näkyvät ylhäällä.</li>\n<li>Valinta tästä listasta vähentää askelia ennen kirjausta.</li>\n<li>Jos sarja on sama kuin viimeksi, pääkulku on täyttää edelliset arvot ja tallentaa.</li>\n<li>Lepoajastimen avulla kirjaus ja lepo yhdistyvät samaan näkymään.</li>",
       "8": "<li>Tarkastele treenihistoriaa painon ja kehonkoostumuksen muutosten rinnalla yhdessä sovelluksessa.</li>\n<li>Kirjaa kehonkoostumus päivittäin tai tarvittaessa.</li>\n<li>Yhdistä kirjoitus tallennettaessa ja manuaalinen tuonti Apple Healthin kanssa.</li>\n<li>Ihanteellinen niille, jotka eivät halua erottaa voimankehitystä kehon muutoksista.</li>",
       "9": "<li>Kun olet lisännyt kavereita, näet heidän treeninsä.</li>\n<li>Reaktiot luovat syyn jatkaa kirjaamista.</li>\n<li>Viikkoputket ja viikkoyhteenvetoilmoitukset auttavat ymmärtämään säännöllisyyttäsi.</li>\n<li>Esto ja ilmoitus ovat saatavilla tarvittaessa.</li>",
-      "10": "<li><a href=\"support.html\">Tuki / UKK</a></li>\n<li><a href=\"privacy_policy.html\">Tietosuojakäytäntö</a></li>\n<li><a href=\"terms.html\">Käyttöehdot</a></li>",
+      "10": "<li><a href=\"support.html\">Tuki / UKK</a></li>\n<li><a href=\"privacy.html\">Tietosuojakäytäntö</a></li>\n<li><a href=\"terms.html\">Käyttöehdot</a></li>",
       "11": "\n<li>Jotkut toiminnot vaativat laitteen oikeuksia, kuten ilmoitukset, HealthKit tai kamera.</li>\n<li>Käytettävissä olevat toiminnot voivat vaihdella tilauksen, kirjautumistilan, laitteen ja kolmansien osapuolten palveluiden mukaan.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Käytetään painon ja rasva-%:n kirjoittamiseen tallennettaessa ja manuaaliseen tuontiin kehotiedot-näytöltä. Perustoiminnot toimivat ilman lupaakin.</li>\n<li>Ilmoitukset: Lepoajastimen valmistumiseen, 20:00 päivittäiseen muistutukseen ja viikkoyhteenvetoon maanantaisin 09:00.</li>\n<li>Kamera: QR-koodien skannaukseen kavereiden lisäämistä varten.</li>\n<li>Face ID / Touch ID: Biometriseen kirjautumiseen, kun tallennetut tiedot ovat saatavilla.</li>",
       "1": "<li>Pilvitallennus: Tili-, treeni-, kehonkoostumus- ja kaveritiedot tallennetaan Firebaseen / Google Cloudiin.</li>\n<li>Käyttöanalytiikka: Tapahtumatiedot ja tilaominaisuudet voidaan käsitellä Firebase Analyticsin kautta Googlen infrastruktuurissa.</li>\n<li>Paikallinen tallennus: Asetukset, onboarding-tila, laskurit, profiilikuvat, treenivälimuistit ja Keychain-tiedot tallennetaan paikallisesti.</li>\n<li>HealthKitiin linkitetyt tiedot: Luetaan ja kirjoitetaan Apple Health -lupien puitteissa.</li>"
     },

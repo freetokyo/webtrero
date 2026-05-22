@@ -13,7 +13,7 @@
       "og_title": "Suport și FAQ | Trero",
       "og_description": "Răspunsuri de suport Trero despre conturi, antrenamente, obiective și Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Politica de confidențialitate | Trero",
       "description": "Politica de confidențialitate Trero: ce date sunt colectate, servicii terțe și cum să ștergi contul.",
       "og_title": "Politica de confidențialitate | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Cele mai utilizate exerciții din ultimele 7 zile apar în partea de sus.</li>\n<li>Selectarea din această listă reduce pașii înainte de înregistrare.</li>\n<li>Dacă seria este la fel ca data trecută, fluxul principal este să completezi valorile anterioare și să salvezi.</li>\n<li>Cu temporizatorul de odihnă, înregistrarea și gestionarea odihnei pot fi combinate în același flux.</li>",
       "8": "<li>Revizuiește istoricul antrenamentelor împreună cu modificările de greutate și compoziție corporală într-o singură aplicație.</li>\n<li>Înregistrează compoziția corporală zilnic sau după necesitate.</li>\n<li>Combină scrierea la salvare și importul manual cu Apple Health.</li>\n<li>Ideal pentru cei care nu vor să separe progresul de forță de modificările corporale.</li>",
       "9": "<li>După adăugarea prietenilor, vizualizează antrenamentele lor.</li>\n<li>Reacțiile creează un motiv pentru a continua înregistrarea.</li>\n<li>Seriile săptămânale și notificările de rezumat săptămânal ajută la înțelegerea consecvenței.</li>\n<li>Blocarea și raportarea sunt disponibile dacă este necesar.</li>",
-      "10": "<li><a href=\"support.html\">Suport / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Politica de confidențialitate</a></li>\n<li><a href=\"terms.html\">Termeni și condiții</a></li>",
+      "10": "<li><a href=\"support.html\">Suport / FAQ</a></li>\n<li><a href=\"privacy.html\">Politica de confidențialitate</a></li>\n<li><a href=\"terms.html\">Termeni și condiții</a></li>",
       "11": "\n<li>Unele funcții necesită permisiuni ale dispozitivului precum notificări, HealthKit sau cameră.</li>\n<li>Funcțiile disponibile pot varia în funcție de plan, starea de autentificare, mediul dispozitivului și serviciile terțe.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Folosit pentru scrierea greutății și a % grăsime la salvare și importul manual din ecranul de înregistrare corporală. Funcțiile de bază sunt disponibile chiar fără permisiune.</li>\n<li>Notificări: Pentru finalizarea temporizatorului de odihnă, memento zilnic la 20:00 și rezumat săptămânal în fiecare luni la 09:00.</li>\n<li>Cameră: Pentru scanarea codurilor QR la adăugarea prietenilor.</li>\n<li>Face ID / Touch ID: Pentru autentificare biometrică când sunt disponibile credențiale salvate.</li>",
       "1": "<li>Stocare cloud: Datele contului, antrenamentului, compoziției corporale și prietenilor sunt stocate pe Firebase / Google Cloud.</li>\n<li>Analize utilizare: Informațiile despre evenimente și proprietățile de stare a utilizării pot fi procesate prin Firebase Analytics pe infrastructura Google.</li>\n<li>Stocare locală: Setările, starea de onboarding, contoarele de finalizare, imaginile de profil și credențialele Keychain sunt stocate local.</li>\n<li>Date legate de HealthKit: Citite și scrise în cadrul permisiunilor Apple Health.</li>"
     },

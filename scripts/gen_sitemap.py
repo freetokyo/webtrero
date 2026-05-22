@@ -26,7 +26,7 @@ REGIONAL_VARIANTS = {
     "fr-CA": "fr",
 }
 
-PAGES = ["index.html", "support.html", "privacy_policy.html", "terms.html"]
+PAGES = ["index.html", "support.html", "privacy.html", "terms.html"]
 
 
 def page_url(lang, page):

@@ -13,7 +13,7 @@
       "og_title": "Wsparcie i FAQ | Trero tracker treningowy",
       "og_description": "Odpowiedzi wsparcia Trero dotyczące konta, logowania treningów, celów, pomiarów ciała, Apple Health, Apple Watch, powiadomień i Free vs. Pro."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Polityka prywatności | Trero – tracker treningowy",
       "description": "Polityka prywatności Trero: jakie dane są zbierane, jak wykorzystywane są usługi stron trzecich i jak usunąć konto.",
       "og_title": "Polityka prywatności | Trero – tracker treningowy",
@@ -227,10 +227,10 @@
       "7": "<li>Najczęściej używane ćwiczenia z ostatnich 7 dni pojawiają się na górze.</li>\n<li>Wybieranie z tej listy zmniejsza liczbę kroków przed logowaniem.</li>\n<li>Gdy seria jest taka sama jak ostatnio, główny przepływ polega na wypełnieniu poprzednich wartości i zapisaniu.</li>\n<li>Z timerem odpoczynku logowanie i zarządzanie odpoczynkiem może odbywać się w tym samym przepływie ekranu.</li>",
       "8": "<li>Przeglądaj historię treningów razem ze zmianami wagi i tłuszczu w jednej aplikacji.</li>\n<li>Rejestruj skład ciała codziennie lub w razie potrzeby.</li>\n<li>Łącz zapis przy zachowywaniu i ręczny import z Apple Health.</li>\n<li>Idealne dla tych, którzy nie chcą oddzielać postępów siłowych i zmian ciała.</li>",
       "9": "<li>Przeglądaj treningi znajomych po dodaniu ich.</li>\n<li>Reakcje tworzą powód do kontynuowania logowania.</li>\n<li>Tygodniowe serie i powiadomienia z tygodniowym podsumowaniem pomagają rozumieć swoją konsekwencję.</li>\n<li>Funkcje blokowania i zgłaszania są dostępne w razie potrzeby.</li>",
-      "10": "<li><a href=\"support.html\">Wsparcie / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Polityka prywatności</a></li>\n<li><a href=\"terms.html\">Warunki użytkowania</a></li>",
+      "10": "<li><a href=\"support.html\">Wsparcie / FAQ</a></li>\n<li><a href=\"privacy.html\">Polityka prywatności</a></li>\n<li><a href=\"terms.html\">Warunki użytkowania</a></li>",
       "11": "\n<li>Niektóre funkcje wymagają uprawnień dostępu do urządzenia, takich jak powiadomienia, HealthKit lub aparat.</li>\n<li>Dostępne funkcje mogą się różnić w zależności od planu, stanu logowania, środowiska urządzenia i usług stron trzecich.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Używany do zapisywania wagi i % tłuszczu podczas zachowywania oraz ręcznego importowania najnowszych wartości z ekranu pomiarów ciała. Podstawowe funkcje są dostępne bez uprawnień.</li>\n<li>Powiadomienia: Do zakończenia timera odpoczynku, codziennego przypomnienia o 20:00 (brak zarejestrowanego treningu) i cotygodniowego podsumowania w poniedziałki o 09:00.</li>\n<li>Aparat: Do skanowania kodów QR podczas dodawania znajomych.</li>\n<li>Face ID / Touch ID: Do biometrycznego logowania z zapisanymi danymi uwierzytelniającymi.</li>",
       "1": "<li>Przechowywanie w chmurze: Dane konta, treningów, składu ciała i znajomych są przechowywane na Firebase / Google Cloud.</li>\n<li>Analityka użytkowania: Informacje o zdarzeniach i właściwości stanu użytkowania mogą być przetwarzane przez Firebase Analytics na infrastrukturze Google.</li>\n<li>Pamięć urządzenia: Ustawienia, stan onboardingu, liczniki ukończeń, zdjęcia profilowe, pamięci podręczne treningów i dane uwierzytelniające Keychain są przechowywane lokalnie.</li>\n<li>Dane połączone z HealthKit: Odczytywane i zapisywane w ramach uprawnień Apple Health.</li>"
     },

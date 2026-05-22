@@ -13,7 +13,7 @@
       "og_title": "Podrška i FAQ | Trero",
       "og_description": "Trero podrška za račune, bilježenje treninga, ciljeve i Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Pravila privatnosti | Trero",
       "description": "Trero pravila privatnosti: koji se podaci prikupljaju, usluge trećih strana i kako izbrisati račun.",
       "og_title": "Pravila privatnosti | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Najkorištenije vježbe iz posljednjih 7 dana prikazuju se na vrhu.</li>\n<li>Odabir s ovog popisa smanjuje korake prije bilježenja.</li>\n<li>Ako je serija ista kao prošli put, glavni tok je ispuniti prethodne vrijednosti i spremiti.</li>\n<li>Uz tajmer odmora, bilježenje i upravljanje odmorom mogu se kombinirati u istom toku.</li>",
       "8": "<li>Pregledavajte povijest treninga zajedno s promjenama težine i sastava tijela u jednoj aplikaciji.</li>\n<li>Bilježite sastav tijela dnevno ili prema potrebi.</li>\n<li>Kombinirajte pisanje pri spremanju i ručni uvoz s Apple Healthom.</li>\n<li>Idealno za one koji ne žele odvajati napredak snage od tjelesnih promjena.</li>",
       "9": "<li>Nakon dodavanja prijatelja, pregledavajte njihove treninge.</li>\n<li>Reakcije stvaraju razlog za nastavak bilježenja.</li>\n<li>Tjedni nizovi i obavijesti tjednog sažetka pomažu razumjeti vašu dosljednost.</li>\n<li>Blokiranje i prijava dostupni su po potrebi.</li>",
-      "10": "<li><a href=\"support.html\">Podrška / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Pravila privatnosti</a></li>\n<li><a href=\"terms.html\">Uvjeti korištenja</a></li>",
+      "10": "<li><a href=\"support.html\">Podrška / FAQ</a></li>\n<li><a href=\"privacy.html\">Pravila privatnosti</a></li>\n<li><a href=\"terms.html\">Uvjeti korištenja</a></li>",
       "11": "\n<li>Neke značajke zahtijevaju dopuštenja uređaja poput obavijesti, HealthKita ili kamere.</li>\n<li>Dostupne funkcije mogu varirati ovisno o planu, stanju prijave, okruženju uređaja i uslugama trećih strana.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Koristi se za pisanje težine i % masti pri spremanju i ručni uvoz sa zaslona tjelesnih zapisa. Osnovne značajke dostupne su i bez dopuštenja.</li>\n<li>Obavijesti: Za završetak tajmera odmora, dnevni podsjetnik u 20:00 i tjedni sažetak ponedjeljkom u 09:00.</li>\n<li>Kamera: Za skeniranje QR kodova za dodavanje prijatelja.</li>\n<li>Face ID / Touch ID: Za biometrijsku prijavu kada su spremljene vjerodajnice dostupne.</li>",
       "1": "<li>Pohrana u oblaku: Podaci računa, treninga, sastava tijela i prijatelja pohranjuju se na Firebase / Google Cloud.</li>\n<li>Analitika korištenja: Podaci događaja i svojstva stanja korištenja mogu se obrađivati kroz Firebase Analytics na Google infrastrukturi.</li>\n<li>Lokalna pohrana: Postavke, stanje onboardinga, brojači, profilne slike, međuspremnici treninga i Keychain vjerodajnice pohranjuju se lokalno.</li>\n<li>Podaci povezani s HealthKitom: Čitaju se i pišu u okviru Apple Health dopuštenja.</li>"
     },

@@ -13,7 +13,7 @@
       "og_title": "Ondersteuning & FAQ | Trero workout-tracker app",
       "og_description": "Trero ondersteuningsantwoorden over account, workout-logging, doelen, lichaamsgegevens, Apple Health, Apple Watch, meldingen en Free vs. Pro."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Privacybeleid | Trero – workout-tracker app",
       "description": "Trero's privacybeleid: welke gegevens worden verzameld, hoe diensten van derden worden gebruikt, en hoe het account wordt verwijderd.",
       "og_title": "Privacybeleid | Trero – workout-tracker app",
@@ -227,10 +227,10 @@
       "7": "<li>De meest gebruikte oefeningen van de afgelopen 7 dagen verschijnen bovenaan.</li>\n<li>Selecteren uit deze lijst vermindert het aantal stappen vóór het loggen.</li>\n<li>Als de set hetzelfde is als vorige keer, bestaat de hoofdstroom uit vorige waarden invullen en opslaan.</li>\n<li>Met de rust-timer kunnen logging en rustbeheer in dezelfde schermstroom plaatsvinden.</li>",
       "8": "<li>Bekijk workoutgeschiedenis samen met gewicht- en vetveranderingen in één app.</li>\n<li>Registreer lichaamssamenstelling dagelijks of naar behoefte.</li>\n<li>Combineer schrijven-bij-opslaan en handmatige import met Apple Health.</li>\n<li>Ideaal voor mensen die krachtsvoortgang en lichaamsveranderingen niet willen scheiden.</li>",
       "9": "<li>Bekijk de workouts van vrienden na het toevoegen.</li>\n<li>Reacties creëren een reden om door te blijven loggen.</li>\n<li>Wekelijkse streaks en wekelijkse samenvattingsmeldingen helpen je consistentie te begrijpen.</li>\n<li>Blokkeer- en rapporteerfuncties zijn beschikbaar wanneer nodig.</li>",
-      "10": "<li><a href=\"support.html\">Ondersteuning / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Privacybeleid</a></li>\n<li><a href=\"terms.html\">Gebruiksvoorwaarden</a></li>",
+      "10": "<li><a href=\"support.html\">Ondersteuning / FAQ</a></li>\n<li><a href=\"privacy.html\">Privacybeleid</a></li>\n<li><a href=\"terms.html\">Gebruiksvoorwaarden</a></li>",
       "11": "\n<li>Sommige functies vereisen apparaattoegangsrechten zoals meldingen, HealthKit of camera.</li>\n<li>Beschikbare functies kunnen variëren afhankelijk van plan, aanmeldingsstatus, apparaatomgeving en diensten van derden.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Gebruikt voor het schrijven van gewicht en vetpercentage bij opslaan en het handmatig importeren van de nieuwste waarden via het lichaamsgegevens-scherm. Kernfuncties blijven beschikbaar zonder toestemming.</li>\n<li>Meldingen: Voor rust-timer voltooiing, dagelijkse herinnering om 20:00 (geen workout gelogd) en wekelijkse samenvatting elke maandag om 09:00.</li>\n<li>Camera: Voor het scannen van QR-codes bij het toevoegen van vrienden.</li>\n<li>Face ID / Touch ID: Voor biometrische aanmelding met opgeslagen aanmeldingsgegevens.</li>",
       "1": "<li>Cloudopslag: Account-, workout-, lichaamssamenstelling- en vriendengegevens worden opgeslagen op Firebase / Google Cloud.</li>\n<li>Gebruiksanalyse: Gebeurtenisinformatie en gebruiksstatuseigenschappen kunnen worden verwerkt via Firebase Analytics op Google-infrastructuur.</li>\n<li>Apparaatopslag: Instellingen, onboarding-status, voltooiingsaantallen, profielafbeeldingen, workoutcaches en Keychain-aanmeldingsgegevens worden lokaal opgeslagen.</li>\n<li>HealthKit-gekoppelde gegevens: Gelezen en geschreven binnen de Apple Health-rechten.</li>"
     },

@@ -13,7 +13,7 @@
       "og_title": "지원 & FAQ | Trero 운동 트래커 앱",
       "og_description": "계정, 운동 기록, 목표, 신체 지표, Apple Health, Apple Watch, 알림, Free vs. Pro에 관한 Trero 지원 답변."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "개인정보 처리방침 | Trero – 운동 트래커 앱",
       "description": "Trero 개인정보 처리방침: 수집 데이터, 제3자 서비스 사용 방법, 계정 삭제 방법.",
       "og_title": "개인정보 처리방침 | Trero – 운동 트래커 앱",
@@ -227,10 +227,10 @@
       "7": "<li>최근 7일 동안 가장 많이 사용한 운동이 상단에 표시됩니다.</li>\n<li>이 목록에서 선택하면 기록 전 단계 수가 줄어듭니다.</li>\n<li>세트가 지난번과 같다면 주요 흐름은 이전 값 채우기와 저장으로 이루어집니다.</li>\n<li>휴식 타이머를 사용하면 기록과 휴식 관리를 같은 화면 흐름에서 할 수 있습니다.</li>",
       "8": "<li>하나의 앱에서 운동 기록과 체중, 체지방 변화를 함께 검토합니다.</li>\n<li>체성분을 매일 또는 필요에 따라 기록합니다.</li>\n<li>Apple Health와 함께 저장 시 기록과 수동 가져오기를 결합합니다.</li>\n<li>근력 진전과 신체 변화를 분리하지 않으려는 사람에게 이상적입니다.</li>",
       "9": "<li>친구를 추가한 후 그들의 운동을 확인합니다.</li>\n<li>반응으로 계속 기록할 이유를 만듭니다.</li>\n<li>주간 스트릭과 주간 요약 알림이 자신의 일관성을 이해하는 데 도움이 됩니다.</li>\n<li>필요할 때 차단 및 신고 기능을 사용할 수 있습니다.</li>",
-      "10": "<li><a href=\"support.html\">지원 / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">개인정보 처리방침</a></li>\n<li><a href=\"terms.html\">이용 약관</a></li>",
+      "10": "<li><a href=\"support.html\">지원 / FAQ</a></li>\n<li><a href=\"privacy.html\">개인정보 처리방침</a></li>\n<li><a href=\"terms.html\">이용 약관</a></li>",
       "11": "\n<li>일부 기능은 알림, HealthKit, 카메라 등의 기기 액세스 권한이 필요합니다.</li>\n<li>사용 가능한 기능은 플랜, 로그인 상태, 기기 환경, 제3자 서비스에 따라 달라질 수 있습니다.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: 저장 시 체중과 체지방률을 기록하고 신체 기록 화면에서 최신 값을 수동으로 가져오는 데 사용됩니다. 권한 없이도 핵심 기능은 사용 가능합니다.</li>\n<li>알림: 휴식 타이머 완료, 운동을 기록하지 않았을 때 당일 20:00 알림, 매주 월요일 09:00 주간 요약용.</li>\n<li>카메라: 친구 추가 시 QR 코드 스캔용.</li>\n<li>Face ID / Touch ID: 저장된 자격 증명으로 생체 인식 로그인용.</li>",
       "1": "<li>클라우드 스토리지: 계정, 운동, 체성분, 친구 데이터가 Firebase / Google Cloud에 저장됩니다.</li>\n<li>사용 분석: 이벤트 정보와 사용 상태 속성이 Google 인프라의 Firebase Analytics를 통해 처리될 수 있습니다.</li>\n<li>기기 스토리지: 설정, 온보딩 상태, 완료 횟수, 프로필 이미지, 운동 캐시, 키체인 자격 증명이 로컬에 저장됩니다.</li>\n<li>HealthKit 연결 데이터: Apple Health 권한 범위 내에서 읽기 및 쓰기됩니다.</li>"
     },

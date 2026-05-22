@@ -13,7 +13,7 @@
       "og_title": "Hỗ trợ và FAQ | Trero",
       "og_description": "Câu trả lời hỗ trợ Trero về tài khoản, bài tập, mục tiêu và Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Chính sách bảo mật | Trero",
       "description": "Chính sách bảo mật Trero: dữ liệu được thu thập, dịch vụ bên thứ ba và cách xóa tài khoản.",
       "og_title": "Chính sách bảo mật | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Các bài tập được dùng nhiều nhất trong 7 ngày qua xuất hiện ở trên cùng.</li>\n<li>Chọn từ danh sách này giảm bớt các bước trước khi ghi.</li>\n<li>Nếu hiệp giống lần trước, luồng chính là điền giá trị trước đó và lưu.</li>\n<li>Với bộ hẹn giờ nghỉ, việc ghi và quản lý nghỉ có thể kết hợp trong cùng một luồng màn hình.</li>",
       "8": "<li>Xem lại lịch sử tập luyện cùng với thay đổi cân nặng và thành phần cơ thể trong một ứng dụng.</li>\n<li>Ghi thành phần cơ thể hàng ngày hoặc khi cần.</li>\n<li>Kết hợp ghi khi lưu và nhập thủ công với Apple Health.</li>\n<li>Lý tưởng cho những người không muốn tách biệt tiến trình sức mạnh khỏi thay đổi cơ thể.</li>",
       "9": "<li>Sau khi thêm bạn bè, xem bài tập của họ.</li>\n<li>Phản ứng tạo lý do để tiếp tục ghi.</li>\n<li>Chuỗi hàng tuần và thông báo tóm tắt hàng tuần giúp hiểu sự đều đặn.</li>\n<li>Chặn và báo cáo có sẵn khi cần thiết.</li>",
-      "10": "<li><a href=\"support.html\">Hỗ trợ / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Chính sách bảo mật</a></li>\n<li><a href=\"terms.html\">Điều khoản dịch vụ</a></li>",
+      "10": "<li><a href=\"support.html\">Hỗ trợ / FAQ</a></li>\n<li><a href=\"privacy.html\">Chính sách bảo mật</a></li>\n<li><a href=\"terms.html\">Điều khoản dịch vụ</a></li>",
       "11": "\n<li>Một số tính năng yêu cầu quyền thiết bị như thông báo, HealthKit hoặc camera.</li>\n<li>Các tính năng có sẵn có thể khác nhau tùy theo gói, trạng thái đăng nhập, môi trường thiết bị và dịch vụ bên thứ ba.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Dùng để ghi cân nặng và % mỡ khi lưu và nhập thủ công từ màn hình ghi cơ thể. Tính năng cơ bản vẫn hoạt động dù không cấp quyền.</li>\n<li>Thông báo: Khi hết thời gian nghỉ, nhắc nhở lúc 20:00 hàng ngày và tóm tắt hàng tuần vào mỗi thứ Hai lúc 09:00.</li>\n<li>Camera: Để quét mã QR khi thêm bạn bè.</li>\n<li>Face ID / Touch ID: Để đăng nhập sinh trắc học khi có thông tin đăng nhập đã lưu.</li>",
       "1": "<li>Lưu trữ đám mây: Dữ liệu tài khoản, tập luyện, thành phần cơ thể và bạn bè được lưu trên Firebase / Google Cloud.</li>\n<li>Phân tích sử dụng: Thông tin sự kiện và thuộc tính trạng thái sử dụng có thể được xử lý qua Firebase Analytics trên cơ sở hạ tầng Google.</li>\n<li>Lưu trữ cục bộ: Cài đặt, trạng thái giới thiệu, số lần hoàn thành, ảnh hồ sơ và thông tin đăng nhập Keychain được lưu cục bộ.</li>\n<li>Dữ liệu liên kết HealthKit: Được đọc và ghi trong phạm vi quyền Apple Health.</li>"
     },

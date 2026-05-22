@@ -13,7 +13,7 @@
       "og_title": "Support & FAQ | Trero Application de suivi d'entraînement",
       "og_description": "Réponses Trero sur le compte, l'enregistrement des entraînements, les objectifs, les métriques corporelles, Apple Health, Apple Watch, les notifications et Free vs Pro."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Politique de confidentialité | Trero – Application de suivi d'entraînement",
       "description": "Politique de confidentialité de Trero : données collectées, services tiers utilisés et procédure de suppression du compte.",
       "og_title": "Politique de confidentialité | Trero – Application de suivi d'entraînement",
@@ -227,10 +227,10 @@
       "7": "<li>Vos exercices les plus utilisés des 7 derniers jours apparaissent en haut.</li>\n<li>En choisissant dans cette liste à chaque fois, vous réduisez le nombre d'étapes avant l'enregistrement.</li>\n<li>Si la série est identique à la dernière fois, le flux principal consiste à réutiliser les valeurs précédentes et sauvegarder.</li>\n<li>Avec le chronomètre de repos, l'enregistrement et la gestion des pauses se font dans le même flux.</li>",
       "8": "<li>Consultez l'historique d'entraînement avec les variations de poids et de graisse corporelle dans la même app.</li>\n<li>La composition corporelle peut être enregistrée quotidiennement ou uniquement si nécessaire.</li>\n<li>Avec Apple Santé, combinez écriture lors de la sauvegarde et import manuel.</li>\n<li>Idéal pour ceux qui ne veulent pas séparer progression musculaire et changements corporels.</li>",
       "9": "<li>Une fois des amis ajoutés, consultez leurs séances.</li>\n<li>En envoyant des réactions, créez une motivation à continuer à enregistrer.</li>\n<li>Les séries hebdomadaires et les notifications de résumé hebdomadaire vous aident à comprendre votre régularité.</li>\n<li>Si nécessaire, les outils de blocage et de signalement sont disponibles.</li>",
-      "10": "<li><a href=\"support.html\">Support / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Politique de confidentialité</a></li>\n<li><a href=\"terms.html\">Conditions d'utilisation</a></li>",
+      "10": "<li><a href=\"support.html\">Support / FAQ</a></li>\n<li><a href=\"privacy.html\">Politique de confidentialité</a></li>\n<li><a href=\"terms.html\">Conditions d'utilisation</a></li>",
       "11": "\n<li>Certaines fonctionnalités nécessitent des autorisations comme les notifications, HealthKit ou la caméra.</li>\n<li>Les fonctions disponibles peuvent varier selon le forfait, l'état de connexion, l'appareil et les services tiers.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit : Utilisé pour écrire le poids et le % de graisse lors de la sauvegarde, et pour importer manuellement les dernières valeurs depuis l'écran corporel. Les fonctions principales restent disponibles sans autorisation.</li>\n<li>Notifications : Pour la fin du chronomètre de repos, un rappel quotidien à 20h00 (sans séance) et un résumé hebdomadaire le lundi à 09h00.</li>\n<li>Caméra : Pour scanner les QR codes lors de l'ajout d'amis.</li>\n<li>Face ID / Touch ID : Pour la connexion biométrique avec identifiants sauvegardés.</li>",
       "1": "<li>Stockage cloud : Données de compte, séances, composition corporelle et amis stockées sur Firebase / Google Cloud.</li>\n<li>Analyses d'utilisation : Informations d'événements et propriétés d'état peuvent être traitées sur l'infrastructure Google via Firebase Analytics.</li>\n<li>Stockage local : Paramètres, état d'intégration, compteurs de guidage, images de profil, caches de séances et identifiants Trousseau stockés localement.</li>\n<li>Données liées à HealthKit : Lues et écrites dans le cadre des autorisations Apple Santé.</li>"
     },

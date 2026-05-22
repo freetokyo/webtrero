@@ -13,7 +13,7 @@
       "og_title": "Suport i PMF | Trero",
       "og_description": "Respostes de suport de Trero sobre comptes, registre d'entrenaments, objectius i Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Política de privadesa | Trero",
       "description": "Política de privadesa de Trero: quines dades es recullen, serveis de tercers i com eliminar el compte.",
       "og_title": "Política de privadesa | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Els exercicis més usats dels últims 7 dies apareixen a dalt.</li>\n<li>Seleccionar des d'aquesta llista redueix els passos abans de registrar.</li>\n<li>Si la sèrie és igual que l'última vegada, el flux principal és omplir els valors anteriors i desar.</li>\n<li>Amb el temporitzador de descans, el registre i la gestió del descans es poden combinar en el mateix flux de pantalla.</li>",
       "8": "<li>Revisa l'historial d'entrenament juntament amb els canvis de pes i composició corporal en una app.</li>\n<li>Registra la composició corporal diàriament o quan sigui necessari.</li>\n<li>Combina l'escriptura en desar i la importació manual amb Apple Health.</li>\n<li>Ideal per a qui no vol separar el progrés de força dels canvis corporals.</li>",
       "9": "<li>Després d'afegir amics, visualitza els seus entrenaments.</li>\n<li>Les reaccions creen un motiu per continuar registrant.</li>\n<li>Les ratxes setmanals i les notificacions de resum setmanal ajuden a entendre la teva constància.</li>\n<li>El bloqueig i la denúncia estan disponibles si cal.</li>",
-      "10": "<li><a href=\"support.html\">Suport / PMF</a></li>\n<li><a href=\"privacy_policy.html\">Política de privadesa</a></li>\n<li><a href=\"terms.html\">Condicions d'ús</a></li>",
+      "10": "<li><a href=\"support.html\">Suport / PMF</a></li>\n<li><a href=\"privacy.html\">Política de privadesa</a></li>\n<li><a href=\"terms.html\">Condicions d'ús</a></li>",
       "11": "\n<li>Algunes funcions requereixen permisos del dispositiu com notificacions, HealthKit o la càmera.</li>\n<li>Les funcions disponibles poden variar segons el pla, l'estat d'inici de sessió, l'entorn del dispositiu i els serveis de tercers.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: S'usa per escriure el pes i el % de greix en desar i per importar manualment els valors més recents des de la pantalla de registre corporal. Les funcions bàsiques estan disponibles fins i tot sense permís.</li>\n<li>Notificacions: Per a la finalització del temporitzador de descans, recordatori diari a les 20:00 i resum setmanal cada dilluns a les 09:00.</li>\n<li>Càmera: Per escanejar codis QR per afegir amics.</li>\n<li>Face ID / Touch ID: Per a l'inici de sessió biomètric quan les credencials guardades estan disponibles.</li>",
       "1": "<li>Emmagatzematge al núvol: Les dades de compte, entrenament, composició corporal i amics s'emmagatzemen a Firebase / Google Cloud.</li>\n<li>Anàlisis d'ús: La informació d'esdeveniments i les propietats d'estat d'ús es poden processar a través de Firebase Analytics a la infraestructura de Google.</li>\n<li>Emmagatzematge local: La configuració, l'estat d'incorporació, els comptadors de finalització, les imatges de perfil, les memòries cau d'entrenament i les credencials del Clauer s'emmagatzemen localment.</li>\n<li>Dades vinculades a HealthKit: Llegides i escrites en el marc dels permisos d'Apple Health.</li>"
     },

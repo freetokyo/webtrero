@@ -13,7 +13,7 @@
       "og_title": "Destek ve SSS | Trero",
       "og_description": "Hesaplar, antrenmanlar, hedefler ve Apple Health hakkında Trero destek yanıtları."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Gizlilik Politikası | Trero",
       "description": "Trero Gizlilik Politikası: toplanan veriler, üçüncü taraf hizmetler ve hesap silme.",
       "og_title": "Gizlilik Politikası | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Son 7 günün en çok kullanılan egzersizleri üstte görünür.</li>\n<li>Bu listeden seçim, kayıt öncesi adım sayısını azaltır.</li>\n<li>Set bir öncekiyle aynıysa ana akış önceki değerleri doldurup kaydetmektir.</li>\n<li>Dinlenme zamanlayıcısıyla kayıt ve dinlenme yönetimi aynı ekran akışında birleştirilebilir.</li>",
       "8": "<li>Antrenman geçmişini ağırlık değişimleri ve vücut kompozisyonuyla tek uygulamada incele.</li>\n<li>Vücut kompozisyonunu günlük veya gerektiğinde kaydet.</li>\n<li>Apple Health ile kaydetmede yazma ve manuel içe aktarmayı birleştir.</li>\n<li>Güç ilerlemesini vücut değişikliklerinden ayırmak istemeyenler için ideal.</li>",
       "9": "<li>Arkadaş ekledikten sonra antrenmanlarını görüntüle.</li>\n<li>Tepkiler kayıt yapmaya devam etmek için neden oluşturur.</li>\n<li>Haftalık seriler ve haftalık özet bildirimleri tutarlılığı anlamaya yardımcı olur.</li>\n<li>Gerektiğinde engelleme ve şikayet mevcuttur.</li>",
-      "10": "<li><a href=\"support.html\">Destek / SSS</a></li>\n<li><a href=\"privacy_policy.html\">Gizlilik Politikası</a></li>\n<li><a href=\"terms.html\">Kullanım Koşulları</a></li>",
+      "10": "<li><a href=\"support.html\">Destek / SSS</a></li>\n<li><a href=\"privacy.html\">Gizlilik Politikası</a></li>\n<li><a href=\"terms.html\">Kullanım Koşulları</a></li>",
       "11": "\n<li>Bazı özellikler bildirimler, HealthKit veya kamera gibi cihaz izinleri gerektirir.</li>\n<li>Kullanılabilir özellikler plana, giriş durumuna, cihaz ortamına ve üçüncü taraf hizmetlere göre değişebilir.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Kaydetmede ağırlık ve yağ % yazmak ve vücut kaydı ekranından manuel içe aktarma için kullanılır. Temel özellikler izin vermesen de kullanılabilir.</li>\n<li>Bildirimler: Dinlenme zamanlayıcısı bitişi, 20:00'de günlük hatırlatıcı ve her Pazartesi 09:00'da haftalık özet için.</li>\n<li>Kamera: Arkadaş eklerken QR kod taramak için.</li>\n<li>Face ID / Touch ID: Kaydedilmiş kimlik bilgileri mevcut olduğunda biyometrik giriş için.</li>",
       "1": "<li>Bulut depolama: Hesap, antrenman, vücut kompozisyonu ve arkadaş verileri Firebase / Google Cloud'da depolanır.</li>\n<li>Kullanım analitikleri: Etkinlik bilgileri ve kullanım durumu özellikleri Google altyapısındaki Firebase Analytics aracılığıyla işlenebilir.</li>\n<li>Yerel depolama: Ayarlar, katılım durumu, tamamlama sayıları, profil resimleri ve Anahtarlık kimlik bilgileri yerel olarak depolanır.</li>\n<li>HealthKit bağlantılı veriler: Apple Health izinleri kapsamında okunur ve yazılır.</li>"
     },

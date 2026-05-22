@@ -13,7 +13,7 @@
       "og_title": "Suporte e FAQ | Trero",
       "og_description": "Respostas de suporte Trero sobre contas, registo de treino, objetivos e Apple Health."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Política de Privacidade | Trero",
       "description": "Política de privacidade Trero: que dados são recolhidos, serviços de terceiros e como eliminar a conta.",
       "og_title": "Política de Privacidade | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Os exercícios mais usados nos últimos 7 dias aparecem no topo.</li>\n<li>Selecionar a partir desta lista reduz os passos antes do registo.</li>\n<li>Se a série for igual à última vez, o fluxo principal é preencher os valores anteriores e guardar.</li>\n<li>Com o temporizador de descanso, o registo e a gestão do descanso podem ser combinados no mesmo fluxo.</li>",
       "8": "<li>Revê o histórico de treino juntamente com as alterações de peso e composição corporal numa app.</li>\n<li>Regista a composição corporal diariamente ou conforme necessário.</li>\n<li>Combina a escrita ao guardar e a importação manual com o Apple Health.</li>\n<li>Ideal para quem não quer separar o progresso de força das alterações corporais.</li>",
       "9": "<li>Depois de adicionar amigos, vê os treinos deles.</li>\n<li>As reações criam razão para continuar a registar.</li>\n<li>As sequências semanais e as notificações de resumo semanal ajudam a compreender a consistência.</li>\n<li>O bloqueio e a denúncia estão disponíveis se necessário.</li>",
-      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
+      "10": "<li><a href=\"support.html\">Suporte / FAQ</a></li>\n<li><a href=\"privacy.html\">Política de Privacidade</a></li>\n<li><a href=\"terms.html\">Termos de Serviço</a></li>",
       "11": "\n<li>Algumas funcionalidades requerem permissões do dispositivo como notificações, HealthKit ou câmara.</li>\n<li>As funcionalidades disponíveis podem variar consoante o plano, o estado de sessão, o ambiente do dispositivo e os serviços de terceiros.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Usado para escrever peso e % de gordura ao guardar e para importação manual do ecrã de registo corporal. As funcionalidades principais estão disponíveis mesmo sem permissão.</li>\n<li>Notificações: Para o fim do temporizador de descanso, lembrete diário às 20:00 e resumo semanal às segundas às 09:00.</li>\n<li>Câmara: Para digitalizar códigos QR ao adicionar amigos.</li>\n<li>Face ID / Touch ID: Para início de sessão biométrico quando as credenciais guardadas estão disponíveis.</li>",
       "1": "<li>Armazenamento na nuvem: Dados de conta, treino, composição corporal e amigos estão armazenados no Firebase / Google Cloud.</li>\n<li>Análises de utilização: Informações de eventos e propriedades de estado de utilização podem ser processadas via Firebase Analytics na infraestrutura da Google.</li>\n<li>Armazenamento local: Definições, estado de integração, contadores de conclusão, imagens de perfil e credenciais do Porta-chaves são armazenados localmente.</li>\n<li>Dados vinculados ao HealthKit: Lidos e escritos no âmbito das permissões do Apple Health.</li>"
     },

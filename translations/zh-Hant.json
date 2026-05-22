@@ -13,7 +13,7 @@
       "og_title": "支援與常見問題 | Trero 健身追蹤器應用程式",
       "og_description": "Trero 關於帳戶、健身記錄、目標、身體數據、Apple Health、Apple Watch、通知及 Free vs. Pro 的支援解答。"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "隱私權政策 | Trero – 健身追蹤器應用程式",
       "description": "Trero 隱私權政策：收集哪些資料、如何使用第三方服務，以及如何刪除帳戶。",
       "og_title": "隱私權政策 | Trero – 健身追蹤器應用程式",
@@ -227,10 +227,10 @@
       "7": "<li>過去 7 天使用最多的動作顯示在頂部。</li>\n<li>從該清單中選擇可減少記錄前的步驟數。</li>\n<li>如果組數與上次相同，主流程就是填入歷史數據並儲存。</li>\n<li>使用休息計時器可在同一介面流程中進行記錄和休息管理。</li>",
       "8": "<li>在一個應用程式中同時查看訓練歷史和體重、體脂變化。</li>\n<li>每天或按需記錄身體組成。</li>\n<li>結合 Apple Health 的儲存時寫入和手動匯入。</li>\n<li>適合不想將力量進步和身體變化分開追蹤的人。</li>",
       "9": "<li>新增好友後查看他們的訓練。</li>\n<li>反應創造了繼續記錄的動力。</li>\n<li>每週連續記錄和每週摘要通知幫助了解自己的一致性。</li>\n<li>需要時封鎖和檢舉功能可供使用。</li>",
-      "10": "<li><a href=\"support.html\">支援 / 常見問題</a></li>\n<li><a href=\"privacy_policy.html\">隱私權政策</a></li>\n<li><a href=\"terms.html\">使用條款</a></li>",
+      "10": "<li><a href=\"support.html\">支援 / 常見問題</a></li>\n<li><a href=\"privacy.html\">隱私權政策</a></li>\n<li><a href=\"terms.html\">使用條款</a></li>",
       "11": "\n<li>某些功能需要通知、HealthKit 或相機等裝置存取權限。</li>\n<li>可用功能可能因方案、登入狀態、裝置環境和第三方服務而有所不同。</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit：用於儲存時寫入體重和體脂率，以及從身體記錄介面手動匯入最新值。即使不授權，核心功能仍可使用。</li>\n<li>通知：用於休息計時結束、當天無訓練記錄時 20:00 的每日提醒，以及每週一 09:00 的每週摘要。</li>\n<li>相機：新增好友時掃描 QR 碼使用。</li>\n<li>Face ID / Touch ID：使用已儲存憑證進行生物識別登入。</li>",
       "1": "<li>雲端儲存：帳戶、訓練、身體組成和好友資料儲存在 Firebase / Google Cloud 上。</li>\n<li>使用分析：事件資訊和使用狀態屬性可透過 Google 基礎架構的 Firebase Analytics 處理。</li>\n<li>裝置儲存：設定、引導狀態、完成次數、頭像、訓練快取和 Keychain 憑證儲存在本機。</li>\n<li>HealthKit 關聯資料：在 Apple Health 權限範圍內讀寫。</li>"
     },

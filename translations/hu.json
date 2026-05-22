@@ -13,7 +13,7 @@
       "og_title": "Támogatás és GYIK | Trero",
       "og_description": "Trero támogatási válaszok fiókokról, edzésrögzítésről, célokról és Apple Healthről."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Adatvédelmi irányelvek | Trero",
       "description": "Trero adatvédelmi irányelvei: milyen adatokat gyűjtünk, harmadik fél szolgáltatásai és fióktörlés.",
       "og_title": "Adatvédelmi irányelvek | Trero",
@@ -227,10 +227,10 @@
       "7": "<li>Az elmúlt 7 nap leghasználtabb gyakorlatai a lista tetején jelennek meg.</li>\n<li>Ebből a listából választás csökkenti a lépéseket a rögzítés előtt.</li>\n<li>Ha a sorozat ugyanaz mint múltkor, a fő folyamat az előző értékek kitöltése és mentése.</li>\n<li>A pihenőidőzítővel a rögzítés és pihenő kezelése ugyanabban a képernyőfolyamatban kombinálható.</li>",
       "8": "<li>Nézd meg az edzésnaplót a súly és testösszetétel változásaival együtt egyetlen alkalmazásban.</li>\n<li>Rögzítsd a testösszetételt naponta vagy szükség szerint.</li>\n<li>Kombináld a mentéskor való írást és kézi importot Apple Health-tel.</li>\n<li>Ideális azoknak, akik nem akarják szétválasztani az erőhaladást és a testváltozásokat.</li>",
       "9": "<li>Miután barátokat adtál hozzá, nézd meg az edzéseiket.</li>\n<li>A reakciók okot adnak a rögzítés folytatására.</li>\n<li>A heti sorozatok és heti összefoglaló-értesítések segítenek megérteni a következetességed.</li>\n<li>A blokkolás és jelentés szükség esetén elérhető.</li>",
-      "10": "<li><a href=\"support.html\">Támogatás / GYIK</a></li>\n<li><a href=\"privacy_policy.html\">Adatvédelmi irányelvek</a></li>\n<li><a href=\"terms.html\">Felhasználási feltételek</a></li>",
+      "10": "<li><a href=\"support.html\">Támogatás / GYIK</a></li>\n<li><a href=\"privacy.html\">Adatvédelmi irányelvek</a></li>\n<li><a href=\"terms.html\">Felhasználási feltételek</a></li>",
       "11": "\n<li>Egyes funkciók eszközengedélyeket igényelnek, mint az értesítések, HealthKit vagy kamera.</li>\n<li>Az elérhető funkciók változhatnak a csomagtól, bejelentkezési állapottól, eszközkörnyezettől és harmadik fél szolgáltatásoktól függően.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: A súly és % zsír mentéskor való írásához és testadat-képernyőről történő kézi importhoz. Az alapfunkciók engedély nélkül is elérhetők.</li>\n<li>Értesítések: Pihenőidőzítő befejezéséhez, napi 20:00 emlékeztetőhöz és heti összefoglalóhoz hétfőnként 09:00-kor.</li>\n<li>Kamera: QR-kódok szkenneléséhez barátok hozzáadásához.</li>\n<li>Face ID / Touch ID: Biometrikus bejelentkezéshez, ha mentett hitelesítő adatok elérhetők.</li>",
       "1": "<li>Felhő-tárolás: Fiók, edzés, testösszetétel és barátok adatai Firebase / Google Cloud-on vannak tárolva.</li>\n<li>Használati elemzés: Eseményadatok és állapottulajdonságok Firebase Analyticsen keresztül, Google infrastruktúrán dolgozhatók fel.</li>\n<li>Helyi tárolás: Beállítások, onboarding állapot, számlálók, profilképek, edzés-cache és Keychain hitelesítő adatok helyileg vannak tárolva.</li>\n<li>HealthKit-hez kapcsolódó adatok: Apple Health engedélyek keretében olvasódnak és íródnak.</li>"
     },

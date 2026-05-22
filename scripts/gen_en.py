@@ -32,15 +32,15 @@ EN_META = {
         "hreflang_en": "https://trero.app/en/support.html",
         "og_url": "https://trero.app/en/support.html",
     },
-    "privacy_policy.html": {
+    "privacy.html": {
         "title": "Privacy Policy | Trero – Workout Tracker App",
         "description": "Read Trero's Privacy Policy to understand what data we collect, how third-party services are used, and how to delete your account.",
         "og_title": "Privacy Policy | Trero – Workout Tracker App",
         "og_description": "Read Trero's Privacy Policy to understand what data we collect, how third-party services are used, and how to delete your account.",
-        "canonical": "https://trero.app/en/privacy_policy.html",
-        "hreflang_ja": "https://trero.app/privacy_policy.html",
-        "hreflang_en": "https://trero.app/en/privacy_policy.html",
-        "og_url": "https://trero.app/en/privacy_policy.html",
+        "canonical": "https://trero.app/en/privacy.html",
+        "hreflang_ja": "https://trero.app/privacy.html",
+        "hreflang_en": "https://trero.app/en/privacy.html",
+        "og_url": "https://trero.app/en/privacy.html",
     },
     "terms.html": {
         "title": "Terms of Service | Trero – Workout Tracker App",

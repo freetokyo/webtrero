@@ -13,7 +13,7 @@
       "og_title": "Support & FAQ | Trero Workout-Tracker App",
       "og_description": "Trero Support-Antworten zu Konto, Workout-Logging, Zielen, Körpermetriken, Apple Health, Apple Watch, Benachrichtigungen und Free vs. Pro."
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "title": "Datenschutzerklärung | Trero – Workout-Tracker App",
       "description": "Datenschutzerklärung von Trero: Welche Daten gesammelt werden, wie Drittanbieter eingesetzt werden und wie das Konto gelöscht wird.",
       "og_title": "Datenschutzerklärung | Trero – Workout-Tracker App",
@@ -227,10 +227,10 @@
       "7": "<li>Die am häufigsten genutzten Übungen der letzten 7 Tage erscheinen oben.</li>\n<li>Durch Auswählen aus dieser Liste wird die Anzahl der Schritte vor dem Protokollieren reduziert.</li>\n<li>Wenn der Satz gleich ist wie letztes Mal, besteht der Hauptablauf aus Vorwerte übernehmen und Speichern.</li>\n<li>Mit dem Pausentimer können Protokollierung und Pausenverwaltung im gleichen Bildschirmablauf erfolgen.</li>",
       "8": "<li>Workout-Verlauf zusammen mit Gewichts- und Körperfettänderungen in einer App überprüfen.</li>\n<li>Körperzusammensetzung täglich oder bei Bedarf aufzeichnen.</li>\n<li>Mit Apple Health Schreiben beim Speichern und manuellen Import kombinieren.</li>\n<li>Ideal für alle, die Kraftfortschritte und Körperveränderungen nicht trennen möchten.</li>",
       "9": "<li>Nach dem Hinzufügen von Freunden deren Workouts anzeigen.</li>\n<li>Durch Reaktionen einen Grund schaffen, weiter zu protokollieren.</li>\n<li>Wöchentliche Streaks und Wochenzusammenfassungs-Benachrichtigungen helfen, die eigene Konstanz zu verstehen.</li>\n<li>Bei Bedarf stehen Blockier- und Meldefunktionen zur Verfügung.</li>",
-      "10": "<li><a href=\"support.html\">Support / FAQ</a></li>\n<li><a href=\"privacy_policy.html\">Datenschutzerklärung</a></li>\n<li><a href=\"terms.html\">Nutzungsbedingungen</a></li>",
+      "10": "<li><a href=\"support.html\">Support / FAQ</a></li>\n<li><a href=\"privacy.html\">Datenschutzerklärung</a></li>\n<li><a href=\"terms.html\">Nutzungsbedingungen</a></li>",
       "11": "\n<li>Einige Funktionen erfordern Gerätezugriffsrechte wie Benachrichtigungen, HealthKit oder Kamera.</li>\n<li>Verfügbare Funktionen können je nach Plan, Anmeldestatus, Geräteumgebung und Drittanbieterdiensten variieren.</li>"
     },
-    "privacy_policy.html": {
+    "privacy.html": {
       "0": "<li>HealthKit: Wird zum Schreiben von Gewicht und Körperfettanteil beim Speichern und zum manuellen Import der neuesten Werte über den Körperdaten-Bildschirm verwendet. Kernfunktionen bleiben auch ohne Berechtigung verfügbar.</li>\n<li>Benachrichtigungen: Für Timer-Ende, tägliche Erinnerung um 20:00 Uhr (kein Workout) und wöchentliche Zusammenfassung montags um 09:00 Uhr.</li>\n<li>Kamera: Zum Scannen von QR-Codes beim Hinzufügen von Freunden.</li>\n<li>Face ID / Touch ID: Für biometrische Anmeldung bei gespeicherten Anmeldedaten.</li>",
       "1": "<li>Cloud-Speicher: Konto-, Workout-, Körperzusammensetzungs- und Freundedaten werden auf Firebase / Google Cloud gespeichert.</li>\n<li>Nutzungsanalysen: Ereignisinformationen und Nutzungszustandseigenschaften können über Firebase Analytics auf Google-Infrastruktur verarbeitet werden.</li>\n<li>Gerätespeicher: Einstellungen, Onboarding-Status, Abschlusszähler, Profilbilder, Workout-Caches und Schlüsselbund-Anmeldedaten werden lokal gespeichert.</li>\n<li>HealthKit-verknüpfte Daten: Im Rahmen der Apple Health-Berechtigungen gelesen und geschrieben.</li>"
     },

@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup, Comment
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRANS_DIR = os.path.join(BASE, "translations")
-PAGES = ["index.html", "support.html", "privacy_policy.html", "terms.html"]
+PAGES = ["index.html", "support.html", "privacy.html", "terms.html"]
 
 # All language codes (ja = default/root, en = already generated via gen_en.py)
 ALL_LANGS = [
